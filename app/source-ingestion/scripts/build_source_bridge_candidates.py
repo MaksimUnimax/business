@@ -125,13 +125,21 @@ NPD_RULES = [
 ]
 
 
+def get_row_name(row):
+    return row.get("name") or row.get("title") or row.get("standard_name") or ""
+
+
+def get_row_code(row):
+    return row.get("code") or row.get("standard_code") or ""
+
+
 def match_source_rows(rows, keywords, source_id, source_role, source_status, max_matches=20):
     matches = []
     for row in rows:
         if len(matches) >= max_matches:
             break
-        name = row.get("name") or row.get("title", "")
-        code = row.get("code", "")
+        name = get_row_name(row)
+        code = get_row_code(row)
         if keyword_match(name, keywords):
             confidence = "high" if any(kw.lower() in name.lower() for kw in keywords if len(kw) > 4) else "medium"
             matches.append({

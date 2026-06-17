@@ -137,7 +137,138 @@
         "confidence": "high"
       }
     ],
-    "profstandard_matches": [],
+    "profstandard_matches": [
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.013",
+        "title": "Оператор линий облицовывания и механической обработки заготовок и деталей из древесных материалов в производстве мебели",
+        "match_reason": "keyword match: ['мебел']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.014",
+        "title": "Оператор линий по отделке деталей и изделий мебели и деревообработки",
+        "match_reason": "keyword match: ['мебел']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.033",
+        "title": "Заточник по подготовке станочного дереворежущего инструмента длядеревообрабатывающих, мебельных и лесопильных производст",
+        "match_reason": "keyword match: ['мебел']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.034",
+        "title": "Станочник для работы на оборудовании универсального назначения вдеревообработке и производстве мебели",
+        "match_reason": "keyword match: ['мебел']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.035",
+        "title": "Станочник для работы на специализированных, специальных станках и другом специализированном оборудовании в деревообработ",
+        "match_reason": "keyword match: ['мебел']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.036",
+        "title": "Сборщик изделий мебели из древесных материалов",
+        "match_reason": "keyword match: ['мебел', 'сборщик изделий мебели']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.038",
+        "title": "Специалист по механической обработке заготовок и деталей из древесных материалов в производстве мебели",
+        "match_reason": "keyword match: ['мебел']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.040",
+        "title": "Инженер по контролю качества производства мебели",
+        "match_reason": "keyword match: ['мебел']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.043",
+        "title": "Специалист-технолог деревообрабатывающих и мебельных производств",
+        "match_reason": "keyword match: ['мебел']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.044",
+        "title": "Обойщик-набивщик мебельного производства",
+        "match_reason": "keyword match: ['мебел']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.039",
+        "title": "Специалист по отделке деталей и изделий мебели из древесных материалов",
+        "match_reason": "keyword match: ['мебел']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.045",
+        "title": "Специалист по системам автоматизированного проектирования вдеревообрабатывающих и мебельных производствах",
+        "match_reason": "keyword match: ['мебел']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.037",
+        "title": "Контролер качества изделий в производстве мебели",
+        "match_reason": "keyword match: ['мебел']",
+        "match_type": "keyword",
+        "confidence": "high"
+      }
+    ],
     "okpd2_matches": [
       {
         "source_id": "okpd2_mirror",
@@ -500,7 +631,58 @@
         "confidence": "high"
       }
     ],
-    "profstandard_matches": [],
+    "profstandard_matches": [
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "16.125",
+        "title": "Монтажник оборудования насосных станций и сооружений очистки стоков в системах водоотведения",
+        "match_reason": "keyword match: ['чистк']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "16.067",
+        "title": "Инженер-проектировщик сооружений очистки сточных вод",
+        "match_reason": "keyword match: ['чистк']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "16.074",
+        "title": "Оператор по доочистке и обеззараживанию очищенных стоков",
+        "match_reason": "keyword match: ['чистк']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "16.077",
+        "title": "Рабочий по комплексной уборке территории, относящейся к общему имуществу в многоквартирном доме",
+        "match_reason": "keyword match: ['уборк']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "24.019",
+        "title": "Оператор спецводоочистки в атомной энергетике",
+        "match_reason": "keyword match: ['чистк']",
+        "match_type": "keyword",
+        "confidence": "high"
+      }
+    ],
     "okpd2_matches": [
       {
         "source_id": "okpd2_mirror",
@@ -803,7 +985,28 @@
         "confidence": "high"
       }
     ],
-    "profstandard_matches": [],
+    "profstandard_matches": [
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "21.002",
+        "title": "Дизайнер детской одежды и обуви",
+        "match_reason": "keyword match: ['одежд']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "33.015",
+        "title": "Специалист по ремонту и индивидуальному пошиву швейных, трикотажных, меховых, кожаных изделий, головных уборов, изделий ",
+        "match_reason": "keyword match: ['пошив']",
+        "match_type": "keyword",
+        "confidence": "high"
+      }
+    ],
     "okpd2_matches": [
       {
         "source_id": "okpd2_mirror",
@@ -1176,7 +1379,18 @@
         "confidence": "high"
       }
     ],
-    "profstandard_matches": [],
+    "profstandard_matches": [
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "21.002",
+        "title": "Дизайнер детской одежды и обуви",
+        "match_reason": "keyword match: ['обув']",
+        "match_type": "keyword",
+        "confidence": "medium"
+      }
+    ],
     "okpd2_matches": [
       {
         "source_id": "okpd2_mirror",
@@ -1820,9 +2034,210 @@
     "label_ru": "Ремонт бытовой техники и электроники",
     "human_review_required": true,
     "source_status": "bridge_candidate_not_final",
-    "confidence": "medium",
+    "confidence": "high",
     "okved_matches": [],
-    "profstandard_matches": [],
+    "profstandard_matches": [
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "24.037",
+        "title": "Специалист по обслуживанию и ремонту механического оборудования атомных станций",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.006",
+        "title": "Слесарь по ремонту лесозаготовительного оборудования",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "19.003",
+        "title": "Специалист по обслуживанию и ремонту нефтезаводского оборудования",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "19.017",
+        "title": "Бурильщик капитального ремонта скважин",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "19.028",
+        "title": "Оператор по подземному ремонту скважин",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "13.015",
+        "title": "Слесарь по ремонту сельскохозяйственных машин и оборудования",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "33.015",
+        "title": "Специалист по ремонту и индивидуальному пошиву швейных, трикотажных, меховых, кожаных изделий, головных уборов, изделий ",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "33.018",
+        "title": "Работник по ремонту и сервисному обслуживанию часов",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "16.050",
+        "title": "Электромеханик по эксплуатации, техническому обслуживанию и ремонту эскалаторов и пассажирских конвейеров",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "16.082",
+        "title": "Работник по ремонту трансформаторов в инженерной инфраструктуре электроснабжения населения",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "16.087",
+        "title": "Слесарь по ремонту оборудования котельных",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "30.014",
+        "title": "Судокорпусник-ремонтник",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "30.024",
+        "title": "Инженер-исследователь в области судостроения и судоремонта",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "17.017",
+        "title": "Работник по обслуживанию и ремонту устройств железнодорожной автоматики и телемеханики",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "17.019",
+        "title": "Оператор по обслуживанию и ремонту вагонов и контейнеров",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "17.022",
+        "title": "Работник по техническому обслуживанию и ремонту контактной сети железнодорожного транспорта",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "17.024",
+        "title": "Работник по техническому обслуживанию и ремонту железнодорожных тяговых и трансформаторных подстанций, линейных устройст",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "17.028",
+        "title": "Бригадир (освобожденный) по текущему содержанию и ремонту пути и искусственных сооружений железнодорожного транспорта",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "17.029",
+        "title": "Работник по эксплуатации, ремонту и техническому обслуживанию канатных дорог",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "05.009",
+        "title": "Специалист по обслуживанию и ремонту спортивного инвентаря и оборудования",
+        "match_reason": "keyword match: ['ремонт']",
+        "match_type": "keyword",
+        "confidence": "high"
+      }
+    ],
     "okpd2_matches": [
       {
         "source_id": "okpd2_mirror",
@@ -2106,7 +2521,18 @@
         "confidence": "high"
       }
     ],
-    "profstandard_matches": [],
+    "profstandard_matches": [
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "33.004",
+        "title": "Специалист по предоставлению парикмахерских услуг",
+        "match_reason": "keyword match: ['парикмахер']",
+        "match_type": "keyword",
+        "confidence": "high"
+      }
+    ],
     "okpd2_matches": [
       {
         "source_id": "okpd2_mirror",
@@ -2389,7 +2815,18 @@
         "confidence": "high"
       }
     ],
-    "profstandard_matches": [],
+    "profstandard_matches": [
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "33.003",
+        "title": "Специалист по предоставлению маникюрных и педикюрных услуг",
+        "match_reason": "keyword match: ['маникюр', 'педикюр']",
+        "match_type": "keyword",
+        "confidence": "high"
+      }
+    ],
     "okpd2_matches": [
       {
         "source_id": "okpd2_mirror",
@@ -2702,7 +3139,208 @@
         "confidence": "medium"
       }
     ],
-    "profstandard_matches": [],
+    "profstandard_matches": [
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "24.008",
+        "title": "Оператор реакторного отделения",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "24.060",
+        "title": "Оператор спецоборудования по переработке твердых радиоактивных отходов",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "24.068",
+        "title": "Оператор систем дистанционного контроля работ в высоких радиационных полях",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "24.070",
+        "title": "Оператор демонтажных роботов для работ в высоких радиационных полях",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.007",
+        "title": "Оператор по обслуживанию меловальной установки, станции",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.010",
+        "title": "Оператор лесопильных линий",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.011",
+        "title": "Оператор сушильных камер для древесины",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.013",
+        "title": "Оператор линий облицовывания и механической обработки заготовок и деталей из древесных материалов в производстве мебели",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.014",
+        "title": "Оператор линий по отделке деталей и изделий мебели и деревообработки",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.015",
+        "title": "Оператор линий по производству шлифованных и облицованных древесныхплит",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.029",
+        "title": "Оператор производства древесной массы из щепы",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.032",
+        "title": "Оператор линий деревообрабатывающих производств (клееныйщит,клееныйбрус, профильный погонаж)",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.046",
+        "title": "Оператор по производству обоев",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.050",
+        "title": "Оператор регенерации сернистой кислоты и выпаривания сульфитных щелоков",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.051",
+        "title": "Оператор установок промывки и отбелки целлюлозы",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.052",
+        "title": "Оператор установок массоподготовки в производстве бумаги и картона",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.053",
+        "title": "Оператор размольного оборудования целлюлозно-бумажного производства",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.054",
+        "title": "Оператор бумагоделательных, картоноделательных машин",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.056",
+        "title": "Оператор поточных линий и установок по производству бумажных мешков и упаковочной продукции",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.057",
+        "title": "Оператор производства бумажных изделий хозяйственно-бытового и санитарно-гигиенического назначения",
+        "match_reason": "keyword match: ['оператор']",
+        "match_type": "keyword",
+        "confidence": "high"
+      }
+    ],
     "okpd2_matches": [
       {
         "source_id": "okpd2_mirror",
@@ -3206,7 +3844,48 @@
         "confidence": "high"
       }
     ],
-    "profstandard_matches": [],
+    "profstandard_matches": [
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "01.003",
+        "title": "Педагог дополнительного образования детей и взрослых",
+        "match_reason": "keyword match: ['педагог']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "01.004",
+        "title": "Педагог профессионального обучения, профессионального образования идополнительного профессионального образования",
+        "match_reason": "keyword match: ['педагог']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "01.001",
+        "title": "Педагог (педагогическая деятельность в дошкольном, начальном общем, основном общем, среднем общем образовании) (воспитат",
+        "match_reason": "keyword match: ['педагог', 'учитель']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "01.002",
+        "title": "Педагог-психолог (психолог в сфере образования)",
+        "match_reason": "keyword match: ['педагог']",
+        "match_type": "keyword",
+        "confidence": "high"
+      }
+    ],
     "okpd2_matches": [],
     "okz_matches": [],
     "npd_rules": [
@@ -3478,7 +4157,58 @@
         "confidence": "high"
       }
     ],
-    "profstandard_matches": [],
+    "profstandard_matches": [
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "13.012",
+        "title": "Ветеринарный врач",
+        "match_reason": "keyword match: ['ветеринар']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "13.003",
+        "title": "Животновод",
+        "match_reason": "keyword match: ['животн']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "13.019",
+        "title": "Ветеринарный фельдшер",
+        "match_reason": "keyword match: ['ветеринар']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "13.020",
+        "title": "Селекционер по племенному животноводству",
+        "match_reason": "keyword match: ['животн']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "13.010",
+        "title": "Оператор животноводческих комплексов и механизированных ферм",
+        "match_reason": "keyword match: ['животн']",
+        "match_type": "keyword",
+        "confidence": "high"
+      }
+    ],
     "okpd2_matches": [
       {
         "source_id": "okpd2_mirror",
@@ -3891,7 +4621,18 @@
         "confidence": "medium"
       }
     ],
-    "profstandard_matches": [],
+    "profstandard_matches": [
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "13.017",
+        "title": "Агроном",
+        "match_reason": "keyword match: ['агроном']",
+        "match_type": "keyword",
+        "confidence": "high"
+      }
+    ],
     "okpd2_matches": [
       {
         "source_id": "okpd2_mirror",
@@ -4114,7 +4855,208 @@
         "confidence": "high"
       }
     ],
-    "profstandard_matches": [],
+    "profstandard_matches": [
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "24.026",
+        "title": "Слесарь по контрольно-измерительным приборам и автоматике в атомной энергетике",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.006",
+        "title": "Слесарь по ремонту лесозаготовительного оборудования",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "23.033",
+        "title": "Заточник по подготовке станочного дереворежущего инструмента длядеревообрабатывающих, мебельных и лесопильных производст",
+        "match_reason": "keyword match: ['заточник', 'инструмент']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "19.001",
+        "title": "Слесарь технологических установок",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "25.025",
+        "title": "Слесарь-сборщик ракетно-космической техники",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "13.015",
+        "title": "Слесарь по ремонту сельскохозяйственных машин и оборудования",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "16.045",
+        "title": "Слесарь строительный",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "16.086",
+        "title": "Слесарь домовых санитарно-технических систем и оборудования",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "16.087",
+        "title": "Слесарь по ремонту оборудования котельных",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "40.009",
+        "title": "Слесарь-сборщик",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "25.031",
+        "title": "Слесарь-сборщик автоматических космических аппаратов",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "30.008",
+        "title": "Слесарь-судоремонтник",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "30.013",
+        "title": "Слесарь-монтажник судовой",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "24.004",
+        "title": "Слесарь по ремонту реакторно-турбинного оборудования",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "17.025",
+        "title": "Слесарь по осмотру и ремонту подвижного состава железнодорожного транспорта",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "24.002",
+        "title": "Слесарь по обслуживанию оборудования атомных электростанций",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "25.002",
+        "title": "Слесарь-сборщик изделий точной механики (гироскопы, акселерометры) в ракетно-космической промышленности",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "40.028",
+        "title": "Слесарь-инструментальщик",
+        "match_reason": "keyword match: ['инструмент', 'слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "40.029",
+        "title": "Слесарь по сборке металлоконструкций",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      },
+      {
+        "source_id": "profstandarts_mintrud",
+        "source_role": "primary",
+        "source_status": "official_download",
+        "code": "40.048",
+        "title": "Слесарь-электрик",
+        "match_reason": "keyword match: ['слесарь']",
+        "match_type": "keyword",
+        "confidence": "high"
+      }
+    ],
     "okpd2_matches": [],
     "okz_matches": [
       {

@@ -75,7 +75,7 @@ def test_no_final_catalog():
 
 def test_deterministic():
     """Verify build is deterministic by comparing checksums."""
-    expected = "142593a865b1d30524a1b8bfd40acb5443f10812bb336efdbf99eb4e015334b1"
+    expected = "2cb6c27146a6fb61b7f807e487ed3d2c260fdf8746a3e0eb344c9043c94db1ff"
     with open(DATA_DIR / "source_bridge_candidates.json", "rb") as f:
         actual = hashlib.sha256(f.read()).hexdigest()
     assert actual == expected, f"Checksum mismatch: {actual}"

@@ -25,7 +25,7 @@ Total: 13
 
 ### furniture_assembly
 - OKVED2 matches: 13
-- Profstandard matches: 0
+- Profstandard matches: 13
 - OKPD2 enrichment matches: 20
 - OKZ enrichment matches: 0
 - Confidence: high
@@ -33,7 +33,7 @@ Total: 13
 
 ### cleaning_services
 - OKVED2 matches: 9
-- Profstandard matches: 0
+- Profstandard matches: 5
 - OKPD2 enrichment matches: 3
 - OKZ enrichment matches: 0
 - Confidence: high
@@ -41,7 +41,7 @@ Total: 13
 
 ### clothing_repair_sewing
 - OKVED2 matches: 20
-- Profstandard matches: 0
+- Profstandard matches: 2
 - OKPD2 enrichment matches: 20
 - OKZ enrichment matches: 0
 - Confidence: high
@@ -49,7 +49,7 @@ Total: 13
 
 ### shoe_repair
 - OKVED2 matches: 10
-- Profstandard matches: 0
+- Profstandard matches: 1
 - OKPD2 enrichment matches: 20
 - OKZ enrichment matches: 0
 - Confidence: high
@@ -65,15 +65,15 @@ Total: 13
 
 ### appliance_repair
 - OKVED2 matches: 0
-- Profstandard matches: 0
+- Profstandard matches: 20
 - OKPD2 enrichment matches: 3
 - OKZ enrichment matches: 14
-- Confidence: medium
+- Confidence: high
 - Human review required: yes
 
 ### hair_beauty_services
 - OKVED2 matches: 4
-- Profstandard matches: 0
+- Profstandard matches: 1
 - OKPD2 enrichment matches: 12
 - OKZ enrichment matches: 0
 - Confidence: high
@@ -81,7 +81,7 @@ Total: 13
 
 ### manicure_pedicure
 - OKVED2 matches: 9
-- Profstandard matches: 0
+- Profstandard matches: 1
 - OKPD2 enrichment matches: 8
 - OKZ enrichment matches: 0
 - Confidence: high
@@ -89,7 +89,7 @@ Total: 13
 
 ### photography_video
 - OKVED2 matches: 16
-- Profstandard matches: 0
+- Profstandard matches: 20
 - OKPD2 enrichment matches: 20
 - OKZ enrichment matches: 3
 - Confidence: high
@@ -97,7 +97,7 @@ Total: 13
 
 ### tutoring_education
 - OKVED2 matches: 20
-- Profstandard matches: 0
+- Profstandard matches: 4
 - OKPD2 enrichment matches: 0
 - OKZ enrichment matches: 0
 - Confidence: high
@@ -105,7 +105,7 @@ Total: 13
 
 ### animal_care
 - OKVED2 matches: 20
-- Profstandard matches: 0
+- Profstandard matches: 5
 - OKPD2 enrichment matches: 16
 - OKZ enrichment matches: 0
 - Confidence: high
@@ -113,7 +113,7 @@ Total: 13
 
 ### gardening_plants
 - OKVED2 matches: 18
-- Profstandard matches: 0
+- Profstandard matches: 1
 - OKPD2 enrichment matches: 12
 - OKZ enrichment matches: 0
 - Confidence: high
@@ -121,7 +121,7 @@ Total: 13
 
 ### sharpening_tools
 - OKVED2 matches: 3
-- Profstandard matches: 0
+- Profstandard matches: 20
 - OKPD2 enrichment matches: 0
 - OKZ enrichment matches: 2
 - Confidence: high
