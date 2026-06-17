@@ -12,17 +12,22 @@ Canonical data lives in `app/source-ingestion/data/parsed/source_quality_matrix.
 4. Human review of bridge candidates — completed
 5. Business direction catalog schema v0 — completed
 
+## Business Direction Catalog Schema v0 — COMPLETED
+
+- Schema JSON: `business_direction_catalog_schema_v0.json` (JSON Schema draft-07, 14 sections)
+- Schema version: `0.1.0`
+- Schema status: draft
+- Draft catalog: `business_direction_catalog_draft_v0.json` (10 draft records)
+- Draft record count: 10
+- Included candidates: furniture_assembly, cleaning_services, clothing_repair_sewing, shoe_repair, appliance_repair, hair_beauty_services, manicure_pedicure, tutoring_education, animal_care, gardening_plants
+- Excluded candidates: bicycle_repair, photography_video, sharpening_tools (need more source)
+- All draft records: `human_review_required: true`, `not_final_catalog: true`, `not_user_recommendation: true`
+- **Final catalog does NOT exist.**
+- Market/procurement/ads/unit economics are placeholders (missing_data).
+
 ## Source Bridge Human Review — COMPLETED
 
 All 13 bridge candidates reviewed. 10 accepted for catalog schema, 3 need more source.
-
-## Business Direction Catalog Schema v0 — COMPLETED
-
-- Schema JSON: `business_direction_catalog_schema_v0.json` (14 sections, JSON Schema draft-07)
-- Draft catalog: `business_direction_catalog_draft_v0.json` (10 draft records)
-- Only accepted bridge candidates included
-- All records: `human_review_required: true`, `not_final_catalog: true`, `not_user_recommendation: true`
-- Market/procurement/ads/unit economics are placeholders (missing_data)
 
 ## Source Status Table
 
@@ -42,4 +47,4 @@ All 13 bridge candidates reviewed. 10 accepted for catalog schema, 3 need more s
 
 `catalog_schema_human_review_and_questionnaire_mapping_v0`
 
-Review schema structure, validate draft records, map questionnaire fields, fill person-fit gates.
+Review schema fields, validate 10 draft records, define questionnaire mapping v0.
