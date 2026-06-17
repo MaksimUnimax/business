@@ -1,0 +1,609 @@
+code,title,parent_code,group_level,source_url,source_status,source_file,candidate_type
+01,Офицеры действительной военной службы,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+011,Офицеры действительной военной службы,01,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+0110,Офицеры действительной военной службы,011,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+02,Военнослужащие неофицерского состава,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+021,Военнослужащие неофицерского состава,02,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+0210,Военнослужащие неофицерского состава,021,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+03,Военнослужащие рядового состава,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+031,Военнослужащие рядового состава,03,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+0310,Военнослужащие рядового состава,031,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+11,Руководители высшего звена, высшие должностные лица и законодатели,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+111,Руководители (представители) федеральных и региональных органов законодательной, судебной и исполнительной власти, их аппаратов и иных органов,11,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1111,Руководители федеральных и региональных органов законодательной власти и их аппаратов, депутаты законодательных собраний,111,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1112,Руководители (представители) федеральных и региональных органов исполнительной и судебной власти и их аппаратов,111,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1113,Руководители органов местного самоуправления,111,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1114,Высшие должностные лица политических и общественных организаций,111,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+112,Руководители учреждений, организаций и предприятий,11,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1120,Руководители учреждений, организаций и предприятий,112,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+12,Управляющие в корпоративном секторе и в других организациях,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+121,Управляющие финансово-экономической и административной деятельностью,12,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+1211,Управляющие финансовой деятельностью,121,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+1212,Управляющие трудовыми ресурсами,121,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+1213,Руководители в области определения политики и планирования деятельности,121,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1219,Управляющие финансово-экономической и административной деятельностью, не входящие в другие группы,121,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+122,Руководители служб по сбыту, маркетингу и развитию,12,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1221,Руководители служб по сбыту и маркетингу,122,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1222,Руководители служб по рекламе и связям с общественностью,122,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1223,Руководители подразделений по научным исследованиям и разработкам,122,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+13,Руководители подразделений в сфере производства и специализированных сервисных услуг,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+131,Руководители подразделений в сельском, лесном и рыбном хозяйстве,13,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1311,Руководители подразделений в сельском и лесном хозяйстве,131,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1312,Руководители подразделений в рыбоводстве и рыболовстве,131,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+132,Руководители подразделений (управляющие) в промышленности, строительстве, на транспорте и в других сферах,13,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1321,Руководители подразделений (управляющие) в обрабатывающей промышленности,132,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1322,Руководители подразделений (управляющие) в добывающей промышленности,132,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1323,Руководители подразделений (управляющие) в строительстве,132,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1324,Руководители служб по снабжению, распространению товаров и аналогичным видам деятельности,132,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1325,Руководители подразделений (управляющие) на транспорте,132,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+133,Руководители служб и подразделений в сфере информационно-коммуникационных технологий,13,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1330,Руководители служб и подразделений в сфере информационно-коммуникационных технологий,133,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+134,Руководители служб в сфере социальных услуг,13,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1341,Руководители служб и структурных подразделений по присмотру и уходу за детьми,134,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1342,Руководители служб в сфере здравоохранения,134,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1343,Руководители служб по уходу за престарелыми,134,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1344,Руководители служб в сфере социального обеспечения,134,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1345,Руководители служб и подразделений в сфере образования,134,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1346,Руководители служб и подразделений в сфере финансовой деятельности и страхования,134,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1349,Руководители служб в сфере социальных услуг, не входящие в другие группы,134,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+14,Руководители в гостиничном и ресторанном бизнесе, розничной и оптовой торговле и родственных сферах обслуживания,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+141,Руководители отелей (гостиниц) и ресторанов,14,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1411,Руководители отелей (гостиниц),141,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1412,Руководители ресторанов (вагонов-ресторанов),141,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+142,Руководители (управляющие) в розничной и оптовой торговле,14,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1420,Руководители (управляющие) в розничной и оптовой торговле,142,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+143,Руководители в других сферах обслуживания,14,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1431,Руководители культурных центров и других мест отдыха,143,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1432,Руководители организаций физической культуры и спорта,143,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+1439,Руководители иных сфер обслуживания, не входящие в другие группы,143,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+21,Специалисты в области науки и техники,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+211,Физики, химики и специалисты родственных занятий,21,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2111,Физики и астрономы,211,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2112,Метеорологи,211,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2113,Химики,211,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2114,Геологи и геофизики,211,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+212,Математики (включая актуариев) и статистики,21,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2121,Математики (включая актуариев),212,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2122,Статистики,212,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+213,Специалисты в области наук о жизни,21,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2131,Биологи, ботаники, зоологи и специалисты родственных занятий,213,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2132,Специалисты в области сельского, лесного и рыбного хозяйства,213,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2133,Специалисты в области защиты окружающей среды,213,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+214,Специалисты в области техники, исключая электротехников,21,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+2141,Инженеры в промышленности и на производстве,214,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2142,Инженеры по гражданскому строительству,214,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2143,Инженеры по охране окружающей среды,214,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2144,Инженеры-механики,214,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2145,Инженеры-химики,214,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2146,Горные инженеры, металлурги и специалисты родственных занятий,214,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2149,Специалисты в области техники, не входящие в другие группы,214,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+215,Инженеры-электротехники,21,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+2151,Инженеры-электрики,215,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+2152,Инженеры-электроники,215,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2153,Инженеры по телекоммуникациям,215,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+216,Архитекторы, проектировщики, топографы и дизайнеры,21,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2161,Архитекторы зданий и сооружений,216,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2162,Ландшафтные архитекторы,216,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2163,Дизайнеры товаров и одежды,216,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2164,Проектировщики-градостроители и проектировщики транспортных узлов,216,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+2165,Геодезисты, картографы и топографы,216,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2166,Графические и мультимедийные дизайнеры,216,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+22,Специалисты в области здравоохранения,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+221,Врачи,22,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2211,Врачи общей практики,221,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2212,Врачи-специалисты,221,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+222,Специалисты по медицинскому уходу и акушерству,22,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+2221,Специалисты по медицинскому уходу,222,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+2222,Специалисты по акушерству,222,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+223,Высококвалифицированные целители и практики альтернативной и народной медицины,22,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2230,Высококвалифицированные целители и практики альтернативной и народной медицины,223,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+224,Врачи скорой медицинской помощи и парамедики,22,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2240,Врачи скорой медицинской помощи и парамедики,224,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+225,Ветеринарные врачи,22,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2250,Ветеринарные врачи,225,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+226,Другие специалисты в области здравоохранения,22,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2261,Стоматологи,226,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2262,Провизоры,226,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2263,Специалисты в области медицинских аспектов охраны труда и окружающей среды,226,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2264,Физиотерапевты,226,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2265,Диетологи и специалисты по рациональному питанию,226,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2266,Аудиологи и специалисты по развитию и восстановлению речи,226,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2267,Офтальмологи-оптики и оптометристы (за исключением врачей-офтальмологов),226,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2269,Специалисты в области здравоохранения, не входящие в другие группы,226,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+23,Специалисты в области образования,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+231,Профессорско-преподавательский персонал университетов и других организаций высшего образования,23,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2310,Профессорско-преподавательский персонал университетов и других организаций высшего образования,231,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+232,Преподаватели средних профессиональных образовательных организаций,23,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2320,Преподаватели средних профессиональных образовательных организаций,232,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+233,Педагогические работники в средней школе,23,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2330,Педагогические работники в средней школе,233,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+234,Педагогические работники в начальном и дошкольном образовании,23,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2341,Педагогические работники в начальном образовании,234,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2342,Педагогические работники в дошкольном образовании,234,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+235,Другие специалисты в области образования,23,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2351,Специалисты по методике обучения,235,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2352,Преподаватели, работающие с инвалидами или лицами с особыми возможностями здоровья,235,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2353,Преподаватели иностранных языков на курсах и частные,235,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2354,Преподаватели музыки в музыкальных школах и частные,235,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2355,Преподаватели в области изобразительных и иных искусств,235,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2356,Преподаватели по обучению компьютерной грамотности,235,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2357,Преподаватели по программам дополнительного обучения,235,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2358,Тренеры и инструкторы-методисты по физкультуре и спорту,235,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2359,Специалисты в области образования, не входящие в другие группы,235,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+24,Специалисты в сфере бизнеса и администрирования,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+241,Специалисты по финансовой деятельности,24,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2411,Бухгалтеры,241,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2412,Консультанты по финансовым вопросам и инвестициям,241,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2413,Финансовые аналитики,241,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2414,Оценщики и эксперты,241,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+242,Специалисты в области администрирования,24,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2421,Аналитики систем управления и организации,242,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2422,Специалисты в области политики администрирования,242,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2423,Специалисты в области подбора и использования персонала,242,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2424,Специалисты в области подготовки и развития персонала,242,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2425,Специалисты органов государственной власти,242,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+243,Специалисты по сбыту и маркетингу продукции и услуг и связям с общественностью,24,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+2431,Специалисты по рекламе и маркетингу,243,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2432,Специалисты по связям с общественностью,243,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2433,Специалисты по сбыту продукции (исключая информационно-коммуникационные технологии),243,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2434,Специалисты по сбыту информационно-коммуникационных технологий (ИКТ),243,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+25,Специалисты по информационно-коммуникационным технологиям (ИКТ),,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+251,Разработчики и аналитики программного обеспечения и приложений,25,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2511,Системные аналитики,251,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2512,Разработчики программного обеспечения,251,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2513,Разработчики Web и мультимедийных приложений,251,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2514,Программисты приложений,251,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2519,Разработчики и аналитики программного обеспечения и приложений, не входящие в другие группы,251,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+252,Специалисты по базам данных и сетям,25,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2521,Дизайнеры баз данных и администраторы,252,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2522,Системные администраторы,252,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2523,Специалисты по компьютерным сетям,252,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2529,Специалисты по базам данных и сетям, не входящие в другие группы,252,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+26,Специалисты в области права, гуманитарных областей и культуры,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+261,Специалисты в области права,26,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2611,Юристы,261,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2612,Судьи,261,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2613,Специалисты по патентной работе и защите авторских прав,261,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2619,Специалисты в области права, не входящие в другие группы,261,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+262,Специалисты архивов, музеев и библиотек,26,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2621,Специалисты архивов и музеев,262,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2622,Специалисты библиотек,262,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+263,Специалисты гуманитарной сферы и религии,26,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2631,Экономисты,263,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2632,Социологи, антропологи и специалисты родственных занятий,263,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2633,Философы, историки и политологи,263,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2634,Психологи,263,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2635,Специалисты в области организации и ведения социальной работы,263,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2636,Религиозные деятели,263,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+264,Писатели, журналисты и лингвисты,26,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2641,Писатели, поэты и другие литераторы,264,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2642,Журналисты,264,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2643,Переводчики и другие лингвисты,264,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+265,Художники и артисты,26,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2651,Художники,265,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2652,Музыканты, певцы и композиторы,265,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2653,Танцоры и хореографы,265,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2654,Режиссеры кино, театра и родственные им деятели искусства и продюсеры,265,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2655,Актеры,265,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2656,Дикторы радио, телевидения и других средств массовой информации,265,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+2659,Деятели искусств, не входящие в другие группы,265,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+31,Специалисты-техники в области науки и техники,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+311,Техники в области физических и технических наук,31,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3111,Техники в области химических и физических наук,311,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3112,Техники по гражданскому строительству,311,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3113,Техники-электрики,311,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3114,Техники-электроники,311,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3115,Техники-механики,311,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3116,Техники в химическом производстве,311,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3117,Техники в добывающей промышленности и металлургии,311,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3118,Чертежники,311,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3119,Техники в области физических и технических наук, не входящие в другие группы,311,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+312,Мастера (бригадиры) на производстве и в строительстве,31,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3121,Мастера (бригадиры) в добывающей промышленности,312,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3122,Мастера (бригадиры) в обрабатывающей промышленности,312,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3123,Мастера (бригадиры) в строительстве,312,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+313,Техники (операторы) по управлению технологическими процессами,31,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3131,Операторы установок по выработке электроэнергии,313,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3132,Операторы мусоросжигательных печей, очистных сооружений и аналогичного оборудования,313,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3133,Операторы по управлению технологическими процессами в химическом производстве,313,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3134,Операторы нефте- и газоочистных и перерабатывающих установок,313,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3135,Операторы технологических процессов производства металла,313,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3139,Техники (операторы) по управлению технологическими процессами, не входящие в другие группы,313,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+314,Средний специальный персонал в биологии, сельском и лесном хозяйстве,31,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3141,Специалисты-техники в области биологических исследований (за исключением среднего медицинского персонала),314,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3142,Средний специальный персонал в сельском хозяйстве,314,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3143,Специалисты-техники по лесному хозяйству и лесозаготовительному производству,314,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+315,Специалисты-техники по управлению и эксплуатации водных и воздушных судов,31,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3151,Судовые механики,315,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3152,Капитаны судов и лоцманы,315,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3153,Пилоты воздушных судов и специалисты родственных занятий,315,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3154,Авиационные диспетчеры,315,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3155,Техники-электроники по системам безопасности полетов,315,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+32,Средний медицинский персонал здравоохранения,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+321,Фельдшеры, техники по обслуживанию медицинского оборудования и фармацевты,32,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3211,Техники по обслуживанию медицинского оборудования,321,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3212,Фельдшеры-лаборанты медицинских и патологоанатомических лабораторий,321,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3213,Фармацевты,321,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3214,Зубные техники и техники-протезисты,321,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+322,Средний медицинский персонал по уходу и акушерству,32,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3221,Средний медицинский персонал по уходу,322,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3222,Средний медицинский персонал по акушерству,322,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+323,Лекари народной медицины и целители,32,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3230,Лекари народной медицины и целители,323,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+324,Ветеринарные фельдшеры,32,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3240,Ветеринарные фельдшеры,324,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+325,Прочий средний медицинский персонал здравоохранения,32,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3251,Зубные врачи,325,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3252,Медицинские регистраторы,325,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3253,Работники общественного здоровья,325,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3254,Медицинские оптики-оптометристы,325,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3255,Фельдшеры-физиотерапевты и другие физиотерапевты среднего уровня квалификации,325,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3256,Помощники (ассистенты) врачей,325,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3257,Инспекторы и другой средний медицинский персонал по охране труда и окружающей среды,325,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3258,Средний медицинский персонал скорой помощи,325,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3259,Средний медицинский персонал здравоохранения, не входящий в другие группы,325,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+33,Средний специальный персонал по экономической и административной деятельности,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+331,Средний специальный персонал в сфере финансовой деятельности, учета и обработки числовой информации,33,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3311,Дилеры и брокеры по продаже ценных бумаг и финансовых документов,331,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3312,Кредитные агенты,331,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3313,Помощники бухгалтеров,331,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3314,Техники-статистики и персонал родственных занятий, связанных с проведением математических расчетов и вычислений,331,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+332,Агенты по закупкам и продажам и торговые брокеры,33,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3321,Страховые агенты,332,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3322,Агенты по коммерческим продажам,332,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3323,Закупщики,332,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3324,Торговые брокеры,332,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+333,Агенты по коммерческим услугам,33,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3331,Агенты по таможенной очистке и сопровождению грузов и товаров,333,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3332,Организаторы конференций и других мероприятий,333,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3333,Агенты по трудовым договорам и найму,333,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3334,Агенты по операциям с недвижимостью и другой собственностью,333,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3339,Агенты по коммерческим услугам, не входящие в другие группы,333,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+334,Средний персонал, занятый в административно-управленческой деятельности,33,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3341,Офис-менеджеры,334,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3342,Средний юридический персонал,334,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3343,Административный и иной исполнительный среднетехнический персонал,334,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3344,Медицинские статистики,334,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+335,Среднетехнический персонал на государственной службе,33,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3351,Таможенные и пограничные инспекторы,335,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3352,Государственные служащие по налогам и акцизным сборам,335,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3353,Государственные служащие по социальному и пенсионному обеспечению,335,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3354,Государственные служащие по лицензиям,335,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3355,Инспекторы полиции и детективы,335,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3359,Среднетехнический персонал на государственной службе, не входящий в другие группы,335,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+34,Средний специальный персонал в области правовой, социальной работы, культуры, спорта и родственных занятий,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+341,Средний специальный персонал по юридическим, социальным услугам и религии,34,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3411,Средний юридический персонал в судебной, адвокатской и нотариальной деятельности,341,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3412,Социальные работники,341,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3413,Служители церкви, не имеющие духовного сана,341,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+342,Работники спорта и фитнес-клубов,34,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3421,Спортсмены (спортсмены высокого класса),342,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3422,Спортивные служащие,342,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3423,Инструкторы фитнес-клубов, спортивных зон отдыха и организаторы спортивных программ,342,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+343,Средний персонал культуры и кулинарного искусства,34,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3431,Фотографы (художественные),343,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3432,Художники-декораторы и оформители,343,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3433,Средний специальный персонал художественных галерей, музеев и библиотек,343,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3434,Шеф-повара,343,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+3439,Средний персонал культуры и кулинарного искусства, не входящий в другие группы,343,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+35,Специалисты-техники в области информационно-коммуникационных технологий (ИКТ),,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+351,Специалисты-техники по эксплуатации ИКТ и по поддержке пользователей ИКТ,35,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3511,Специалисты-техники по эксплуатации ИКТ,351,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3512,Специалисты-техники по поддержке пользователей ИКТ,351,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3513,Специалисты-техники по компьютерным сетям и системам,351,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3514,Специалисты-техники по Web,351,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+352,Специалисты-техники по телекоммуникациям и радиовещанию,35,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3521,Специалисты-техники по радио- и телевещанию,352,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+3522,Специалисты-техники по телекоммуникационному оборудованию,352,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+41,Служащие общего профиля и обслуживающие офисную технику,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+411,Офисные служащие общего профиля,41,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4110,Офисные служащие общего профиля,411,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+412,Секретари (общего профиля),41,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4120,Секретари (общего профиля),412,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+413,Операторы клавишных машин,41,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4131,Машинистки и операторы оборудования по редактированию текстов,413,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4132,Служащие по введению данных,413,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+42,Служащие сферы обслуживания населения,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+421,Кассиры и работники других родственных занятий,42,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4211,Кассиры банков и работники других родственных занятий,421,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4212,Букмекеры, крупье и работники родственных занятий в сфере азартных игр,421,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4213,Агенты по залогу вещей и выдаче денежных сумм в долг,421,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4214,Служащие коллекторских фирм и работники родственных занятий по сбору задолженностей и платежей,421,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+422,Служащие по информированию клиентов,42,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4221,Служащие бюро путешествий,422,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4222,Служащие контактных информационных центров,422,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4223,Телефонисты,422,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4224,Служащие, встречающие и регистрирующие клиентов в отелях (гостиницах),422,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4225,Служащие по проведению опросов потребителей,422,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4226,Служащие в приемной (общего профиля),422,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4227,Служащие по проведению социологических опросов и изучению конъюнктуры рынка,422,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4229,Служащие по информированию клиентов, не входящие в другие группы,422,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+43,Служащие в сфере обработки числовой информации и учета материальных ценностей,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+431,Служащие, обрабатывающие числовую информацию,43,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4311,Служащие по бухгалтерским операциям и учету,431,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4312,Служащие по обработке статистической, финансовой и страховой информации и ведению расчетов,431,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4313,Служащие по учету рабочего времени и расчету заработной платы,431,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+432,Служащие, занятые учетом материалов и транспортных перевозок,43,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4321,Служащие, занятые учетом, приемом и выдачей товаров на складе,432,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4322,Служащие, занятые диспетчерской подготовкой производства,432,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4323,Служащие по транспортным перевозкам,432,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+44,Другие офисные служащие,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+441,Другие офисные служащие,44,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4411,Служащие библиотек,441,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4412,Разносчики и сортировщики почты,441,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4413,Кодировщики, корректоры и другие родственные служащие,441,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4415,Регистраторы и копировщики,441,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4416,Служащие по ведению кадровой документации,441,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+4419,Офисные служащие, не входящие в другие группы,441,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+51,Работники сферы индивидуальных услуг,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+511,Обслуживающий персонал в путешествиях, на общественном транспорте и гиды,51,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5111,Проводники железнодорожного вагона, бортпроводники, стюарды,511,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5112,Кондукторы общественного транспорта,511,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5113,Гиды,511,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+512,Повара,51,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5120,Повара,512,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+513,Официанты и буфетчики,51,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5131,Официанты,513,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5132,Буфетчики (бармены),513,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+514,Парикмахеры, косметологи и работники родственных занятий,51,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5141,Парикмахеры,514,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5142,Косметологи и работники родственных занятий,514,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+515,Персонал хозяйственного и коммунального обслуживания,51,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5151,Бригадиры уборщиков и помощники по хозяйству в отелях (гостиницах), офисах и других учреждениях,515,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5152,Экономки,515,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5153,Смотрители зданий и персонал родственных занятий,515,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+516,Другие работники, оказывающие индивидуальные услуги,51,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+5162,Компаньоны и камердинеры,516,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5163,Работники ритуальных услуг,516,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+5164,Грумеры и другие работники, ухаживающие за животными,516,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5165,Инструкторы по вождению,516,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5169,Работники, оказывающие индивидуальные услуги, не входящие в другие группы,516,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+52,Продавцы,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+521,Уличные торговцы и продавцы на рынках,52,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5211,Продавцы палаток и рынков,521,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5212,Уличные торговцы продовольственными товарами,521,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+522,Продавцы магазинов,52,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5221,Продавцы в киосках и ларьках,522,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5222,Бригадиры в магазинах,522,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5223,Продавцы и помощники продавцов магазинов,522,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+523,Кассиры, включая кассиров билетных касс,52,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5230,Кассиры, включая кассиров билетных касс,523,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+524,Прочие работники сферы торговли,52,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5241,Манекенщики и другие живые модели,524,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5242,Демонстраторы товаров,524,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5243,Торговцы, предлагающие покупателям товары по месту жительства,524,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5244,Продавцы контактных центров,524,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5245,Служащие на станциях обслуживания,524,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5246,Работники прилавка, обслуживающие посетителей мест общественного питания,524,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5249,Работники сферы торговли, не входящие в другие группы,524,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+53,Работники, оказывающие услуги по индивидуальному уходу,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+531,Работники по уходу за детьми и помощники учителей,53,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+5311,Работники по уходу за детьми,531,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+5312,Помощники учителей,531,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+532,Работники, оказывающие индивидуальные услуги по уходу за больными,53,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+5321,Помощники по уходу за больными,532,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+5322,Работники, оказывающие индивидуальные услуги по уходу за больными на дому,532,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+5329,Работники, оказывающие индивидуальные услуги по уходу за больными, не входящие в другие группы,532,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+54,Работники служб, осуществляющих охрану граждан и собственности,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+541,Работники служб, осуществляющих охрану граждан и собственности,54,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5411,Пожарные,541,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5412,Полицейские,541,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5413,Тюремные охранники,541,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5414,Охранники,541,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+5419,Работники служб, осуществляющих охрану граждан и собственности, не входящие в другие группы,541,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+61,Квалифицированные работники сельского хозяйства, производящие товарную продукцию,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+611,Товарные производители огородных, плодовых и полевых культур,61,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+6111,Полеводы и овощеводы,611,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+6112,Производители плодово-ягодной продукции,611,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+6113,Садовники, садоводы и работники питомников по выращиванию посадочного материала,611,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+6114,Производители смешанной растениеводческой продукции,611,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+612,Товарные производители продукции животноводства,61,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+6121,Производители мясной и молочной продукции,612,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+6122,Птицеводы,612,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+6123,Пчеловоды и шелководы,612,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+6129,Товарные производители продукции животноводства, не входящие в другие группы,612,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+613,Товарные производители смешанной растениеводческой и животноводческой продукции,61,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+6130,Товарные производители смешанной растениеводческой и животноводческой продукции,613,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+62,Товарные производители лесной и рыбной продукции и охотники,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+621,Лесоводы и работники родственных занятий,62,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+6210,Лесоводы и работники родственных занятий,621,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+622,Работники рыбоводства и рыболовства, охотники-стрелки и охотники-трапперы (капканщики),62,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+6221,Рыбоводы и работники родственных занятий (мариводы),622,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+6222,Работники рыболовства во внутренних водоемах и прибрежных водах,622,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+6223,Работники рыболовства в глубоководной зоне,622,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+6224,Охотники-стрелки и охотники-трапперы (капканщики),622,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+63,Квалифицированные работники сельского хозяйства, рыболовства, охотники и сборщики урожая, производящие продукцию для личного потребления,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+631,Квалифицированные работники сельского хозяйства, рыболовства, охотники и сборщики урожая, производящие продукцию для личного потребления,63,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+6310,Квалифицированные работники сельского хозяйства, рыболовства, охотники и сборщики урожая, производящие продукцию для личного потребления,631,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+71,Рабочие, занятые в строительстве, и рабочие родственных занятий (за исключением электриков),,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+711,Рабочие строительных и родственных занятий,71,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7111,Строители зданий,711,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7112,Каменщики (по кирпичу и камню) и рабочие родственных занятий,711,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7113,Камнетесы и обработчики камня,711,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7114,Бетоноукладчики, бетоноотделочники и рабочие родственных занятий,711,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7115,Плотники и столяры,711,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7119,Строители и рабочие родственных занятий, не входящие в другие группы,711,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+712,Рабочие-отделочники и рабочие родственных занятий,71,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7121,Кровельщики,712,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7122,Настильщики полов и плиточники,712,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7123,Штукатуры,712,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7124,Укладчики тепло- и акустической изоляции,712,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7125,Стекольщики,712,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7126,Слесари-сантехники и слесари-трубопроводчики,712,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7127,Механики кондиционеров и холодильных установок,712,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+713,Маляры, рабочие по очистке поверхностей зданий и сооружений и родственных занятий,71,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7131,Маляры и рабочие родственных занятий,713,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7132,Лакировщики и покрасчики,713,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7133,Рабочие по очистке поверхностей зданий и сооружений,713,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+72,Рабочие, занятые в металлообрабатывающем и машиностроительном производстве, механики и ремонтники,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+721,Формовщики, сварщики, вальцовщики, подготовители конструкционного металла и рабочие родственных занятий,72,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7211,Формовщики и стерженщики,721,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7212,Сварщики и газорезчики,721,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7213,Вальцовщики,721,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7214,Подготовители конструкционного металла и монтажники,721,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7215,Такелажники и кабельщики-спайщики,721,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+722,Кузнецы, слесари-инструментальщики, станочники, наладчики и рабочие родственных занятий,72,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7221,Кузнецы,722,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7222,Слесари-инструментальщики и рабочие родственных занятий,722,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7223,Станочники и наладчики металлообрабатывающих станков,722,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7224,Полировщики, шлифовщики и заточники инструментов,722,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+723,Механики и ремонтники транспортных средств, сельскохозяйственного и производственного оборудования и рабочие родственных занятий,72,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7231,Механики и ремонтники автотранспортных средств,723,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7232,Механики и ремонтники летательных аппаратов, судов и железнодорожного подвижного состава,723,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7233,Механики и ремонтники сельскохозяйственного и производственного оборудования,723,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7234,Ремонтники велосипедов и рабочие родственных занятий,723,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+73,Рабочие, занятые изготовлением прецизионных инструментов и приборов, рабочие художественных промыслов и полиграфического производства,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+731,Рабочие, занятые изготовлением прецизионных инструментов и приборов, рабочие художественных промыслов,73,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7311,Рабочие, занятые изготовлением и ремонтом прецизионных инструментов и приборов,731,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7312,Изготовители, настройщики и реставраторы музыкальных инструментов,731,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7313,Мастера по изготовлению ювелирных украшений и изделий из драгоценных металлов и камней, изделий художественных промыслов (лаковая миниатюра, художественная роспись по металлу и керамике),731,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7314,Гончары и рабочие родственных занятий,731,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7315,Формовщики изделий из стекла, резчики по камню, шлифовщики и полировщики,731,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7316,Художники по росписи, художники-оформители, гравировщики и травильщики,731,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7317,Рабочие художественных промыслов, изготавливающие плетеные изделия, изделия из дерева и аналогичных материалов,731,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7318,Рабочие художественных промыслов, изготавливающие изделия из текстиля, кожи, меха и аналогичных материалов,731,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7319,Квалифицированные рабочие ручного труда, не входящие в другие группы,731,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+732,Рабочие полиграфического производства,73,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7321,Рабочие допечатной стадии полиграфического производства,732,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7322,Печатники,732,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7323,Отделочники и переплетчики,732,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+74,Рабочие в области электротехники и электроники,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+741,Электромонтажники и ремонтники электрического оборудования,74,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7411,Электрики в строительстве и рабочие родственных занятий,741,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7412,Электромеханики и монтеры электрического оборудования,741,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7413,Монтажники и ремонтники линий электропередач,741,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+742,Монтажники и ремонтники электронного и телекоммуникационного оборудования,74,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7421,Механики по ремонту и обслуживанию электронного оборудования,742,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7422,Монтажники и ремонтники по обслуживанию ИКТ и устройств связи,742,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+75,Рабочие пищевой, деревообрабатывающей, текстильной и швейной промышленности и рабочие родственных занятий,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+751,Рабочие пищевой промышленности и рабочие родственных занятий,75,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7511,Обработчики и изготовители мясных, рыбных и других продуктов питания,751,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7512,Пекари, кондитеры и изготовители конфет,751,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7513,Изготовители молочной продукции,751,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7514,Заготовители и обработчики фруктов и овощей,751,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7515,Дегустаторы продуктов питания и напитков и определители сортности,751,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7516,Подготовители и производители табачной продукции,751,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+752,Деревообработчики, краснодеревщики и рабочие родственных занятий,75,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7521,Рабочие, занятые на первоначальной обработке древесины,752,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7522,Краснодеревщики и рабочие родственных занятий,752,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7523,Наладчики и операторы деревообрабатывающих станков,752,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+753,Рабочие ручного труда, производящие одежду и обувь,75,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7531,Мужские и женские портные, меховщики и шляпники,753,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7532,Изготовители лекал и закройщики,753,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7533,Швеи, вышивальщицы и рабочие родственных занятий,753,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7534,Обойщики мебели и рабочие родственных занятий,753,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7535,Обработчики шкур, дубильщики и скорняки,753,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7536,Обувщики и изготовители аналогичных изделий,753,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+754,Другие квалифицированные рабочие, занятые в промышленности, и рабочие родственных занятий,75,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7541,Водолазы,754,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7542,Взрывники и запальщики и рабочие родственных занятий,754,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7543,Определители сортности и испытатели изделий (за исключением продуктов питания и напитков),754,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+7544,Фумигаторщики и другие рабочие по борьбе с вредителями и сорняками,754,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+7549,Квалифицированные рабочие промышленности и рабочие родственных занятий, не входящие в другие группы,754,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+81,Операторы промышленных установок и стационарного оборудования,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+811,Операторы горнодобывающих и горно-обогатительных установок,81,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8111,Операторы и машинисты горного и шахтного оборудования,811,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8112,Операторы, аппаратчики и машинисты установок по обработке руды и обогатительного оборудования,811,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8113,Бурильщики скважин и колодцев и рабочие родственных занятий,811,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+8114,Операторы машин по производству продукции из бетона, камня и других минеральных материалов,811,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+812,Операторы металлоплавильных установок и установок по обработке металлов,81,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8121,Операторы металлоплавильных установок,812,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8122,Операторы установок полирования, металлизации и нанесения защитного слоя на металл,812,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+813,Операторы установок по переработке химического сырья и операторы машин по производству фотографической продукции,81,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8131,Операторы установок по переработке химического сырья,813,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8132,Операторы машин по производству фотографической продукции,813,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+814,Операторы машин по производству изделий из резины, пластмасс и бумаги,81,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8141,Операторы машин по производству изделий из резины,814,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8142,Операторы машин и установок по производству изделий из пластмасс,814,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8143,Операторы машин по производству изделий из бумаги и картона,814,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+815,Операторы машин по производству текстильной, меховой и кожаной продукции,81,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8151,Операторы машин по приготовлению волокна, прядильных и намоточных машин,815,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8152,Операторы ткацких и вязальных машин,815,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8153,Операторы швейного оборудования,815,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8154,Операторы машин по отбеливанию, окраске и чистке,815,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8155,Операторы машин по выделке меха и кожи,815,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8156,Операторы машин по изготовлению обуви и аналогичной продукции,815,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8157,Операторы прачечных машин,815,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8159,Операторы машин по производству текстильной, меховой и кожаной продукции, не входящие в другие группы,815,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+816,Операторы машин по обработке пищевых и аналогичных продуктов,81,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8160,Операторы машин по обработке пищевых и аналогичных продуктов,816,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+817,Операторы машин по переработке древесины и изготовлению бумаги,81,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8171,Операторы машин по изготовлению бумажной массы и бумаги,817,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8172,Операторы машин по переработке древесины,817,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+818,Другие операторы промышленных установок и машин,81,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8181,Операторы машин по изготовлению стекла и керамики,818,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8182,Операторы паровых машин и бойлерных установок,818,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8183,Операторы упаковочных, разливочных и маркировочных машин,818,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8189,Операторы промышленных установок и машин, не входящие в другие группы,818,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+82,Сборщики,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+821,Сборщики,82,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8211,Слесари-сборщики механических машин,821,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8212,Сборщики электрического и электронного оборудования,821,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8219,Сборщики, не входящие в другие группы,821,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+83,Водители и операторы подвижного оборудования,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+831,Машинисты локомотивов и рабочие родственных занятий,83,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+8311,Машинисты локомотивов,831,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8312,Рабочие, обеспечивающие безопасность движения и формирование поездов на железнодорожных станциях,831,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+832,Водители легковых автомобилей, фургонов и мотоциклов,83,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+8321,Водители мототранспортных средств,832,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+8322,Водители легковых автомобилей, такси и фургонов,832,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+833,Водители грузового и пассажирского транспорта,83,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+8331,Водители пассажирского транспорта (автобусов, троллейбусов и трамваев),833,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+8332,Водители грузового транспорта,833,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+834,Операторы подвижного оборудования,83,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8341,Операторы моторизованного сельскохозяйственного оборудования и оборудования лесных хозяйств,834,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8342,Операторы землеройных и аналогичных машин,834,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8343,Операторы (машинисты) кранов, подъемников и аналогичного оборудования,834,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+8344,Операторы автопогрузчиков,834,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+835,Члены судовых команд и рабочие родственных занятий,83,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+8350,Члены судовых команд и рабочие родственных занятий,835,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+91,Уборщики и прислуга,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+911,Уборщики и прислуга в домах, отелях (гостиницах) и учреждениях,91,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9111,Домашняя прислуга и уборщики,911,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9112,Уборщики и прислуга в учреждениях, отелях (гостиницах) и других местах,911,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+912,Мойщики транспортных средств и окон, прачки и другие уборщики вручную,91,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9121,Прачки и гладильщицы вручную,912,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9122,Мойщики транспортных средств,912,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9123,Мойщики окон,912,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9129,Другие уборщики,912,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+92,Неквалифицированные рабочие сельского и лесного хозяйства, рыбоводства и рыболовства,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+921,Неквалифицированные рабочие сельского и лесного хозяйства, рыбоводства и рыболовства,92,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9211,Неквалифицированные рабочие в растениеводстве,921,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9212,Неквалифицированные рабочие в животноводстве,921,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9213,Неквалифицированные рабочие в производстве смешанной растениеводческой и животноводческой продукции,921,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9214,Неквалифицированные рабочие в садоводстве,921,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9215,Неквалифицированные рабочие в лесоводстве,921,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9216,Неквалифицированные рабочие рыбоводства, рыболовства и производства морепродуктов,921,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+93,Неквалифицированные рабочие, занятые в горнодобывающей промышленности, строительстве, обрабатывающей промышленности и на транспорте,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+931,Неквалифицированные рабочие, занятые в горнодобывающей промышленности и строительстве,93,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9311,Неквалифицированные рабочие, занятые в горнодобывающей промышленности и разработке карьеров,931,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9312,Неквалифицированные рабочие, занятые на строительстве и ремонте дорог, плотин и аналогичных гражданских сооружений,931,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9313,Неквалифицированные рабочие, занятые на строительстве зданий,931,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+932,Неквалифицированные рабочие, занятые в обрабатывающей промышленности,93,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9321,Упаковщики вручную,932,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9329,Неквалифицированные рабочие, занятые в обрабатывающей промышленности, не входящие в другие группы,932,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+933,Неквалифицированные рабочие, занятые на транспорте и в хранении,93,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9331,Рабочие, управляющие транспортными средствами с ручным и педальным управлением,933,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9332,Извозчики, рабочие, управляющие транспортными средствами на тягловой силе, и другие неквалифицированные рабочие, занятые на транспорте,933,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9333,Грузчики,933,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9334,Заполнители полок в магазинах,933,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+94,Помощники в приготовлении пищи,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+941,Помощники в приготовлении пищи,94,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9411,Изготовители пищи быстрого приготовления,941,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9412,Помощники на кухне,941,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+95,Уличные торговцы и другие неквалифицированные работники, оказывающие различные уличные услуги,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+951,Неквалифицированные работники, оказывающие различные уличные услуги,95,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9510,Неквалифицированные работники, оказывающие различные уличные услуги,951,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+952,Уличные торговцы (за исключением продуктов питания),95,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9520,Уличные торговцы (за исключением продуктов питания),952,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+96,Неквалифицированные работники по сбору мусора и другие неквалифицированные работники,,major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+961,Неквалифицированные работники по сбору мусора,96,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9611,Сборщики и переработчики мусора,961,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9612,Сортировщики мусора,961,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9613,Уборщики территорий (дворники) и подобные работники,961,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+962,Другие неквалифицированные работники,96,sub_major_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9621,Посыльные, доставщики пакетов и багажа и подобные работники,962,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9622,Разнорабочие,962,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,occupation
+9623,Сборщики денег из торговых автоматов, контролеры счетчиков и подобные работники,962,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9624,Развозчики воды и сборщики дров,962,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown
+9629,Неквалифицированные работники, не входящие в другие группы,962,minor_group,https://classifikators.ru/okz,mirror_unofficial,okz_classifikators.xlsx,unknown

@@ -1,0 +1,57 @@
+{
+  "okved2_rosstat": {
+    "source_id": "okved2_rosstat",
+    "status": "partial",
+    "access_method": "html",
+    "machine_readable": "partial",
+    "source_url": "https://rosstat.gov.ru/folder/11210",
+    "http_status": 200,
+    "data_links_found": 4,
+    "sample_links": [
+      "https://rosstat.gov.ru/opendata/list.csv",
+      "https://rosstat.gov.ru/opendata/7708234640-okvedva",
+      "https://rosstat.gov.ru/opendata/7708234640-okvedva",
+      "https://rosstat.gov.ru/opendata/7708234640-okvedva"
+    ],
+    "issues": []
+  },
+  "okved2_fns": {
+    "source_id": "okved2_fns",
+    "status": "partial",
+    "access_method": "html",
+    "machine_readable": "no",
+    "source_url": "https://service.nalog.ru/okved/",
+    "http_status": 200,
+    "issues": [
+      "Web interface only, no machine-readable export detected"
+    ]
+  },
+  "profstandarts_mintrud": {
+    "status": "fetch_failed",
+    "source_url": "https://mintrud.gov.ru/opendata/7710914971-reestr_profstandartov"
+  },
+  "trudvsem_api": {
+    "status": "fetch_failed",
+    "source_url": "https://trudvsem.ru/opendata/api"
+  },
+  "npd_nalog": {
+    "source_id": "npd_nalog",
+    "status": "encoded",
+    "rules_count": 8,
+    "source_urls": [
+      "https://npd.nalog.ru/"
+    ],
+    "issues": []
+  },
+  "social_contract": {
+    "source_id": "social_contract",
+    "status": "probe_needed",
+    "access_method": "html",
+    "machine_readable": "no",
+    "source_urls": [],
+    "issues": [
+      "Federal page not accessible",
+      "Chelyabinsk regional page not accessible"
+    ]
+  }
+}

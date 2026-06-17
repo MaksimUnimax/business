@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>Ошибка: Неверные параметры запроса</title>
+		<script>
+			 
+		//
+			var loc = window.location.href.replace('?searchres=', '?start_search').replace('&search=1', '') + '&fattrib=1';
+				var command = 'window.location = loc';
+		
+		</script>
+	</head>
+	<body onload="window.alert('Неверные параметры запроса');setTimeout(command,0);">
+	</body>
+</html>

@@ -1,0 +1,155 @@
+sources:
+  - id: okved2_rosstat
+    name: ОКВЭД 2 (Росстат)
+    purpose: Виды экономической деятельности для ИП/ООО
+    official: true
+    url: https://rosstat.gov.ru/folder/11210
+    access_method: html
+    machine_readable: partial
+    requires_key: false
+    status: needs_investigation
+    fields_expected:
+      - code
+      - name
+      - parent_code
+    notes: Official classifier, but machine-readable file location needs discovery
+
+  - id: okved2_fns
+    name: ОКВЭД 2 (ФНС Мой ОКВЭД)
+    purpose: Справочный сервис ФНС
+    official: true
+    url: https://service.nalog.ru/okved/
+    access_method: html
+    machine_readable: no
+    requires_key: false
+    status: probe_needed
+    fields_expected:
+      - code
+      - name
+    notes: Web interface, may have API for lookups
+
+  - id: okpd2_official
+    name: ОКПД 2 (ОК 034-2014)
+    purpose: Классификатор продукции, услуг, работ
+    official: true
+    url: https://docs.cntd.ru/document/1200116381
+    access_method: html
+    machine_readable: partial
+    requires_key: false
+    status: needs_investigation
+    fields_expected:
+      - code
+      - name
+      - parent_code
+    notes: Official classifier, file download location needs discovery
+
+  - id: okpdtr_mintrud
+    name: ОКПДТР (Минтруд)
+    purpose: Профессии рабочих и должности служащих
+    official: true
+    url: https://profstandart.rosmintrud.ru
+    access_method: html
+    machine_readable: partial
+    requires_key: false
+    status: probe_needed
+    fields_expected:
+      - code
+      - title
+      - type
+    notes: Classifier pages on profstandart portal
+
+  - id: okz_mintrud
+    name: ОКЗ-2014 (Минтруд)
+    purpose: Классификатор занятий
+    official: true
+    url: https://profstandart.rosmintrud.ru
+    access_method: html
+    machine_readable: partial
+    requires_key: false
+    status: probe_needed
+    fields_expected:
+      - code
+      - title
+      - parent_code
+    notes: Classifier pages on profstandart portal
+
+  - id: profstandarts_mintrud
+    name: Реестр профстандартов (Минтруд)
+    purpose: Профессиональные стандарты, требования, навыки
+    official: true
+    url: https://mintrud.gov.ru/opendata/7710914971-reestr_profstandartov
+    access_method: csv
+    machine_readable: yes
+    requires_key: false
+    status: probe_needed
+    fields_expected:
+      - id
+      - title
+      - professional_area
+      - code
+    notes: Open data portal, CSV/XML expected
+
+  - id: etks_mintrud
+    name: ЕТКС (Минтруд)
+    purpose: Квалификационные характеристики рабочих профессий
+    official: true
+    url: https://profstandart.rosmintrud.ru
+    access_method: html
+    machine_readable: partial
+    requires_key: false
+    status: probe_needed
+    fields_expected:
+      - profession
+      - description
+      - requirements
+    notes: ETKS pages on profstandart portal
+
+  - id: trudvsem_api
+    name: Трудвсем API (Работа России)
+    purpose: Реальные вакансии, названия работ, требования
+    official: true
+    url: https://trudvsem.ru/opendata/api
+    access_method: api
+    machine_readable: yes
+    requires_key: false
+    status: probe_needed
+    fields_expected:
+      - title
+      - region
+      - salary_from
+      - salary_to
+      - requirements
+      - responsibilities
+    notes: Public API for job market data
+
+  - id: npd_nalog
+    name: НПД ограничения (ФНС)
+    purpose: Ограничения самозанятости
+    official: true
+    url: https://npd.nalog.ru/
+    access_method: html
+    machine_readable: no
+    requires_key: false
+    status: rules_to_encode
+    fields_expected:
+      - rule_id
+      - title
+      - condition
+      - source_url
+    notes: Rules must be manually encoded from official source
+
+  - id: social_contract
+    name: Соцконтракт (региональные правила)
+    purpose: Правила финансирования бизнеса через соцконтракт
+    official: true
+    url: https://mintrud.gov.ru
+    access_method: html
+    machine_readable: no
+    requires_key: false
+    status: probe_needed
+    fields_expected:
+      - max_amount
+      - allowed_expenses
+      - forbidden_expenses
+      - business_plan_required
+    notes: Regional rules, Chelyabinsk preferred

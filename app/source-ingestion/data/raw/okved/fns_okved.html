@@ -1,0 +1,505 @@
+
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=9; IE=10; IE=11; IE=EDGE"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=0.8">
+        <link rel="shortcut icon" href="/static/icons/shortcut-icon.ico" type="image/x-icon"/>
+        <link rel="apple-touch-icon" sizes="57x57" href="/static/icons/apple-touch-icon-57x57.png"/>
+        <link rel="apple-touch-icon" sizes="60x60" href="/static/icons/apple-touch-icon-60x60.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="/static/icons/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="76x76" href="/static/icons/apple-touch-icon-76x76.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="/static/icons/apple-touch-icon-114x114.png"/>
+        <link rel="apple-touch-icon" sizes="120x120" href="/static/icons/apple-touch-icon-120x120.png"/>
+        <link rel="apple-touch-icon" sizes="144x144" href="/static/icons/apple-touch-icon-144x144.png"/>
+        <link rel="apple-touch-icon" sizes="152x152" href="/static/icons/apple-touch-icon-152x152.png"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon-180x180.png"/>
+        <link rel="icon" type="image/png" href="/static/icons/icon-16x16.png" sizes="16x16"/>
+        <link rel="icon" type="image/png" href="/static/icons/icon-32x32.png" sizes="32x32"/>
+        <link rel="icon" type="image/png" href="/static/icons/icon-96x96.png" sizes="96x96"/>
+        <link rel="icon" type="image/png" href="/static/icons/icon-192x192.png" sizes="192x192"/>
+        <meta name="msapplication-square70x70logo" content="/static/icons/msapplication-square70x70logo.png"/>
+        <meta name="msapplication-square150x150logo" content="/static/icons/msapplication-square150x150logo.png"/>
+        <meta name="msapplication-square310x310logo" content="/static/icons/msapplication-square310x310logo.png"/>
+            <link rel="stylesheet" type="text/css" href="/fonts/golos/css/all.css?ver=1.4.2"/>
+            <link rel="stylesheet" type="text/css" href="/fonts/bi/css/all.css?ver=1.4.2"/>
+            <link rel="stylesheet" type="text/css" href="/fonts/fa/css/all.css?ver=1.4.2"/>
+            <link rel="stylesheet" type="text/css" href="/okved/css/all.css?ver=1.7.1"/>
+            <link rel="stylesheet" type="text/css" href="/static/bootstrap/plugins/datepicker/css/bootstrap-datepicker3.standalone.min.css?ver=4.42.1"/>
+            <script type="text/javascript" src="/static/js/jquery-3.5.1.min.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/js/js.cookie.min.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/js/jquery.mask.min.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/js/jquery.inputmask.min.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/bootstrap/bootstrap-5.3.3/js/bootstrap.bundle.min.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/bootstrap/plugins/datepicker/js/bootstrap-datepicker.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/bootstrap/plugins/datepicker/locales/bootstrap-datepicker.ru.min.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/js/jquery.ba-hashchange.min.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/js/uni-hashchange.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3String.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3BlockUI.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3Alert.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3Confirm.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3ConfirmEx.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3Field.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3Form.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3TextEdit.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3DateEdit.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3DropDown.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3DropDownEx.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3Combo.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3FileUpload.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3MultiSelect.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/static/u3/js/jquery.u3PageScroller.js?ver=4.42.1"></script>
+            <script type="text/javascript" src="/okved/js/core/navigation.js?ver=1.7.1"></script>
+            <script type="text/javascript" src="/okved/js/core/commons.js?ver=1.7.1"></script>
+            <script type="text/javascript" src="/okved/js/core/page-commons.js?ver=1.7.1"></script>
+            <script type="text/javascript" src="/okved/js/okved-public.js?ver=1.7.1"></script>
+            <script type="text/javascript" src="/okved/js/okved-egrn.js?ver=1.7.1"></script>
+            <script type="text/javascript" src="/okved/js/okved-item.js?ver=1.7.1"></script>
+            <script type="text/javascript" src="/okved/js/okved-object.js?ver=1.7.1"></script>
+            <script type="text/javascript" src="/okved/js/okved-tree.js?ver=1.7.1"></script>
+            <script type="text/javascript" src="js/home.js?ver=1.7.1"></script>
+            <script type="text/javascript" src="js/panels/panel-feedback.js?ver=1.7.1"></script>
+        <title>Мой ОКВЭД</title>
+        <script type="text/javascript">
+            function i18n(s) { return s; }
+            var SERVER_TIME = new Date(1781688414968);
+            var STATIC_VERSION = '4.42.1';
+            var APPLICATION_VERSION = '1.7.1';
+            var RTKOMM_PAGE_STYLE = 'NALOG';
+            
+            
+            var APP_PATH = '/okved';
+            var FEEDBACK_CODE = '156';
+            
+        </script>
+    </head>
+    <body class="bg-gradient-light">
+        
+    
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    let CURRENT_USER = null;
+    const SELECTED_MENU_ITEM = "mnuHome";
+    const PAGE_ROLE = null;
+    const BASE_PATH = "/okved/";
+    const NEXT_URL = null;
+</script>
+
+
+<header>
+    <div class="page-container bg-body">
+        <nav class="navbar navbar-expand">
+            <div class="h-100 d-flex align-items-center">
+                <a class="btn btn-icon me-3 d-block d-lg-none" data-bs-toggle="offcanvas" href="#mobileMenu" role="button" aria-controls="mobileMenu">
+                    <i class="fa-duotone fa-bars"></i>
+                </a>
+                <a href="https://www.nalog.gov.ru/" target="_blank" class="h-100 me-2 me-md-4">
+                    <img class="h-100" src="/okved/i/fns-logo-b.svg">
+                </a>
+                <a href="/okved/home.html" class="h-100 d-flex align-items-center">
+                    <img class="h-100 me-1 me-md-2" src="/okved/i/service-logo.svg">
+                    <div class="service-title">Мой ОКВЭД</div>
+                </a>
+            </div>
+            <div class="ms-auto d-none d-lg-block">
+                <ul class="navbar-nav navbar-main-menu">
+                    <li class="nav-item">
+                        <a data-menu-id="mnuHome" class="nav-link" href="/okved/home.html">
+                            <i class="fa-regular fa-house"></i>
+                            Главная страница
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown d-none d-xl-block">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-regular fa-check-to-slot"></i>
+                            Возможности сервиса
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a data-menu-id="mnuRegister" class="dropdown-item" href="/okved/edit.html?m=TAX_PAYER">Подбор кодов ОКВЭД для нового бизнеса</a></li>
+                            <li><a data-menu-id="mnuActualize" class="dropdown-item" href="/okved/edit.html?m=IDENTIFY">Изменение кодов ОКВЭД заявительного типа</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item d-none d-xxl-block">
+                        <a data-menu-id="mnuAbout" class="nav-link" href="/okved/about.html">
+                            <i class="fa-regular fa-memo-circle-info"></i>
+                            О сервисе
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-xxxl-block">
+                        <a data-menu-id="mnuQa" class="nav-link" href="/okved/qa.html">
+                            <i class="fa-regular fa-square-question"></i>
+                            Вопросы и ответы
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-xxxxl-block">
+                        <a data-menu-id="mnuDevelopers" class="nav-link" href="/okved/developers.html">
+                            <i class="fa-regular fa-square-terminal"></i>
+                            Разработчикам
+                        </a>
+                    </li>
+                    <li class="nav-item d-block d-xxxl-none ms-2">
+                        <div class="dropdown">
+                            <a class="btn btn-icon" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-duotone fa-square-ellipsis"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li class="d-block d-xl-none">
+                                    <h6 class="dropdown-header">Возможности сервиса</h6>
+                                </li>
+                                <li class="d-block d-xl-none">
+                                    <a data-menu-id="mnuRegister" class="dropdown-item" href="/okved/edit.html?m=TAX_PAYER">Подбор кодов ОКВЭД для нового бизнеса</a>
+                                </li>
+                                <li class="d-block d-xl-none">
+                                    <a data-menu-id="mnuActualize" class="dropdown-item" href="/okved/edit.html?m=IDENTIFY">Изменение кодов ОКВЭД заявительного типа</a>
+                                </li>
+                                <li class="d-block d-xl-none">
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="d-block d-xxl-none">
+                                    <a data-menu-id="mnuAbout" class="dropdown-item" href="/okved/about.html">О сервисе</a>
+                                </li>
+                                <li class="d-block d-xxxl-none">
+                                    <a data-menu-id="mnuQa" class="dropdown-item" href="/okved/qa.html">Вопросы и ответы</a>
+                                </li>
+                                <li class="d-block d-xxxxl-none">
+                                    <a data-menu-id="mnuDevelopers" class="dropdown-item" href="/okved/developers.html">Разработчикам</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center ms-auto gap-2 gap-sm-3 flex-column flex-sm-row">
+                <a class="btn btn-icon" data-bs-toggle="offcanvas" href="#offcanvasFeedback" role="button" aria-controls="offcanvasFeedback">
+                    <i class="fa-duotone fa-message-lines" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Оставить отзыв"></i>
+                </a>
+                <a class="btn btn-icon d-none" href="#" data-action="help">
+                    <i class="fa-duotone fa-circle-question" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Подсказка"></i>
+                </a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+<div class="offcanvas-lg offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#mobileMenu" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body d-lg-none">
+        <nav class="navbar">
+            <ul class="navbar-nav navbar-mobile-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="/okved/home.html" data-menu-id="mnuHome">
+                        <i class="fa-regular fa-house"></i>
+                        Главная страница
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <hr/>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/okved/edit.html?m=TAX_PAYER" data-menu-id="mnuRegister">
+                        <i class="fa-regular fa-file-pen"></i>
+                        Подбор кодов ОКВЭД для нового бизнеса
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/okved/edit.html?m=IDENTIFY" data-menu-id="mnuActualize">
+                        <i class="fa-regular fa-file-circle-check"></i>
+                        Изменение кодов ОКВЭД заявительного типа
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <hr/>
+                </li>
+                <li class="nav-item">
+                    <a data-menu-id="mnuAbout" class="nav-link" href="/okved/about.html">
+                        <i class="fa-regular fa-memo-circle-info"></i>
+                        О сервисе
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a data-menu-id="mnuQa" class="nav-link" href="/okved/qa.html">
+                        <i class="fa-regular fa-square-question"></i>
+                        Вопросы и ответы
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a data-menu-id="mnuDevelopers" class="nav-link" href="/okved/developers.html">
+                        <i class="fa-regular fa-square-terminal"></i>
+                        Разработчикам
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+
+<div class="offcanvas offcanvas-end" style="width: 500px" tabindex="-1" id="offcanvasFeedback">
+    <div class="offcanvas-header px-4">
+        <h5 class="offcanvas-title" id="offcanvasFeedbackLabel">Оцените наш сервис</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+    </div>
+    <div class="offcanvas-body px-4">
+        
+
+
+<form data-id="frmFeedback" method="post" action="/okved/api/v1/feedback/">
+    <div class="mb-4">
+        <p>Мы постоянно работаем над улучшением нашего сервиса.</p>
+        <p>Отправьте Ваши предложения или вопросы и мы сделаем наш сервис еще лучше.</p>
+        <div class="u3-field u3-field--textedit">
+    
+    <div class="u3-field__input">
+            <textarea type="text" name="comment" rows="5" maxlength="1000" placeholder="&#8203;Не более 1000 символов" id="comment"></textarea>
+        <label for="comment"><i18n>Ваш вопрос или предложение</i18n></label>
+    </div>
+</div>
+
+        <div data-for="comment" class="text-end text-secondary">0 из 1000</div>
+    </div>
+    <div class="mb-4">
+        <h5 class="mb-3">Поставьте оценку нашему сервису</h5>
+        <div class="mb-3">
+            <p>Быстродействие</p>
+            <input type="hidden" name="performance">
+            <div class="okved-rate" data-target="performance">
+                <a href="#" data-rating="1" class=""></a>
+                <a href="#" data-rating="2" class=""></a>
+                <a href="#" data-rating="3" class=""></a>
+                <a href="#" data-rating="4" class=""></a>
+                <a href="#" data-rating="5" class=""></a>
+            </div>
+        </div>
+        <div class="mb-3">
+            <p>Удобство интерфейса</p>
+            <input type="hidden" name="friendly">
+            <div class="okved-rate" data-target="friendly">
+                <a href="#" data-rating="1"></a>
+                <a href="#" data-rating="2"></a>
+                <a href="#" data-rating="3"></a>
+                <a href="#" data-rating="4"></a>
+                <a href="#" data-rating="5"></a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button id="btnFeedback" type="submit" class="btn btn-primary">Отправить</button>
+    </div>
+</form>
+
+    </div>
+</div>
+
+
+
+    <main>
+        <section class="bg-gradient-bright text-white pt-5 pt-lg-0 pb-5">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-end justify-content-md-start">
+                    <div class="col-12 col-lg-6">
+                        <h2 class="mb-4">Сервис определения ОКВЭД</h2>
+                        <p>Быстрое определение кодов ОКВЭД при регистрации нового бизнеса или при внесении изменений в реестры ЕГРЮЛ и ЕГРИП</p>
+                    </div>
+                    <div class="d-none d-lg-block col-lg-6 text-center">
+                        <img src="/okved/i/splash-screen.svg" class="img-fluid"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="okved-main-menu mb-3 mb-lg-4">
+                    <div class="row g-3 g-lg-4 ">
+                        <div class="col-12 col-lg-6">
+                            <a class="card" href="/okved/edit.html?m=TAX_PAYER">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="/okved/i/icon--okved-new.svg" class="img-lg-6 me-4"/>
+                                        <h5 class="mb-0">Подбор кодов ОКВЭД для нового бизнеса</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <a class="card" href="/okved/edit.html?m=IDENTIFY">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="/okved/i/icon--okved-edit.svg" class="img-lg-6 me-4"/>
+                                        <h5 class="mb-0">Изменение кодов ОКВЭД заявительного типа</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndex" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndex" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="card-body p-5">
+                        <div id="carouselIndex" class="carousel slide mt-3" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselIndex" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselIndex" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselIndex" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-flex justify-content-between h-100">
+                                        <div>
+                                            <h4>Подробнее о сервисе</h4>
+                                            <p>
+                                                Сервис позволяет пользователям подобрать коды по Общероссийскому классификатору видов экономической деятельности (ОКВЭД) для последующего формирования
+                                                заявлений на государственную регистрацию юридических лиц и индивидуальных предпринимателей (по формам Р11001, Р21001) и для внесения изменений в ЕГРЮЛ и
+                                                ЕГРИП (по формам Р13014, Р24001 и Р24002) с указанием кодов по ОКВЭД заявительного типа.
+                                            </p>
+                                            <p>Возможности сервиса:</p>
+                                            <ul class="checklist">
+                                                <li>Подбор кодов ОКВЭД.</li>
+                                                <li>Определение кода ОКВЭД основного вида деятельности.</li>
+                                            </ul>
+                                            <div class="mt-3 pt-3">
+                                                <a href="/okved/about.html" class="btn btn-light">Подробнее</a>
+                                            </div>
+                                        </div>
+                                        <div class="splash-container ms-5">
+                                            <img src="/okved/i/splash--about.svg"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-between h-100">
+                                            <div>
+                                                <h4>Разработчикам</h4>
+                                                <p>Данный API-сервис позволяет воспользоваться следующими функциями сервиса «Мой ОКВЭД»:</p>
+                                                <ul class="checklist">
+                                                    <li>Получение справочника лицензируемых видов деятельности, сформированного Минэкономразвития России.</li>
+                                                    <li>Получение справочника пакетных решений, сформированного Минэкономразвития России.</li>
+                                                    <li>Подбор кодов ОКВЭД по заданным показателям.</li>
+                                                    <li>
+                                                        Определение основного вида деятельности в соответствии с постановлением Правительства Российской Федерации от 27.05.2025 № 728 «Об утверждении
+                                                        Правил определения кодов по Общероссийскому классификатору видов экономической деятельности отчетного типа и процентных долей основного вида
+                                                        экономической деятельности и дополнительных видов экономической деятельности (при наличии)».
+                                                    </li>
+                                                </ul>
+                                                <div class="mt-3 pt-3">
+                                                    <a href="/okved/developers.html" class="btn btn-light">Подробнее</a>
+                                                </div>
+                                            </div>
+                                            <div class="splash-container ms-5">
+                                                <img src="/okved/i/splash--developers.svg"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex justify-content-between h-100">
+                                        <div>
+                                            <h4>Нормативные документы</h4>
+                                            <p>Информация в сервисе регламентируется следующими нормативными правовыми актами:</p>
+                                            <ul class="checklist">
+                                                <li>Федеральный закон от 08.08.2001 № 129-ФЗ «О государственной регистрации юридических лиц и индивидуальных предпринимателей».</li>
+                                                <li>
+                                                    Федеральный закон от 28.12.2024 № 529-ФЗ «О внесении изменений в Федеральный закон «Об обязательном социальном страховании от несчастных случаев на
+                                                    производстве и профессиональных заболеваний» и статьи 5 и 6 Федерального закона «О государственной регистрации юридических лиц и индивидуальных
+                                                    предпринимателей».
+                                                </li>
+                                                <li>
+                                                    Общероссийский классификатор видов экономической деятельности ОК 029-2014 (КДЕС Ред. 2), утвержденный приказом Росстандарта от 31.01.2014 № 14-ст.
+                                                </li>
+                                                <li>
+                                                    Постановление Правительства Российской Федерации от 27.05.2025 № 728 «Об утверждении Правил определения кодов по Общероссийскому классификатору
+                                                    видов экономической деятельности отчетного типа и процентных долей основного вида экономической деятельности и дополнительных видов экономической
+                                                    деятельности (при наличии)».
+                                                </li>
+                                            </ul>
+                                            <div class="mt-3 pt-3">
+                                                <a href="/okved/about.html" class="btn btn-light">Подробнее</a>
+                                            </div>
+                                        </div>
+                                        <div class="splash-container ms-5">
+                                            <img src="/okved/i/splash--regulations.svg"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex justify-content-between h-100">
+                                        <div>
+                                            <h4>Вопросы и ответы</h4>
+                                            <dl>
+                                                <dt>Вопрос</dt>
+                                                <dd>Коды по ОКВЭД заявительного типа - что это?</dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>Ответ</dt>
+                                                <dd>
+                                                    Коды по ОКВЭД заявительного типа основного вида экономической деятельности и дополнительных видов экономической деятельности - определяются
+                                                    хозяйствующими субъектами самостоятельно. Вносятся в ЕГРЮЛ и ЕГРИП на основании документов, представленных при государственной регистрации
+                                                    юридическими лицами и индивидуальными предпринимателями.
+                                                </dd>
+                                            </dl>
+                                            <div class="mt-3 pt-3">
+                                                <a href="/okved/qa.html" class="btn btn-light">Перейти к списку вопросов</a>
+                                            </div>
+                                        </div>
+                                        <div class="splash-container ms-5">
+                                            <img src="/okved/i/splash--qa.svg"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+
+<footer>
+    <div class="page-container bg-body py-3">
+        <div class="d-flex align-items-center flex-column flex-xl-row">
+            <div>
+                <span class="text-secondary">2026 &copy;</span>
+                <a class="text-body" href="https://www.nalog.gov.ru/" target="_blank">Федеральная налоговая служба</a>
+            </div>
+            <div class="ms-xl-auto">
+                <span>Контакт-центр:</span>
+                <a href="tel:88002222222">8 800 222-22-22</a>
+            </div>
+            <div class="d-flex align-items-center flex-column flex-md-row">
+                <a class="text-body ms-md-4" href="https://www.nalog.gov.ru/rn77/service/service_feedback/?service=156" target="_blank">Техническая поддержка</a>
+                <a class="text-body ms-md-4" href="https://www.nalog.gov.ru/rn77/about_fts/el_usl/" target="_blank">Все сервисы</a>
+                <a class="text-body ms-md-4" href="https://www.gosuslugi.ru/" target="_blank">Госуслуги</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+        <!-- .41 -->
+        <!-- Yandex.Metrika counter --><script type="text/javascript"> (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");ym(23729197, "init", {clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true});</script><noscript><div><img src="https://mc.yandex.ru/watch/23729197" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+    </body>
+</html>
+

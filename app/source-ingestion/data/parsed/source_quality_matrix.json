@@ -1,0 +1,152 @@
+[
+  {
+    "source_id": "okved2_rosstat",
+    "name": "ОКВЭД 2 (Росстат)",
+    "status": "primary",
+    "official_score": 5,
+    "machine_readable_score": 5,
+    "parsed_rows": 3034,
+    "recommended_use": "primary",
+    "reason": "Official CSV parsed: 3034 rows",
+    "source_status": "official_download"
+  },
+  {
+    "source_id": "okved2_fns",
+    "name": "ОКВЭД 2 (ФНС)",
+    "status": "validation",
+    "official_score": 5,
+    "machine_readable_score": 1,
+    "parsed_rows": 0,
+    "recommended_use": "validation",
+    "reason": "Web interface only",
+    "source_status": "official_html"
+  },
+  {
+    "source_id": "okpd2_mirror",
+    "name": "ОКПД 2 (classifikators.ru mirror)",
+    "status": "enrichment",
+    "official_score": 2,
+    "machine_readable_score": 5,
+    "parsed_rows": 20387,
+    "recommended_use": "enrichment",
+    "reason": "Mirror xlsx parsed: 20387 rows. Source is classifikators.ru (unofficial mirror), not official.",
+    "source_status": "mirror_unofficial",
+    "source_url": "https://classifikators.ru/okpd",
+    "source_file": "okpd_classifikators.xlsx",
+    "service_work_candidates": 7173,
+    "correction_note": "Previous v3 said OKPD2 parsed=0. v4 found mirror xlsx with 20387 rows. Source is mirror_unofficial, not official."
+  },
+  {
+    "source_id": "okpd2_official",
+    "name": "ОКПД 2 (ОК 034-2014) official",
+    "status": "blocked",
+    "official_score": 5,
+    "machine_readable_score": 0,
+    "parsed_rows": 0,
+    "recommended_use": "blocked",
+    "reason": "Official source (pravo.gov.ru, consultant.ru) has no machine-readable download. Mirror used instead.",
+    "source_status": "blocked",
+    "correction_note": "Previous v3 said OKPD2 candidate_blocked_or_manual. v4 confirmed official source has no download."
+  },
+  {
+    "source_id": "okpdtr_all",
+    "name": "ОКПДТР (ОК 016-2025)",
+    "status": "manual_download_required",
+    "official_score": 5,
+    "machine_readable_score": 0,
+    "parsed_rows": 0,
+    "recommended_use": "manual_download_required",
+    "reason": "No downloadable structured file found from any accessible source. vniot.ru/vcot.ru unreachable, consultant.ru has legal text only.",
+    "source_status": "manual_download_required",
+    "source_urls_tried": [
+      "https://classifikators.ru/okpdtr (404)",
+      "https://www.consultant.ru/document/cons_doc_LAW_358468/ (no download)",
+      "https://base.garant.ru/71166736/ (no download)",
+      "http://www.vniot.ru/files/normativka/okpdtr/ (DNS fail)",
+      "https://vcot.ru/okpdtr (connection refused)",
+      "https://profstandart.rosmintrud.ru/ (timeout)"
+    ],
+    "correction_note": "Previous v3 said OKPDTR parsed=0. v4 confirmed no structured file available from any source."
+  },
+  {
+    "source_id": "okz_mirror",
+    "name": "ОКЗ-2014 (classifikators.ru mirror)",
+    "status": "enrichment",
+    "official_score": 2,
+    "machine_readable_score": 5,
+    "parsed_rows": 608,
+    "recommended_use": "enrichment",
+    "reason": "Mirror xlsx parsed: 608 rows. Source is classifikators.ru (unofficial mirror), not official.",
+    "source_status": "mirror_unofficial",
+    "source_url": "https://classifikators.ru/okz",
+    "source_file": "okz_classifikators.xlsx",
+    "occupation_candidates": 188,
+    "correction_note": "Previous v3 said OKZ parsed=0. v4 found mirror xlsx with 608 rows. Source is mirror_unofficial, not official."
+  },
+  {
+    "source_id": "okz_official",
+    "name": "ОКЗ-2014 (ОК 010-2014) official",
+    "status": "blocked",
+    "official_score": 5,
+    "machine_readable_score": 0,
+    "parsed_rows": 0,
+    "recommended_use": "blocked",
+    "reason": "Official source has no machine-readable download. Mirror used instead.",
+    "source_status": "blocked"
+  },
+  {
+    "source_id": "profstandarts_mintrud",
+    "name": "Реестр профстандартов",
+    "status": "primary",
+    "official_score": 5,
+    "machine_readable_score": 5,
+    "parsed_rows": 949,
+    "recommended_use": "primary",
+    "reason": "Official CSV parsed: 949 rows",
+    "source_status": "official_download"
+  },
+  {
+    "source_id": "etks_mintrud",
+    "name": "ЕТКС (Минтруд)",
+    "status": "not_probed",
+    "official_score": 5,
+    "machine_readable_score": 2,
+    "parsed_rows": 0,
+    "recommended_use": "next_probe",
+    "reason": "Not yet probed",
+    "source_status": "not_probed"
+  },
+  {
+    "source_id": "trudvsem_api",
+    "name": "Трудвсем API",
+    "status": "blocked",
+    "official_score": 5,
+    "machine_readable_score": 5,
+    "parsed_rows": 0,
+    "recommended_use": "blocked",
+    "reason": "QRATOR anti-bot blocks API",
+    "source_status": "blocked"
+  },
+  {
+    "source_id": "npd_nalog",
+    "name": "НПД ограничения",
+    "status": "primary",
+    "official_score": 5,
+    "machine_readable_score": 1,
+    "parsed_rows": 8,
+    "recommended_use": "primary",
+    "reason": "8 rules manually encoded",
+    "source_status": "official"
+  },
+  {
+    "source_id": "social_contract",
+    "name": "Соцконтракт",
+    "status": "blocked",
+    "official_score": 4,
+    "machine_readable_score": 1,
+    "parsed_rows": 0,
+    "recommended_use": "blocked",
+    "reason": "Federal/regional pages timeout",
+    "source_status": "blocked"
+  }
+]

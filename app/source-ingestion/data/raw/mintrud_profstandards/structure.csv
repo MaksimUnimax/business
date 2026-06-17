@@ -1,0 +1,10 @@
+"field name","english description","russian description","format"
+"number","number","№ п/п","decimal",
+"standard_number","standard_number","Регистрационный номер профессионального стандарта","decimal",
+"standard_code","standard_code","Код профессионального стандарта","string",
+"professional_area","professional_area","Область профессиональной деятельности","string",
+"professional_type","professional_type","Вид профессиональной деятельности","string",
+"standard_name","standard_name","Наименование профессионального стандарта","string",
+"order_Mintrud","order_Mintrud","Приказ Минтруда России (номер и дата)","string",
+"regnumber_Minjust","regnumber_Minjust","Регистрационный номер Минюста России (номер и дата)","string",
+"launch_date","launch_date","Дата введения стандарта в действие","string",

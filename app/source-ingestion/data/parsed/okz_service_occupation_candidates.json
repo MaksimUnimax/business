@@ -1,0 +1,1882 @@
+[
+  {
+    "code": "11",
+    "title": "Руководители высшего звена, высшие должностные лица и законодатели",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "111",
+    "title": "Руководители (представители) федеральных и региональных органов законодательной, судебной и исполнительной власти, их аппаратов и иных органов",
+    "parent_code": "11",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1111",
+    "title": "Руководители федеральных и региональных органов законодательной власти и их аппаратов, депутаты законодательных собраний",
+    "parent_code": "111",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1112",
+    "title": "Руководители (представители) федеральных и региональных органов исполнительной и судебной власти и их аппаратов",
+    "parent_code": "111",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1113",
+    "title": "Руководители органов местного самоуправления",
+    "parent_code": "111",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "112",
+    "title": "Руководители учреждений, организаций и предприятий",
+    "parent_code": "11",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1120",
+    "title": "Руководители учреждений, организаций и предприятий",
+    "parent_code": "112",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1213",
+    "title": "Руководители в области определения политики и планирования деятельности",
+    "parent_code": "121",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "122",
+    "title": "Руководители служб по сбыту, маркетингу и развитию",
+    "parent_code": "12",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1221",
+    "title": "Руководители служб по сбыту и маркетингу",
+    "parent_code": "122",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1222",
+    "title": "Руководители служб по рекламе и связям с общественностью",
+    "parent_code": "122",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1223",
+    "title": "Руководители подразделений по научным исследованиям и разработкам",
+    "parent_code": "122",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "13",
+    "title": "Руководители подразделений в сфере производства и специализированных сервисных услуг",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "131",
+    "title": "Руководители подразделений в сельском, лесном и рыбном хозяйстве",
+    "parent_code": "13",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1311",
+    "title": "Руководители подразделений в сельском и лесном хозяйстве",
+    "parent_code": "131",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1312",
+    "title": "Руководители подразделений в рыбоводстве и рыболовстве",
+    "parent_code": "131",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "132",
+    "title": "Руководители подразделений (управляющие) в промышленности, строительстве, на транспорте и в других сферах",
+    "parent_code": "13",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1321",
+    "title": "Руководители подразделений (управляющие) в обрабатывающей промышленности",
+    "parent_code": "132",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1322",
+    "title": "Руководители подразделений (управляющие) в добывающей промышленности",
+    "parent_code": "132",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1323",
+    "title": "Руководители подразделений (управляющие) в строительстве",
+    "parent_code": "132",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1324",
+    "title": "Руководители служб по снабжению, распространению товаров и аналогичным видам деятельности",
+    "parent_code": "132",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1325",
+    "title": "Руководители подразделений (управляющие) на транспорте",
+    "parent_code": "132",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "133",
+    "title": "Руководители служб и подразделений в сфере информационно-коммуникационных технологий",
+    "parent_code": "13",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1330",
+    "title": "Руководители служб и подразделений в сфере информационно-коммуникационных технологий",
+    "parent_code": "133",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "134",
+    "title": "Руководители служб в сфере социальных услуг",
+    "parent_code": "13",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1341",
+    "title": "Руководители служб и структурных подразделений по присмотру и уходу за детьми",
+    "parent_code": "134",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1342",
+    "title": "Руководители служб в сфере здравоохранения",
+    "parent_code": "134",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1343",
+    "title": "Руководители служб по уходу за престарелыми",
+    "parent_code": "134",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1344",
+    "title": "Руководители служб в сфере социального обеспечения",
+    "parent_code": "134",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1345",
+    "title": "Руководители служб и подразделений в сфере образования",
+    "parent_code": "134",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1346",
+    "title": "Руководители служб и подразделений в сфере финансовой деятельности и страхования",
+    "parent_code": "134",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1349",
+    "title": "Руководители служб в сфере социальных услуг, не входящие в другие группы",
+    "parent_code": "134",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "14",
+    "title": "Руководители в гостиничном и ресторанном бизнесе, розничной и оптовой торговле и родственных сферах обслуживания",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "141",
+    "title": "Руководители отелей (гостиниц) и ресторанов",
+    "parent_code": "14",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1411",
+    "title": "Руководители отелей (гостиниц)",
+    "parent_code": "141",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1412",
+    "title": "Руководители ресторанов (вагонов-ресторанов)",
+    "parent_code": "141",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "142",
+    "title": "Руководители (управляющие) в розничной и оптовой торговле",
+    "parent_code": "14",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1420",
+    "title": "Руководители (управляющие) в розничной и оптовой торговле",
+    "parent_code": "142",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "143",
+    "title": "Руководители в других сферах обслуживания",
+    "parent_code": "14",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1431",
+    "title": "Руководители культурных центров и других мест отдыха",
+    "parent_code": "143",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1432",
+    "title": "Руководители организаций физической культуры и спорта",
+    "parent_code": "143",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "1439",
+    "title": "Руководители иных сфер обслуживания, не входящие в другие группы",
+    "parent_code": "143",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "21",
+    "title": "Специалисты в области науки и техники",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "214",
+    "title": "Специалисты в области техники, исключая электротехников",
+    "parent_code": "21",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "2149",
+    "title": "Специалисты в области техники, не входящие в другие группы",
+    "parent_code": "214",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "215",
+    "title": "Инженеры-электротехники",
+    "parent_code": "21",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "2151",
+    "title": "Инженеры-электрики",
+    "parent_code": "215",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "2164",
+    "title": "Проектировщики-градостроители и проектировщики транспортных узлов",
+    "parent_code": "216",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "222",
+    "title": "Специалисты по медицинскому уходу и акушерству",
+    "parent_code": "22",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "2221",
+    "title": "Специалисты по медицинскому уходу",
+    "parent_code": "222",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "243",
+    "title": "Специалисты по сбыту и маркетингу продукции и услуг и связям с общественностью",
+    "parent_code": "24",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "31",
+    "title": "Специалисты-техники в области науки и техники",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "311",
+    "title": "Техники в области физических и технических наук",
+    "parent_code": "31",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3111",
+    "title": "Техники в области химических и физических наук",
+    "parent_code": "311",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3112",
+    "title": "Техники по гражданскому строительству",
+    "parent_code": "311",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3113",
+    "title": "Техники-электрики",
+    "parent_code": "311",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3114",
+    "title": "Техники-электроники",
+    "parent_code": "311",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3115",
+    "title": "Техники-механики",
+    "parent_code": "311",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3116",
+    "title": "Техники в химическом производстве",
+    "parent_code": "311",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3117",
+    "title": "Техники в добывающей промышленности и металлургии",
+    "parent_code": "311",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3119",
+    "title": "Техники в области физических и технических наук, не входящие в другие группы",
+    "parent_code": "311",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "313",
+    "title": "Техники (операторы) по управлению технологическими процессами",
+    "parent_code": "31",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3139",
+    "title": "Техники (операторы) по управлению технологическими процессами, не входящие в другие группы",
+    "parent_code": "313",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3141",
+    "title": "Специалисты-техники в области биологических исследований (за исключением среднего медицинского персонала)",
+    "parent_code": "314",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3143",
+    "title": "Специалисты-техники по лесному хозяйству и лесозаготовительному производству",
+    "parent_code": "314",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "315",
+    "title": "Специалисты-техники по управлению и эксплуатации водных и воздушных судов",
+    "parent_code": "31",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3155",
+    "title": "Техники-электроники по системам безопасности полетов",
+    "parent_code": "315",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "321",
+    "title": "Фельдшеры, техники по обслуживанию медицинского оборудования и фармацевты",
+    "parent_code": "32",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3211",
+    "title": "Техники по обслуживанию медицинского оборудования",
+    "parent_code": "321",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3214",
+    "title": "Зубные техники и техники-протезисты",
+    "parent_code": "321",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "322",
+    "title": "Средний медицинский персонал по уходу и акушерству",
+    "parent_code": "32",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3221",
+    "title": "Средний медицинский персонал по уходу",
+    "parent_code": "322",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3314",
+    "title": "Техники-статистики и персонал родственных занятий, связанных с проведением математических расчетов и вычислений",
+    "parent_code": "331",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "333",
+    "title": "Агенты по коммерческим услугам",
+    "parent_code": "33",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3339",
+    "title": "Агенты по коммерческим услугам, не входящие в другие группы",
+    "parent_code": "333",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "341",
+    "title": "Средний специальный персонал по юридическим, социальным услугам и религии",
+    "parent_code": "34",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "35",
+    "title": "Специалисты-техники в области информационно-коммуникационных технологий (ИКТ)",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "351",
+    "title": "Специалисты-техники по эксплуатации ИКТ и по поддержке пользователей ИКТ",
+    "parent_code": "35",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3511",
+    "title": "Специалисты-техники по эксплуатации ИКТ",
+    "parent_code": "351",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3512",
+    "title": "Специалисты-техники по поддержке пользователей ИКТ",
+    "parent_code": "351",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3513",
+    "title": "Специалисты-техники по компьютерным сетям и системам",
+    "parent_code": "351",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3514",
+    "title": "Специалисты-техники по Web",
+    "parent_code": "351",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "352",
+    "title": "Специалисты-техники по телекоммуникациям и радиовещанию",
+    "parent_code": "35",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3521",
+    "title": "Специалисты-техники по радио- и телевещанию",
+    "parent_code": "352",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "3522",
+    "title": "Специалисты-техники по телекоммуникационному оборудованию",
+    "parent_code": "352",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "51",
+    "title": "Работники сферы индивидуальных услуг",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "516",
+    "title": "Другие работники, оказывающие индивидуальные услуги",
+    "parent_code": "51",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "5163",
+    "title": "Работники ритуальных услуг",
+    "parent_code": "516",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "5169",
+    "title": "Работники, оказывающие индивидуальные услуги, не входящие в другие группы",
+    "parent_code": "516",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "53",
+    "title": "Работники, оказывающие услуги по индивидуальному уходу",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "531",
+    "title": "Работники по уходу за детьми и помощники учителей",
+    "parent_code": "53",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "5311",
+    "title": "Работники по уходу за детьми",
+    "parent_code": "531",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "532",
+    "title": "Работники, оказывающие индивидуальные услуги по уходу за больными",
+    "parent_code": "53",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "5321",
+    "title": "Помощники по уходу за больными",
+    "parent_code": "532",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "5322",
+    "title": "Работники, оказывающие индивидуальные услуги по уходу за больными на дому",
+    "parent_code": "532",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "5329",
+    "title": "Работники, оказывающие индивидуальные услуги по уходу за больными, не входящие в другие группы",
+    "parent_code": "532",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "611",
+    "title": "Товарные производители огородных, плодовых и полевых культур",
+    "parent_code": "61",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "6112",
+    "title": "Производители плодово-ягодной продукции",
+    "parent_code": "611",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "6114",
+    "title": "Производители смешанной растениеводческой продукции",
+    "parent_code": "611",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "612",
+    "title": "Товарные производители продукции животноводства",
+    "parent_code": "61",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "6121",
+    "title": "Производители мясной и молочной продукции",
+    "parent_code": "612",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "6129",
+    "title": "Товарные производители продукции животноводства, не входящие в другие группы",
+    "parent_code": "612",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "613",
+    "title": "Товарные производители смешанной растениеводческой и животноводческой продукции",
+    "parent_code": "61",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "6130",
+    "title": "Товарные производители смешанной растениеводческой и животноводческой продукции",
+    "parent_code": "613",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "62",
+    "title": "Товарные производители лесной и рыбной продукции и охотники",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "71",
+    "title": "Рабочие, занятые в строительстве, и рабочие родственных занятий (за исключением электриков)",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "711",
+    "title": "Рабочие строительных и родственных занятий",
+    "parent_code": "71",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7111",
+    "title": "Строители зданий",
+    "parent_code": "711",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7112",
+    "title": "Каменщики (по кирпичу и камню) и рабочие родственных занятий",
+    "parent_code": "711",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7114",
+    "title": "Бетоноукладчики, бетоноотделочники и рабочие родственных занятий",
+    "parent_code": "711",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7119",
+    "title": "Строители и рабочие родственных занятий, не входящие в другие группы",
+    "parent_code": "711",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "712",
+    "title": "Рабочие-отделочники и рабочие родственных занятий",
+    "parent_code": "71",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7126",
+    "title": "Слесари-сантехники и слесари-трубопроводчики",
+    "parent_code": "712",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "713",
+    "title": "Маляры, рабочие по очистке поверхностей зданий и сооружений и родственных занятий",
+    "parent_code": "71",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7131",
+    "title": "Маляры и рабочие родственных занятий",
+    "parent_code": "713",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7133",
+    "title": "Рабочие по очистке поверхностей зданий и сооружений",
+    "parent_code": "713",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "72",
+    "title": "Рабочие, занятые в металлообрабатывающем и машиностроительном производстве, механики и ремонтники",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "721",
+    "title": "Формовщики, сварщики, вальцовщики, подготовители конструкционного металла и рабочие родственных занятий",
+    "parent_code": "72",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "722",
+    "title": "Кузнецы, слесари-инструментальщики, станочники, наладчики и рабочие родственных занятий",
+    "parent_code": "72",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7222",
+    "title": "Слесари-инструментальщики и рабочие родственных занятий",
+    "parent_code": "722",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "723",
+    "title": "Механики и ремонтники транспортных средств, сельскохозяйственного и производственного оборудования и рабочие родственных занятий",
+    "parent_code": "72",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7231",
+    "title": "Механики и ремонтники автотранспортных средств",
+    "parent_code": "723",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7232",
+    "title": "Механики и ремонтники летательных аппаратов, судов и железнодорожного подвижного состава",
+    "parent_code": "723",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7233",
+    "title": "Механики и ремонтники сельскохозяйственного и производственного оборудования",
+    "parent_code": "723",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7234",
+    "title": "Ремонтники велосипедов и рабочие родственных занятий",
+    "parent_code": "723",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "73",
+    "title": "Рабочие, занятые изготовлением прецизионных инструментов и приборов, рабочие художественных промыслов и полиграфического производства",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "731",
+    "title": "Рабочие, занятые изготовлением прецизионных инструментов и приборов, рабочие художественных промыслов",
+    "parent_code": "73",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7311",
+    "title": "Рабочие, занятые изготовлением и ремонтом прецизионных инструментов и приборов",
+    "parent_code": "731",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7314",
+    "title": "Гончары и рабочие родственных занятий",
+    "parent_code": "731",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7317",
+    "title": "Рабочие художественных промыслов, изготавливающие плетеные изделия, изделия из дерева и аналогичных материалов",
+    "parent_code": "731",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7318",
+    "title": "Рабочие художественных промыслов, изготавливающие изделия из текстиля, кожи, меха и аналогичных материалов",
+    "parent_code": "731",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7319",
+    "title": "Квалифицированные рабочие ручного труда, не входящие в другие группы",
+    "parent_code": "731",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "732",
+    "title": "Рабочие полиграфического производства",
+    "parent_code": "73",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7321",
+    "title": "Рабочие допечатной стадии полиграфического производства",
+    "parent_code": "732",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "74",
+    "title": "Рабочие в области электротехники и электроники",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "741",
+    "title": "Электромонтажники и ремонтники электрического оборудования",
+    "parent_code": "74",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7411",
+    "title": "Электрики в строительстве и рабочие родственных занятий",
+    "parent_code": "741",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7413",
+    "title": "Монтажники и ремонтники линий электропередач",
+    "parent_code": "741",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "742",
+    "title": "Монтажники и ремонтники электронного и телекоммуникационного оборудования",
+    "parent_code": "74",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7421",
+    "title": "Механики по ремонту и обслуживанию электронного оборудования",
+    "parent_code": "742",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7422",
+    "title": "Монтажники и ремонтники по обслуживанию ИКТ и устройств связи",
+    "parent_code": "742",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "75",
+    "title": "Рабочие пищевой, деревообрабатывающей, текстильной и швейной промышленности и рабочие родственных занятий",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "751",
+    "title": "Рабочие пищевой промышленности и рабочие родственных занятий",
+    "parent_code": "75",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7516",
+    "title": "Подготовители и производители табачной продукции",
+    "parent_code": "751",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "752",
+    "title": "Деревообработчики, краснодеревщики и рабочие родственных занятий",
+    "parent_code": "75",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7521",
+    "title": "Рабочие, занятые на первоначальной обработке древесины",
+    "parent_code": "752",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7522",
+    "title": "Краснодеревщики и рабочие родственных занятий",
+    "parent_code": "752",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "753",
+    "title": "Рабочие ручного труда, производящие одежду и обувь",
+    "parent_code": "75",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7533",
+    "title": "Швеи, вышивальщицы и рабочие родственных занятий",
+    "parent_code": "753",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7534",
+    "title": "Обойщики мебели и рабочие родственных занятий",
+    "parent_code": "753",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "754",
+    "title": "Другие квалифицированные рабочие, занятые в промышленности, и рабочие родственных занятий",
+    "parent_code": "75",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7542",
+    "title": "Взрывники и запальщики и рабочие родственных занятий",
+    "parent_code": "754",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7544",
+    "title": "Фумигаторщики и другие рабочие по борьбе с вредителями и сорняками",
+    "parent_code": "754",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "7549",
+    "title": "Квалифицированные рабочие промышленности и рабочие родственных занятий, не входящие в другие группы",
+    "parent_code": "754",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "8113",
+    "title": "Бурильщики скважин и колодцев и рабочие родственных занятий",
+    "parent_code": "811",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "83",
+    "title": "Водители и операторы подвижного оборудования",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "831",
+    "title": "Машинисты локомотивов и рабочие родственных занятий",
+    "parent_code": "83",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "8312",
+    "title": "Рабочие, обеспечивающие безопасность движения и формирование поездов на железнодорожных станциях",
+    "parent_code": "831",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "832",
+    "title": "Водители легковых автомобилей, фургонов и мотоциклов",
+    "parent_code": "83",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "8321",
+    "title": "Водители мототранспортных средств",
+    "parent_code": "832",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "8322",
+    "title": "Водители легковых автомобилей, такси и фургонов",
+    "parent_code": "832",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "833",
+    "title": "Водители грузового и пассажирского транспорта",
+    "parent_code": "83",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "8331",
+    "title": "Водители пассажирского транспорта (автобусов, троллейбусов и трамваев)",
+    "parent_code": "833",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "8332",
+    "title": "Водители грузового транспорта",
+    "parent_code": "833",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "835",
+    "title": "Члены судовых команд и рабочие родственных занятий",
+    "parent_code": "83",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "8350",
+    "title": "Члены судовых команд и рабочие родственных занятий",
+    "parent_code": "835",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "92",
+    "title": "Неквалифицированные рабочие сельского и лесного хозяйства, рыбоводства и рыболовства",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "921",
+    "title": "Неквалифицированные рабочие сельского и лесного хозяйства, рыбоводства и рыболовства",
+    "parent_code": "92",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9211",
+    "title": "Неквалифицированные рабочие в растениеводстве",
+    "parent_code": "921",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9212",
+    "title": "Неквалифицированные рабочие в животноводстве",
+    "parent_code": "921",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9213",
+    "title": "Неквалифицированные рабочие в производстве смешанной растениеводческой и животноводческой продукции",
+    "parent_code": "921",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9214",
+    "title": "Неквалифицированные рабочие в садоводстве",
+    "parent_code": "921",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9215",
+    "title": "Неквалифицированные рабочие в лесоводстве",
+    "parent_code": "921",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9216",
+    "title": "Неквалифицированные рабочие рыбоводства, рыболовства и производства морепродуктов",
+    "parent_code": "921",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "93",
+    "title": "Неквалифицированные рабочие, занятые в горнодобывающей промышленности, строительстве, обрабатывающей промышленности и на транспорте",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "931",
+    "title": "Неквалифицированные рабочие, занятые в горнодобывающей промышленности и строительстве",
+    "parent_code": "93",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9311",
+    "title": "Неквалифицированные рабочие, занятые в горнодобывающей промышленности и разработке карьеров",
+    "parent_code": "931",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9312",
+    "title": "Неквалифицированные рабочие, занятые на строительстве и ремонте дорог, плотин и аналогичных гражданских сооружений",
+    "parent_code": "931",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9313",
+    "title": "Неквалифицированные рабочие, занятые на строительстве зданий",
+    "parent_code": "931",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "932",
+    "title": "Неквалифицированные рабочие, занятые в обрабатывающей промышленности",
+    "parent_code": "93",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9329",
+    "title": "Неквалифицированные рабочие, занятые в обрабатывающей промышленности, не входящие в другие группы",
+    "parent_code": "932",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "933",
+    "title": "Неквалифицированные рабочие, занятые на транспорте и в хранении",
+    "parent_code": "93",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9331",
+    "title": "Рабочие, управляющие транспортными средствами с ручным и педальным управлением",
+    "parent_code": "933",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9332",
+    "title": "Извозчики, рабочие, управляющие транспортными средствами на тягловой силе, и другие неквалифицированные рабочие, занятые на транспорте",
+    "parent_code": "933",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "95",
+    "title": "Уличные торговцы и другие неквалифицированные работники, оказывающие различные уличные услуги",
+    "parent_code": null,
+    "group_level": "major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "951",
+    "title": "Неквалифицированные работники, оказывающие различные уличные услуги",
+    "parent_code": "95",
+    "group_level": "sub_major_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9510",
+    "title": "Неквалифицированные работники, оказывающие различные уличные услуги",
+    "parent_code": "951",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  },
+  {
+    "code": "9622",
+    "title": "Разнорабочие",
+    "parent_code": "962",
+    "group_level": "minor_group",
+    "source_url": "https://classifikators.ru/okz",
+    "source_status": "mirror_unofficial",
+    "source_file": "okz_classifikators.xlsx",
+    "candidate_type": "occupation"
+  }
+]
