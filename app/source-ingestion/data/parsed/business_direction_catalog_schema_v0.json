@@ -1,0 +1,528 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Business Direction Catalog v0",
+  "description": "Schema for deterministic business direction catalog derived from source ingestion pipeline",
+  "type": "object",
+  "properties": {
+    "catalog_version": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source_pipeline_version": {
+      "type": "string"
+    },
+    "human_review_completed": {
+      "type": "boolean"
+    },
+    "not_final_catalog": {
+      "type": "boolean"
+    },
+    "not_user_recommendation": {
+      "type": "boolean"
+    },
+    "directions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/BusinessDirection"
+      }
+    }
+  },
+  "required": [
+    "catalog_version",
+    "schema_version",
+    "directions"
+  ],
+  "definitions": {
+    "BusinessDirection": {
+      "type": "object",
+      "properties": {
+        "direction_id": {
+          "type": "string"
+        },
+        "candidate_key": {
+          "type": "string"
+        },
+        "title_ru": {
+          "type": "string"
+        },
+        "short_description_ru": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft_from_reviewed_bridge",
+            "needs_more_source",
+            "rejected_for_now",
+            "approved_after_human_review"
+          ]
+        },
+        "human_review_required": {
+          "type": "boolean"
+        },
+        "not_final_catalog": {
+          "type": "boolean"
+        },
+        "not_user_recommendation": {
+          "type": "boolean"
+        },
+        "source_bridge_candidate_key": {
+          "type": "string"
+        },
+        "source_bridge_review_status": {
+          "type": "string"
+        },
+        "source_layers_used": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_matches_summary": {
+          "type": "object"
+        },
+        "source_match_refs": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "source_gaps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "mirror_sources_used": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "official_sources_used": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "blocked_sources_not_used": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "npd_applicability": {
+          "$ref": "#/definitions/NpdApplicability"
+        },
+        "social_contract_fit": {
+          "$ref": "#/definitions/SocialContractFit"
+        },
+        "person_fit_gates": {
+          "$ref": "#/definitions/PersonFitGates"
+        },
+        "training_requirements": {
+          "$ref": "#/definitions/TrainingRequirements"
+        },
+        "market_validation": {
+          "$ref": "#/definitions/MarketValidation"
+        },
+        "procurement_validation": {
+          "$ref": "#/definitions/ProcurementValidation"
+        },
+        "ads_unit_economics": {
+          "$ref": "#/definitions/AdsUnitEconomics"
+        },
+        "questionnaire_mapping": {
+          "$ref": "#/definitions/QuestionnaireMapping"
+        },
+        "scoring_config": {
+          "$ref": "#/definitions/ScoringConfig"
+        },
+        "review_status": {
+          "type": "string"
+        },
+        "review_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "created_from_sources_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "direction_id",
+        "candidate_key",
+        "title_ru",
+        "status",
+        "human_review_required"
+      ]
+    },
+    "NpdApplicability": {
+      "type": "object",
+      "properties": {
+        "can_use_npd_preliminary": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "npd_hard_filters": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "resale_risk": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "employee_risk": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "marked_goods_risk": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "agency_risk": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "income_limit_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "legal_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "needs_legal_review": {
+          "type": "boolean"
+        }
+      }
+    },
+    "SocialContractFit": {
+      "type": "object",
+      "properties": {
+        "eligible_for_business_plan_draft": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "typical_capex_items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "forbidden_or_risky_expenses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "regional_template_required": {
+          "type": "boolean"
+        },
+        "commission_risk_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "needs_regional_rule_check": {
+          "type": "boolean"
+        }
+      }
+    },
+    "PersonFitGates": {
+      "type": "object",
+      "properties": {
+        "requires_car": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "requires_travel_to_client": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "requires_home_workspace": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "requires_client_contact": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "requires_physical_load": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "requires_tools": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "requires_training_before_launch": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "beginner_risk_level": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hard_stop_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "soft_penalty_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "TrainingRequirements": {
+      "type": "object",
+      "properties": {
+        "training_required": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "minimum_learning_time": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "practice_required": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "minimum_practice_jobs": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "unsafe_for_beginner_services": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "training_source_required": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "MarketValidation": {
+      "type": "object",
+      "properties": {
+        "avito_check_required": {
+          "type": "boolean"
+        },
+        "competitor_count_source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "price_range_source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "market_evidence_status": {
+          "type": "string"
+        },
+        "market_check_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ProcurementValidation": {
+      "type": "object",
+      "properties": {
+        "procurement_check_required": {
+          "type": "boolean"
+        },
+        "must_have_items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "optional_items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_links_required": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "procurement_evidence_status": {
+          "type": "string"
+        }
+      }
+    },
+    "AdsUnitEconomics": {
+      "type": "object",
+      "properties": {
+        "ads_check_required": {
+          "type": "boolean"
+        },
+        "expected_channels": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "drr_required": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "unit_economics_required": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "assumptions_allowed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "missing_data": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "QuestionnaireMapping": {
+      "type": "object",
+      "properties": {
+        "positive_signals": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "negative_signals": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hard_stop_answers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "soft_score_answers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "required_user_inputs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ScoringConfig": {
+      "type": "object",
+      "properties": {
+        "hard_filters": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "soft_score_weights": {
+          "type": "object"
+        },
+        "minimum_score_to_show": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "explainability_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

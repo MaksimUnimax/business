@@ -1,0 +1,1289 @@
+{
+  "catalog_version": "0.1.0",
+  "schema_version": "0.1.0",
+  "generated_at": "2026-06-17T12:15:38.307520+00:00",
+  "source_pipeline_version": "v4.1",
+  "human_review_completed": true,
+  "not_final_catalog": true,
+  "not_user_recommendation": true,
+  "directions": [
+    {
+      "direction_id": "dir_furniture_assembly",
+      "candidate_key": "furniture_assembly",
+      "title_ru": "Сборка и ремонт мебели",
+      "short_description_ru": "Сборка, установка и ремонт мебели на дому или в мастерской",
+      "status": "draft_from_reviewed_bridge",
+      "human_review_required": true,
+      "not_final_catalog": true,
+      "not_user_recommendation": true,
+      "source_bridge_candidate_key": "furniture_assembly",
+      "source_bridge_review_status": "accepted_for_catalog_schema",
+      "source_layers_used": [
+        "okved2_rosstat"
+      ],
+      "source_matches_summary": {
+        "okved_accepted": 3,
+        "okved_rejected": 9,
+        "profstandards_accepted": 0,
+        "profstandards_rejected": 0,
+        "okpd2_accepted": 0,
+        "okpd2_rejected": 0,
+        "okz_accepted": 0,
+        "okz_rejected": 0
+      },
+      "source_match_refs": [],
+      "source_gaps": [
+        "no accepted OKPD2 matches"
+      ],
+      "mirror_sources_used": [],
+      "official_sources_used": [
+        "okved2_rosstat"
+      ],
+      "blocked_sources_not_used": [
+        "okpd2_official",
+        "okz_official",
+        "okpdtr_all",
+        "trudvsem_api",
+        "social_contract",
+        "etks_mintrud"
+      ],
+      "npd_applicability": {
+        "can_use_npd_preliminary": null,
+        "npd_hard_filters": [
+          "8 hard-filter rules from npd_nalog"
+        ],
+        "resale_risk": "needs_validation",
+        "employee_risk": "needs_validation",
+        "marked_goods_risk": "needs_validation",
+        "agency_risk": "needs_validation",
+        "income_limit_note": "needs_validation",
+        "legal_notes": [
+          "NPD rules attached but specific applicability requires legal review"
+        ],
+        "needs_legal_review": true
+      },
+      "social_contract_fit": {
+        "eligible_for_business_plan_draft": null,
+        "typical_capex_items": [],
+        "forbidden_or_risky_expenses": [],
+        "regional_template_required": true,
+        "commission_risk_notes": [],
+        "needs_regional_rule_check": true
+      },
+      "person_fit_gates": {
+        "requires_car": null,
+        "requires_travel_to_client": null,
+        "requires_home_workspace": null,
+        "requires_client_contact": null,
+        "requires_physical_load": null,
+        "requires_tools": null,
+        "requires_training_before_launch": null,
+        "beginner_risk_level": "needs_validation",
+        "hard_stop_conditions": [],
+        "soft_penalty_conditions": []
+      },
+      "training_requirements": {
+        "training_required": null,
+        "minimum_learning_time": null,
+        "practice_required": null,
+        "minimum_practice_jobs": null,
+        "unsafe_for_beginner_services": [],
+        "training_source_required": "needs_validation"
+      },
+      "market_validation": {
+        "avito_check_required": true,
+        "competitor_count_source": null,
+        "price_range_source": null,
+        "market_evidence_status": "missing_data",
+        "market_check_notes": []
+      },
+      "procurement_validation": {
+        "procurement_check_required": true,
+        "must_have_items": [],
+        "optional_items": [],
+        "source_links_required": [],
+        "procurement_evidence_status": "missing_data"
+      },
+      "ads_unit_economics": {
+        "ads_check_required": true,
+        "expected_channels": [],
+        "drr_required": null,
+        "unit_economics_required": null,
+        "assumptions_allowed": [],
+        "missing_data": [
+          "all market/procurement/ads data missing"
+        ]
+      },
+      "questionnaire_mapping": {
+        "positive_signals": [],
+        "negative_signals": [],
+        "hard_stop_answers": [],
+        "soft_score_answers": [],
+        "required_user_inputs": []
+      },
+      "scoring_config": {
+        "hard_filters": [],
+        "soft_score_weights": {},
+        "minimum_score_to_show": null,
+        "explainability_fields": []
+      },
+      "review_status": "accepted_for_catalog_schema",
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "created_from_sources_at": "2026-06-17T12:15:38.307095+00:00",
+      "updated_at": "2026-06-17T12:15:38.307095+00:00"
+    },
+    {
+      "direction_id": "dir_cleaning_services",
+      "candidate_key": "cleaning_services",
+      "title_ru": "Клининговые и уборочные услуги",
+      "short_description_ru": "Клининговые, уборочные и стирочные услуги для физических и юридических лиц",
+      "status": "draft_from_reviewed_bridge",
+      "human_review_required": true,
+      "not_final_catalog": true,
+      "not_user_recommendation": true,
+      "source_bridge_candidate_key": "cleaning_services",
+      "source_bridge_review_status": "accepted_for_catalog_schema",
+      "source_layers_used": [
+        "okved2_rosstat",
+        "okpd2_mirror"
+      ],
+      "source_matches_summary": {
+        "okved_accepted": 2,
+        "okved_rejected": 0,
+        "profstandards_accepted": 0,
+        "profstandards_rejected": 0,
+        "okpd2_accepted": 1,
+        "okpd2_rejected": 0,
+        "okz_accepted": 0,
+        "okz_rejected": 0
+      },
+      "source_match_refs": [],
+      "source_gaps": [],
+      "mirror_sources_used": [
+        "okpd2_mirror"
+      ],
+      "official_sources_used": [
+        "okved2_rosstat"
+      ],
+      "blocked_sources_not_used": [
+        "okpd2_official",
+        "okz_official",
+        "okpdtr_all",
+        "trudvsem_api",
+        "social_contract",
+        "etks_mintrud"
+      ],
+      "npd_applicability": {
+        "can_use_npd_preliminary": null,
+        "npd_hard_filters": [
+          "8 hard-filter rules from npd_nalog"
+        ],
+        "resale_risk": "needs_validation",
+        "employee_risk": "needs_validation",
+        "marked_goods_risk": "needs_validation",
+        "agency_risk": "needs_validation",
+        "income_limit_note": "needs_validation",
+        "legal_notes": [
+          "NPD rules attached but specific applicability requires legal review"
+        ],
+        "needs_legal_review": true
+      },
+      "social_contract_fit": {
+        "eligible_for_business_plan_draft": null,
+        "typical_capex_items": [],
+        "forbidden_or_risky_expenses": [],
+        "regional_template_required": true,
+        "commission_risk_notes": [],
+        "needs_regional_rule_check": true
+      },
+      "person_fit_gates": {
+        "requires_car": null,
+        "requires_travel_to_client": null,
+        "requires_home_workspace": null,
+        "requires_client_contact": null,
+        "requires_physical_load": null,
+        "requires_tools": null,
+        "requires_training_before_launch": null,
+        "beginner_risk_level": "needs_validation",
+        "hard_stop_conditions": [],
+        "soft_penalty_conditions": []
+      },
+      "training_requirements": {
+        "training_required": null,
+        "minimum_learning_time": null,
+        "practice_required": null,
+        "minimum_practice_jobs": null,
+        "unsafe_for_beginner_services": [],
+        "training_source_required": "needs_validation"
+      },
+      "market_validation": {
+        "avito_check_required": true,
+        "competitor_count_source": null,
+        "price_range_source": null,
+        "market_evidence_status": "missing_data",
+        "market_check_notes": []
+      },
+      "procurement_validation": {
+        "procurement_check_required": true,
+        "must_have_items": [],
+        "optional_items": [],
+        "source_links_required": [],
+        "procurement_evidence_status": "missing_data"
+      },
+      "ads_unit_economics": {
+        "ads_check_required": true,
+        "expected_channels": [],
+        "drr_required": null,
+        "unit_economics_required": null,
+        "assumptions_allowed": [],
+        "missing_data": [
+          "all market/procurement/ads data missing"
+        ]
+      },
+      "questionnaire_mapping": {
+        "positive_signals": [],
+        "negative_signals": [],
+        "hard_stop_answers": [],
+        "soft_score_answers": [],
+        "required_user_inputs": []
+      },
+      "scoring_config": {
+        "hard_filters": [],
+        "soft_score_weights": {},
+        "minimum_score_to_show": null,
+        "explainability_fields": []
+      },
+      "review_status": "accepted_for_catalog_schema",
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "created_from_sources_at": "2026-06-17T12:15:38.307172+00:00",
+      "updated_at": "2026-06-17T12:15:38.307172+00:00"
+    },
+    {
+      "direction_id": "dir_clothing_repair_sewing",
+      "candidate_key": "clothing_repair_sewing",
+      "title_ru": "Ремонт и пошив одежды",
+      "short_description_ru": "Ремонт, пошив и переделка одежды и текстильных изделий",
+      "status": "draft_from_reviewed_bridge",
+      "human_review_required": true,
+      "not_final_catalog": true,
+      "not_user_recommendation": true,
+      "source_bridge_candidate_key": "clothing_repair_sewing",
+      "source_bridge_review_status": "accepted_for_catalog_schema",
+      "source_layers_used": [
+        "okved2_rosstat",
+        "okpd2_mirror"
+      ],
+      "source_matches_summary": {
+        "okved_accepted": 6,
+        "okved_rejected": 13,
+        "profstandards_accepted": 0,
+        "profstandards_rejected": 0,
+        "okpd2_accepted": 13,
+        "okpd2_rejected": 0,
+        "okz_accepted": 0,
+        "okz_rejected": 0
+      },
+      "source_match_refs": [],
+      "source_gaps": [],
+      "mirror_sources_used": [
+        "okpd2_mirror"
+      ],
+      "official_sources_used": [
+        "okved2_rosstat"
+      ],
+      "blocked_sources_not_used": [
+        "okpd2_official",
+        "okz_official",
+        "okpdtr_all",
+        "trudvsem_api",
+        "social_contract",
+        "etks_mintrud"
+      ],
+      "npd_applicability": {
+        "can_use_npd_preliminary": null,
+        "npd_hard_filters": [
+          "8 hard-filter rules from npd_nalog"
+        ],
+        "resale_risk": "needs_validation",
+        "employee_risk": "needs_validation",
+        "marked_goods_risk": "needs_validation",
+        "agency_risk": "needs_validation",
+        "income_limit_note": "needs_validation",
+        "legal_notes": [
+          "NPD rules attached but specific applicability requires legal review"
+        ],
+        "needs_legal_review": true
+      },
+      "social_contract_fit": {
+        "eligible_for_business_plan_draft": null,
+        "typical_capex_items": [],
+        "forbidden_or_risky_expenses": [],
+        "regional_template_required": true,
+        "commission_risk_notes": [],
+        "needs_regional_rule_check": true
+      },
+      "person_fit_gates": {
+        "requires_car": null,
+        "requires_travel_to_client": null,
+        "requires_home_workspace": null,
+        "requires_client_contact": null,
+        "requires_physical_load": null,
+        "requires_tools": null,
+        "requires_training_before_launch": null,
+        "beginner_risk_level": "needs_validation",
+        "hard_stop_conditions": [],
+        "soft_penalty_conditions": []
+      },
+      "training_requirements": {
+        "training_required": null,
+        "minimum_learning_time": null,
+        "practice_required": null,
+        "minimum_practice_jobs": null,
+        "unsafe_for_beginner_services": [],
+        "training_source_required": "needs_validation"
+      },
+      "market_validation": {
+        "avito_check_required": true,
+        "competitor_count_source": null,
+        "price_range_source": null,
+        "market_evidence_status": "missing_data",
+        "market_check_notes": []
+      },
+      "procurement_validation": {
+        "procurement_check_required": true,
+        "must_have_items": [],
+        "optional_items": [],
+        "source_links_required": [],
+        "procurement_evidence_status": "missing_data"
+      },
+      "ads_unit_economics": {
+        "ads_check_required": true,
+        "expected_channels": [],
+        "drr_required": null,
+        "unit_economics_required": null,
+        "assumptions_allowed": [],
+        "missing_data": [
+          "all market/procurement/ads data missing"
+        ]
+      },
+      "questionnaire_mapping": {
+        "positive_signals": [],
+        "negative_signals": [],
+        "hard_stop_answers": [],
+        "soft_score_answers": [],
+        "required_user_inputs": []
+      },
+      "scoring_config": {
+        "hard_filters": [],
+        "soft_score_weights": {},
+        "minimum_score_to_show": null,
+        "explainability_fields": []
+      },
+      "review_status": "accepted_for_catalog_schema",
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "created_from_sources_at": "2026-06-17T12:15:38.307206+00:00",
+      "updated_at": "2026-06-17T12:15:38.307206+00:00"
+    },
+    {
+      "direction_id": "dir_shoe_repair",
+      "candidate_key": "shoe_repair",
+      "title_ru": "Ремонт обуви",
+      "short_description_ru": "Ремонт обуви, замена подошв, пошив обуви по индивидуальному заказу",
+      "status": "draft_from_reviewed_bridge",
+      "human_review_required": true,
+      "not_final_catalog": true,
+      "not_user_recommendation": true,
+      "source_bridge_candidate_key": "shoe_repair",
+      "source_bridge_review_status": "accepted_for_catalog_schema",
+      "source_layers_used": [
+        "okved2_rosstat",
+        "okpd2_mirror"
+      ],
+      "source_matches_summary": {
+        "okved_accepted": 1,
+        "okved_rejected": 0,
+        "profstandards_accepted": 0,
+        "profstandards_rejected": 0,
+        "okpd2_accepted": 20,
+        "okpd2_rejected": 0,
+        "okz_accepted": 0,
+        "okz_rejected": 0
+      },
+      "source_match_refs": [],
+      "source_gaps": [],
+      "mirror_sources_used": [
+        "okpd2_mirror"
+      ],
+      "official_sources_used": [
+        "okved2_rosstat"
+      ],
+      "blocked_sources_not_used": [
+        "okpd2_official",
+        "okz_official",
+        "okpdtr_all",
+        "trudvsem_api",
+        "social_contract",
+        "etks_mintrud"
+      ],
+      "npd_applicability": {
+        "can_use_npd_preliminary": null,
+        "npd_hard_filters": [
+          "8 hard-filter rules from npd_nalog"
+        ],
+        "resale_risk": "needs_validation",
+        "employee_risk": "needs_validation",
+        "marked_goods_risk": "needs_validation",
+        "agency_risk": "needs_validation",
+        "income_limit_note": "needs_validation",
+        "legal_notes": [
+          "NPD rules attached but specific applicability requires legal review"
+        ],
+        "needs_legal_review": true
+      },
+      "social_contract_fit": {
+        "eligible_for_business_plan_draft": null,
+        "typical_capex_items": [],
+        "forbidden_or_risky_expenses": [],
+        "regional_template_required": true,
+        "commission_risk_notes": [],
+        "needs_regional_rule_check": true
+      },
+      "person_fit_gates": {
+        "requires_car": null,
+        "requires_travel_to_client": null,
+        "requires_home_workspace": null,
+        "requires_client_contact": null,
+        "requires_physical_load": null,
+        "requires_tools": null,
+        "requires_training_before_launch": null,
+        "beginner_risk_level": "needs_validation",
+        "hard_stop_conditions": [],
+        "soft_penalty_conditions": []
+      },
+      "training_requirements": {
+        "training_required": null,
+        "minimum_learning_time": null,
+        "practice_required": null,
+        "minimum_practice_jobs": null,
+        "unsafe_for_beginner_services": [],
+        "training_source_required": "needs_validation"
+      },
+      "market_validation": {
+        "avito_check_required": true,
+        "competitor_count_source": null,
+        "price_range_source": null,
+        "market_evidence_status": "missing_data",
+        "market_check_notes": []
+      },
+      "procurement_validation": {
+        "procurement_check_required": true,
+        "must_have_items": [],
+        "optional_items": [],
+        "source_links_required": [],
+        "procurement_evidence_status": "missing_data"
+      },
+      "ads_unit_economics": {
+        "ads_check_required": true,
+        "expected_channels": [],
+        "drr_required": null,
+        "unit_economics_required": null,
+        "assumptions_allowed": [],
+        "missing_data": [
+          "all market/procurement/ads data missing"
+        ]
+      },
+      "questionnaire_mapping": {
+        "positive_signals": [],
+        "negative_signals": [],
+        "hard_stop_answers": [],
+        "soft_score_answers": [],
+        "required_user_inputs": []
+      },
+      "scoring_config": {
+        "hard_filters": [],
+        "soft_score_weights": {},
+        "minimum_score_to_show": null,
+        "explainability_fields": []
+      },
+      "review_status": "accepted_for_catalog_schema",
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "created_from_sources_at": "2026-06-17T12:15:38.307241+00:00",
+      "updated_at": "2026-06-17T12:15:38.307241+00:00"
+    },
+    {
+      "direction_id": "dir_appliance_repair",
+      "candidate_key": "appliance_repair",
+      "title_ru": "Ремонт бытовой техники и электроники",
+      "short_description_ru": "Ремонт бытовой техники, электроники и оборудования",
+      "status": "draft_from_reviewed_bridge",
+      "human_review_required": true,
+      "not_final_catalog": true,
+      "not_user_recommendation": true,
+      "source_bridge_candidate_key": "appliance_repair",
+      "source_bridge_review_status": "accepted_for_catalog_schema",
+      "source_layers_used": [
+        "okz_mirror"
+      ],
+      "source_matches_summary": {
+        "okved_accepted": 0,
+        "okved_rejected": 0,
+        "profstandards_accepted": 0,
+        "profstandards_rejected": 0,
+        "okpd2_accepted": 0,
+        "okpd2_rejected": 0,
+        "okz_accepted": 8,
+        "okz_rejected": 0
+      },
+      "source_match_refs": [],
+      "source_gaps": [
+        "no accepted OKVED matches",
+        "no accepted OKPD2 matches"
+      ],
+      "mirror_sources_used": [
+        "okz_mirror"
+      ],
+      "official_sources_used": [],
+      "blocked_sources_not_used": [
+        "okpd2_official",
+        "okz_official",
+        "okpdtr_all",
+        "trudvsem_api",
+        "social_contract",
+        "etks_mintrud"
+      ],
+      "npd_applicability": {
+        "can_use_npd_preliminary": null,
+        "npd_hard_filters": [
+          "8 hard-filter rules from npd_nalog"
+        ],
+        "resale_risk": "needs_validation",
+        "employee_risk": "needs_validation",
+        "marked_goods_risk": "needs_validation",
+        "agency_risk": "needs_validation",
+        "income_limit_note": "needs_validation",
+        "legal_notes": [
+          "NPD rules attached but specific applicability requires legal review"
+        ],
+        "needs_legal_review": true
+      },
+      "social_contract_fit": {
+        "eligible_for_business_plan_draft": null,
+        "typical_capex_items": [],
+        "forbidden_or_risky_expenses": [],
+        "regional_template_required": true,
+        "commission_risk_notes": [],
+        "needs_regional_rule_check": true
+      },
+      "person_fit_gates": {
+        "requires_car": null,
+        "requires_travel_to_client": null,
+        "requires_home_workspace": null,
+        "requires_client_contact": null,
+        "requires_physical_load": null,
+        "requires_tools": null,
+        "requires_training_before_launch": null,
+        "beginner_risk_level": "needs_validation",
+        "hard_stop_conditions": [],
+        "soft_penalty_conditions": []
+      },
+      "training_requirements": {
+        "training_required": null,
+        "minimum_learning_time": null,
+        "practice_required": null,
+        "minimum_practice_jobs": null,
+        "unsafe_for_beginner_services": [],
+        "training_source_required": "needs_validation"
+      },
+      "market_validation": {
+        "avito_check_required": true,
+        "competitor_count_source": null,
+        "price_range_source": null,
+        "market_evidence_status": "missing_data",
+        "market_check_notes": []
+      },
+      "procurement_validation": {
+        "procurement_check_required": true,
+        "must_have_items": [],
+        "optional_items": [],
+        "source_links_required": [],
+        "procurement_evidence_status": "missing_data"
+      },
+      "ads_unit_economics": {
+        "ads_check_required": true,
+        "expected_channels": [],
+        "drr_required": null,
+        "unit_economics_required": null,
+        "assumptions_allowed": [],
+        "missing_data": [
+          "all market/procurement/ads data missing"
+        ]
+      },
+      "questionnaire_mapping": {
+        "positive_signals": [],
+        "negative_signals": [],
+        "hard_stop_answers": [],
+        "soft_score_answers": [],
+        "required_user_inputs": []
+      },
+      "scoring_config": {
+        "hard_filters": [],
+        "soft_score_weights": {},
+        "minimum_score_to_show": null,
+        "explainability_fields": []
+      },
+      "review_status": "accepted_for_catalog_schema",
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "created_from_sources_at": "2026-06-17T12:15:38.307290+00:00",
+      "updated_at": "2026-06-17T12:15:38.307290+00:00"
+    },
+    {
+      "direction_id": "dir_hair_beauty_services",
+      "candidate_key": "hair_beauty_services",
+      "title_ru": "Парикмахерские и косметические услуги",
+      "short_description_ru": "Парикмахерские, косметологические и уходовые услуги",
+      "status": "draft_from_reviewed_bridge",
+      "human_review_required": true,
+      "not_final_catalog": true,
+      "not_user_recommendation": true,
+      "source_bridge_candidate_key": "hair_beauty_services",
+      "source_bridge_review_status": "accepted_for_catalog_schema",
+      "source_layers_used": [
+        "okved2_rosstat",
+        "okpd2_mirror"
+      ],
+      "source_matches_summary": {
+        "okved_accepted": 3,
+        "okved_rejected": 0,
+        "profstandards_accepted": 0,
+        "profstandards_rejected": 0,
+        "okpd2_accepted": 6,
+        "okpd2_rejected": 0,
+        "okz_accepted": 0,
+        "okz_rejected": 0
+      },
+      "source_match_refs": [],
+      "source_gaps": [],
+      "mirror_sources_used": [
+        "okpd2_mirror"
+      ],
+      "official_sources_used": [
+        "okved2_rosstat"
+      ],
+      "blocked_sources_not_used": [
+        "okpd2_official",
+        "okz_official",
+        "okpdtr_all",
+        "trudvsem_api",
+        "social_contract",
+        "etks_mintrud"
+      ],
+      "npd_applicability": {
+        "can_use_npd_preliminary": null,
+        "npd_hard_filters": [
+          "8 hard-filter rules from npd_nalog"
+        ],
+        "resale_risk": "needs_validation",
+        "employee_risk": "needs_validation",
+        "marked_goods_risk": "needs_validation",
+        "agency_risk": "needs_validation",
+        "income_limit_note": "needs_validation",
+        "legal_notes": [
+          "NPD rules attached but specific applicability requires legal review"
+        ],
+        "needs_legal_review": true
+      },
+      "social_contract_fit": {
+        "eligible_for_business_plan_draft": null,
+        "typical_capex_items": [],
+        "forbidden_or_risky_expenses": [],
+        "regional_template_required": true,
+        "commission_risk_notes": [],
+        "needs_regional_rule_check": true
+      },
+      "person_fit_gates": {
+        "requires_car": null,
+        "requires_travel_to_client": null,
+        "requires_home_workspace": null,
+        "requires_client_contact": null,
+        "requires_physical_load": null,
+        "requires_tools": null,
+        "requires_training_before_launch": null,
+        "beginner_risk_level": "needs_validation",
+        "hard_stop_conditions": [],
+        "soft_penalty_conditions": []
+      },
+      "training_requirements": {
+        "training_required": null,
+        "minimum_learning_time": null,
+        "practice_required": null,
+        "minimum_practice_jobs": null,
+        "unsafe_for_beginner_services": [],
+        "training_source_required": "needs_validation"
+      },
+      "market_validation": {
+        "avito_check_required": true,
+        "competitor_count_source": null,
+        "price_range_source": null,
+        "market_evidence_status": "missing_data",
+        "market_check_notes": []
+      },
+      "procurement_validation": {
+        "procurement_check_required": true,
+        "must_have_items": [],
+        "optional_items": [],
+        "source_links_required": [],
+        "procurement_evidence_status": "missing_data"
+      },
+      "ads_unit_economics": {
+        "ads_check_required": true,
+        "expected_channels": [],
+        "drr_required": null,
+        "unit_economics_required": null,
+        "assumptions_allowed": [],
+        "missing_data": [
+          "all market/procurement/ads data missing"
+        ]
+      },
+      "questionnaire_mapping": {
+        "positive_signals": [],
+        "negative_signals": [],
+        "hard_stop_answers": [],
+        "soft_score_answers": [],
+        "required_user_inputs": []
+      },
+      "scoring_config": {
+        "hard_filters": [],
+        "soft_score_weights": {},
+        "minimum_score_to_show": null,
+        "explainability_fields": []
+      },
+      "review_status": "accepted_for_catalog_schema",
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "created_from_sources_at": "2026-06-17T12:15:38.307325+00:00",
+      "updated_at": "2026-06-17T12:15:38.307325+00:00"
+    },
+    {
+      "direction_id": "dir_manicure_pedicure",
+      "candidate_key": "manicure_pedicure",
+      "title_ru": "Маникюр и педикюр",
+      "short_description_ru": "Услуги маникюра, педикюра и ногтевого сервиса",
+      "status": "draft_from_reviewed_bridge",
+      "human_review_required": true,
+      "not_final_catalog": true,
+      "not_user_recommendation": true,
+      "source_bridge_candidate_key": "manicure_pedicure",
+      "source_bridge_review_status": "accepted_for_catalog_schema",
+      "source_layers_used": [
+        "okved2_rosstat",
+        "okpd2_mirror"
+      ],
+      "source_matches_summary": {
+        "okved_accepted": 1,
+        "okved_rejected": 0,
+        "profstandards_accepted": 0,
+        "profstandards_rejected": 0,
+        "okpd2_accepted": 3,
+        "okpd2_rejected": 0,
+        "okz_accepted": 0,
+        "okz_rejected": 0
+      },
+      "source_match_refs": [],
+      "source_gaps": [],
+      "mirror_sources_used": [
+        "okpd2_mirror"
+      ],
+      "official_sources_used": [
+        "okved2_rosstat"
+      ],
+      "blocked_sources_not_used": [
+        "okpd2_official",
+        "okz_official",
+        "okpdtr_all",
+        "trudvsem_api",
+        "social_contract",
+        "etks_mintrud"
+      ],
+      "npd_applicability": {
+        "can_use_npd_preliminary": null,
+        "npd_hard_filters": [
+          "8 hard-filter rules from npd_nalog"
+        ],
+        "resale_risk": "needs_validation",
+        "employee_risk": "needs_validation",
+        "marked_goods_risk": "needs_validation",
+        "agency_risk": "needs_validation",
+        "income_limit_note": "needs_validation",
+        "legal_notes": [
+          "NPD rules attached but specific applicability requires legal review"
+        ],
+        "needs_legal_review": true
+      },
+      "social_contract_fit": {
+        "eligible_for_business_plan_draft": null,
+        "typical_capex_items": [],
+        "forbidden_or_risky_expenses": [],
+        "regional_template_required": true,
+        "commission_risk_notes": [],
+        "needs_regional_rule_check": true
+      },
+      "person_fit_gates": {
+        "requires_car": null,
+        "requires_travel_to_client": null,
+        "requires_home_workspace": null,
+        "requires_client_contact": null,
+        "requires_physical_load": null,
+        "requires_tools": null,
+        "requires_training_before_launch": null,
+        "beginner_risk_level": "needs_validation",
+        "hard_stop_conditions": [],
+        "soft_penalty_conditions": []
+      },
+      "training_requirements": {
+        "training_required": null,
+        "minimum_learning_time": null,
+        "practice_required": null,
+        "minimum_practice_jobs": null,
+        "unsafe_for_beginner_services": [],
+        "training_source_required": "needs_validation"
+      },
+      "market_validation": {
+        "avito_check_required": true,
+        "competitor_count_source": null,
+        "price_range_source": null,
+        "market_evidence_status": "missing_data",
+        "market_check_notes": []
+      },
+      "procurement_validation": {
+        "procurement_check_required": true,
+        "must_have_items": [],
+        "optional_items": [],
+        "source_links_required": [],
+        "procurement_evidence_status": "missing_data"
+      },
+      "ads_unit_economics": {
+        "ads_check_required": true,
+        "expected_channels": [],
+        "drr_required": null,
+        "unit_economics_required": null,
+        "assumptions_allowed": [],
+        "missing_data": [
+          "all market/procurement/ads data missing"
+        ]
+      },
+      "questionnaire_mapping": {
+        "positive_signals": [],
+        "negative_signals": [],
+        "hard_stop_answers": [],
+        "soft_score_answers": [],
+        "required_user_inputs": []
+      },
+      "scoring_config": {
+        "hard_filters": [],
+        "soft_score_weights": {},
+        "minimum_score_to_show": null,
+        "explainability_fields": []
+      },
+      "review_status": "accepted_for_catalog_schema",
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "created_from_sources_at": "2026-06-17T12:15:38.307365+00:00",
+      "updated_at": "2026-06-17T12:15:38.307365+00:00"
+    },
+    {
+      "direction_id": "dir_tutoring_education",
+      "candidate_key": "tutoring_education",
+      "title_ru": "Репетиторство и обучение",
+      "short_description_ru": "Репетиторство, обучение, дополнительное образование",
+      "status": "draft_from_reviewed_bridge",
+      "human_review_required": true,
+      "not_final_catalog": true,
+      "not_user_recommendation": true,
+      "source_bridge_candidate_key": "tutoring_education",
+      "source_bridge_review_status": "accepted_for_catalog_schema",
+      "source_layers_used": [
+        "okved2_rosstat"
+      ],
+      "source_matches_summary": {
+        "okved_accepted": 19,
+        "okved_rejected": 0,
+        "profstandards_accepted": 0,
+        "profstandards_rejected": 0,
+        "okpd2_accepted": 0,
+        "okpd2_rejected": 0,
+        "okz_accepted": 0,
+        "okz_rejected": 0
+      },
+      "source_match_refs": [],
+      "source_gaps": [
+        "no accepted OKPD2 matches"
+      ],
+      "mirror_sources_used": [],
+      "official_sources_used": [
+        "okved2_rosstat"
+      ],
+      "blocked_sources_not_used": [
+        "okpd2_official",
+        "okz_official",
+        "okpdtr_all",
+        "trudvsem_api",
+        "social_contract",
+        "etks_mintrud"
+      ],
+      "npd_applicability": {
+        "can_use_npd_preliminary": null,
+        "npd_hard_filters": [
+          "8 hard-filter rules from npd_nalog"
+        ],
+        "resale_risk": "needs_validation",
+        "employee_risk": "needs_validation",
+        "marked_goods_risk": "needs_validation",
+        "agency_risk": "needs_validation",
+        "income_limit_note": "needs_validation",
+        "legal_notes": [
+          "NPD rules attached but specific applicability requires legal review"
+        ],
+        "needs_legal_review": true
+      },
+      "social_contract_fit": {
+        "eligible_for_business_plan_draft": null,
+        "typical_capex_items": [],
+        "forbidden_or_risky_expenses": [],
+        "regional_template_required": true,
+        "commission_risk_notes": [],
+        "needs_regional_rule_check": true
+      },
+      "person_fit_gates": {
+        "requires_car": null,
+        "requires_travel_to_client": null,
+        "requires_home_workspace": null,
+        "requires_client_contact": null,
+        "requires_physical_load": null,
+        "requires_tools": null,
+        "requires_training_before_launch": null,
+        "beginner_risk_level": "needs_validation",
+        "hard_stop_conditions": [],
+        "soft_penalty_conditions": []
+      },
+      "training_requirements": {
+        "training_required": null,
+        "minimum_learning_time": null,
+        "practice_required": null,
+        "minimum_practice_jobs": null,
+        "unsafe_for_beginner_services": [],
+        "training_source_required": "needs_validation"
+      },
+      "market_validation": {
+        "avito_check_required": true,
+        "competitor_count_source": null,
+        "price_range_source": null,
+        "market_evidence_status": "missing_data",
+        "market_check_notes": []
+      },
+      "procurement_validation": {
+        "procurement_check_required": true,
+        "must_have_items": [],
+        "optional_items": [],
+        "source_links_required": [],
+        "procurement_evidence_status": "missing_data"
+      },
+      "ads_unit_economics": {
+        "ads_check_required": true,
+        "expected_channels": [],
+        "drr_required": null,
+        "unit_economics_required": null,
+        "assumptions_allowed": [],
+        "missing_data": [
+          "all market/procurement/ads data missing"
+        ]
+      },
+      "questionnaire_mapping": {
+        "positive_signals": [],
+        "negative_signals": [],
+        "hard_stop_answers": [],
+        "soft_score_answers": [],
+        "required_user_inputs": []
+      },
+      "scoring_config": {
+        "hard_filters": [],
+        "soft_score_weights": {},
+        "minimum_score_to_show": null,
+        "explainability_fields": []
+      },
+      "review_status": "accepted_for_catalog_schema",
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "created_from_sources_at": "2026-06-17T12:15:38.307402+00:00",
+      "updated_at": "2026-06-17T12:15:38.307402+00:00"
+    },
+    {
+      "direction_id": "dir_animal_care",
+      "candidate_key": "animal_care",
+      "title_ru": "Уход за животными",
+      "short_description_ru": "Уход за животными, ветеринарные услуги, груминг, дрессировка",
+      "status": "draft_from_reviewed_bridge",
+      "human_review_required": true,
+      "not_final_catalog": true,
+      "not_user_recommendation": true,
+      "source_bridge_candidate_key": "animal_care",
+      "source_bridge_review_status": "accepted_for_catalog_schema",
+      "source_layers_used": [
+        "okved2_rosstat",
+        "okpd2_mirror"
+      ],
+      "source_matches_summary": {
+        "okved_accepted": 8,
+        "okved_rejected": 0,
+        "profstandards_accepted": 0,
+        "profstandards_rejected": 0,
+        "okpd2_accepted": 9,
+        "okpd2_rejected": 0,
+        "okz_accepted": 0,
+        "okz_rejected": 0
+      },
+      "source_match_refs": [],
+      "source_gaps": [],
+      "mirror_sources_used": [
+        "okpd2_mirror"
+      ],
+      "official_sources_used": [
+        "okved2_rosstat"
+      ],
+      "blocked_sources_not_used": [
+        "okpd2_official",
+        "okz_official",
+        "okpdtr_all",
+        "trudvsem_api",
+        "social_contract",
+        "etks_mintrud"
+      ],
+      "npd_applicability": {
+        "can_use_npd_preliminary": null,
+        "npd_hard_filters": [
+          "8 hard-filter rules from npd_nalog"
+        ],
+        "resale_risk": "needs_validation",
+        "employee_risk": "needs_validation",
+        "marked_goods_risk": "needs_validation",
+        "agency_risk": "needs_validation",
+        "income_limit_note": "needs_validation",
+        "legal_notes": [
+          "NPD rules attached but specific applicability requires legal review"
+        ],
+        "needs_legal_review": true
+      },
+      "social_contract_fit": {
+        "eligible_for_business_plan_draft": null,
+        "typical_capex_items": [],
+        "forbidden_or_risky_expenses": [],
+        "regional_template_required": true,
+        "commission_risk_notes": [],
+        "needs_regional_rule_check": true
+      },
+      "person_fit_gates": {
+        "requires_car": null,
+        "requires_travel_to_client": null,
+        "requires_home_workspace": null,
+        "requires_client_contact": null,
+        "requires_physical_load": null,
+        "requires_tools": null,
+        "requires_training_before_launch": null,
+        "beginner_risk_level": "needs_validation",
+        "hard_stop_conditions": [],
+        "soft_penalty_conditions": []
+      },
+      "training_requirements": {
+        "training_required": null,
+        "minimum_learning_time": null,
+        "practice_required": null,
+        "minimum_practice_jobs": null,
+        "unsafe_for_beginner_services": [],
+        "training_source_required": "needs_validation"
+      },
+      "market_validation": {
+        "avito_check_required": true,
+        "competitor_count_source": null,
+        "price_range_source": null,
+        "market_evidence_status": "missing_data",
+        "market_check_notes": []
+      },
+      "procurement_validation": {
+        "procurement_check_required": true,
+        "must_have_items": [],
+        "optional_items": [],
+        "source_links_required": [],
+        "procurement_evidence_status": "missing_data"
+      },
+      "ads_unit_economics": {
+        "ads_check_required": true,
+        "expected_channels": [],
+        "drr_required": null,
+        "unit_economics_required": null,
+        "assumptions_allowed": [],
+        "missing_data": [
+          "all market/procurement/ads data missing"
+        ]
+      },
+      "questionnaire_mapping": {
+        "positive_signals": [],
+        "negative_signals": [],
+        "hard_stop_answers": [],
+        "soft_score_answers": [],
+        "required_user_inputs": []
+      },
+      "scoring_config": {
+        "hard_filters": [],
+        "soft_score_weights": {},
+        "minimum_score_to_show": null,
+        "explainability_fields": []
+      },
+      "review_status": "accepted_for_catalog_schema",
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "created_from_sources_at": "2026-06-17T12:15:38.307437+00:00",
+      "updated_at": "2026-06-17T12:15:38.307437+00:00"
+    },
+    {
+      "direction_id": "dir_gardening_plants",
+      "candidate_key": "gardening_plants",
+      "title_ru": "Садоводство и озеленение",
+      "short_description_ru": "Садоводство, озеленение, уход за растениями, ландшафтный дизайн",
+      "status": "draft_from_reviewed_bridge",
+      "human_review_required": true,
+      "not_final_catalog": true,
+      "not_user_recommendation": true,
+      "source_bridge_candidate_key": "gardening_plants",
+      "source_bridge_review_status": "accepted_for_catalog_schema",
+      "source_layers_used": [
+        "okved2_rosstat",
+        "okpd2_mirror"
+      ],
+      "source_matches_summary": {
+        "okved_accepted": 2,
+        "okved_rejected": 1,
+        "profstandards_accepted": 0,
+        "profstandards_rejected": 0,
+        "okpd2_accepted": 5,
+        "okpd2_rejected": 0,
+        "okz_accepted": 0,
+        "okz_rejected": 0
+      },
+      "source_match_refs": [],
+      "source_gaps": [],
+      "mirror_sources_used": [
+        "okpd2_mirror"
+      ],
+      "official_sources_used": [
+        "okved2_rosstat"
+      ],
+      "blocked_sources_not_used": [
+        "okpd2_official",
+        "okz_official",
+        "okpdtr_all",
+        "trudvsem_api",
+        "social_contract",
+        "etks_mintrud"
+      ],
+      "npd_applicability": {
+        "can_use_npd_preliminary": null,
+        "npd_hard_filters": [
+          "8 hard-filter rules from npd_nalog"
+        ],
+        "resale_risk": "needs_validation",
+        "employee_risk": "needs_validation",
+        "marked_goods_risk": "needs_validation",
+        "agency_risk": "needs_validation",
+        "income_limit_note": "needs_validation",
+        "legal_notes": [
+          "NPD rules attached but specific applicability requires legal review"
+        ],
+        "needs_legal_review": true
+      },
+      "social_contract_fit": {
+        "eligible_for_business_plan_draft": null,
+        "typical_capex_items": [],
+        "forbidden_or_risky_expenses": [],
+        "regional_template_required": true,
+        "commission_risk_notes": [],
+        "needs_regional_rule_check": true
+      },
+      "person_fit_gates": {
+        "requires_car": null,
+        "requires_travel_to_client": null,
+        "requires_home_workspace": null,
+        "requires_client_contact": null,
+        "requires_physical_load": null,
+        "requires_tools": null,
+        "requires_training_before_launch": null,
+        "beginner_risk_level": "needs_validation",
+        "hard_stop_conditions": [],
+        "soft_penalty_conditions": []
+      },
+      "training_requirements": {
+        "training_required": null,
+        "minimum_learning_time": null,
+        "practice_required": null,
+        "minimum_practice_jobs": null,
+        "unsafe_for_beginner_services": [],
+        "training_source_required": "needs_validation"
+      },
+      "market_validation": {
+        "avito_check_required": true,
+        "competitor_count_source": null,
+        "price_range_source": null,
+        "market_evidence_status": "missing_data",
+        "market_check_notes": []
+      },
+      "procurement_validation": {
+        "procurement_check_required": true,
+        "must_have_items": [],
+        "optional_items": [],
+        "source_links_required": [],
+        "procurement_evidence_status": "missing_data"
+      },
+      "ads_unit_economics": {
+        "ads_check_required": true,
+        "expected_channels": [],
+        "drr_required": null,
+        "unit_economics_required": null,
+        "assumptions_allowed": [],
+        "missing_data": [
+          "all market/procurement/ads data missing"
+        ]
+      },
+      "questionnaire_mapping": {
+        "positive_signals": [],
+        "negative_signals": [],
+        "hard_stop_answers": [],
+        "soft_score_answers": [],
+        "required_user_inputs": []
+      },
+      "scoring_config": {
+        "hard_filters": [],
+        "soft_score_weights": {},
+        "minimum_score_to_show": null,
+        "explainability_fields": []
+      },
+      "review_status": "accepted_for_catalog_schema",
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "created_from_sources_at": "2026-06-17T12:15:38.307473+00:00",
+      "updated_at": "2026-06-17T12:15:38.307473+00:00"
+    }
+  ]
+}
