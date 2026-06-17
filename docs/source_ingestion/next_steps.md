@@ -1,34 +1,41 @@
 # Next Steps
 
-## Completed: Semantic Validation v4.1
+## Completed Steps
 
-Semantic validation of OKPD2 and OKZ classifiers has been completed:
+1. **Source download and parsing (v4)** — COMPLETED
+   - OKPD2 parsed from classifikators.ru mirror: 20387 rows
+   - OKZ parsed from classifikators.ru mirror: 608 rows
+   - OKPDTR: manual download required (all sources failed)
 
-- **OKPD2**: `valid_mirror_enrichment` — safe for enrichment use
-- **OKZ**: `valid_mirror_enrichment` — safe for enrichment use; original 9602/9603 concern refuted
-- **Cross-contamination**: None detected
-- **Bridge decision**: Both OKPD2 and OKZ allowed in next bridge
+2. **Semantic validation v4.1** — COMPLETED
+   - OKPD2: `valid_mirror_enrichment`
+   - OKZ: `valid_mirror_enrichment`
+   - Cross-contamination: none
+
+3. **Source bridge rebuild** — COMPLETED
+   - Bridge rebuilt with validated OKPD2 and OKZ enrichment
+   - 13 candidates, all `human_review_required: true`
+   - Bridge is NOT final catalog
 
 ## Current Next Step
 
-`rebuild_source_bridge_with_okpd2_and_okz`
+`human_review_of_bridge_candidates`
 
 ### What This Step Does
 
-Rebuild `source_bridge_candidates.json` to include OKPD2 enrichment data and OKZ occupation data.
+Review each of 13 bridge candidate keys and their source matches to determine which matches are valid and which need refinement.
 
 ### Acceptance Criteria
 
-- OKPD2 service/work candidates integrated into bridge
-- OKZ occupation candidates integrated into bridge
-- Existing OKVED2 and Profstandards data preserved
-- All bridge candidates reviewed with human_review_required flag
-- No final catalog created
+- Review each of 13 bridge candidate keys
+- Mark source matches as accept/reject/needs_more_source
+- Check overbroad matches, especially profstandards and OKZ broad groups
+- Keep `human_review_required=true` on all rows
+- Do not create final business catalog unless a separate schema prompt is approved
 
-### Blocked Items
+### After Human Review
 
-- OKPDTR: 0 rows, manual download required from profstandart.rosmintrud.ru or vniot.ru
-- ЕТКС: not yet probed
+Next possible step: `business_direction_catalog_schema_v0`
 
 ## After Executor Push
 

@@ -4,24 +4,29 @@ This is the current source-ingestion state, copied from `app/source-ingestion/` 
 
 Canonical data lives in `app/source-ingestion/data/parsed/source_quality_matrix.json`.
 
-## Semantic Validation (v4.1)
+## Completed Milestones
 
-Both OKPD2 and OKZ have been semantically validated before bridge rebuild:
+1. Source download and parsing (v4) — completed
+2. Semantic validation v4.1 — completed
+3. Source bridge rebuild with validated OKPD2/OKZ — completed
 
-- **OKPD2**: `valid_mirror_enrichment` — 373 expected service/product patterns found (95.11, 95.2, 96.01, 96.02). Safe for enrichment use.
-- **OKZ**: `valid_mirror_enrichment` — 269 occupation rows found, code 5141 (Парикмахеры) confirmed present. The original concern about 9602/9603 contamination was refuted — these codes only exist in OKPD2, not in OKZ.
+## Semantic Validation (v4.1) — COMPLETED
+
+Both OKPD2 and OKZ have been semantically validated and are used in the source bridge:
+
+- **OKPD2**: `valid_mirror_enrichment` — 373 expected service/product patterns found (95.11, 95.2, 96.01, 96.02). Used as enrichment in bridge.
+- **OKZ**: `valid_mirror_enrichment` — 269 occupation rows found, code 5141 (Парикмахеры) confirmed present. Used as enrichment in bridge.
 - **Cross-contamination**: None detected. No code or name overlap between OKPD2 and OKZ.
-- **Bridge decision**: Both OKPD2 and OKZ are allowed in next bridge rebuild.
 
 ## Source Status Table
 
-| Source | Role | Status | Parsed Rows | Candidate Rows | Provenance | Can Be Used in Bridge Now? | Notes |
-|--------|------|--------|-------------|----------------|------------|---------------------------|-------|
-| ОКВЭД 2 (Росстат) | primary | primary | 3034 | 981 service candidates | official CSV download | yes | Official classifier, fully parsed |
-| Реестр профстандартов (Минтруд) | primary | primary | 949 | 519 service candidates | official CSV download | yes | Official open data portal |
-| НПД ограничения (ФНС) | primary (legal filters) | primary | 8 (8 rules) | 8 legal hard-filter rules | manually encoded from official source | yes | Rules manually encoded from npd.nalog.ru |
-| ОКПД 2 (classifikators.ru mirror) | enrichment | enrichment | 20387 | 7173 service/work candidates | mirror xlsx from classifikators.ru | yes (enrichment only) | Semantic validation v4.1 passed |
-| ОКЗ-2014 (classifikators.ru mirror) | enrichment | enrichment | 608 | 188 occupation candidates | mirror xlsx from classifikators.ru | yes (enrichment only) | Semantic validation v4.1 passed; 9602/9603 concern refuted |
+| Source | Role | Status | Parsed Rows | Candidate Rows | Provenance | Used in Bridge? | Notes |
+|--------|------|--------|-------------|----------------|------------|-----------------|-------|
+| ОКВЭД 2 (Росстат) | primary | primary | 3034 | 981 service candidates | official CSV download | yes | Official classifier, primary source layer |
+| Реестр профстандартов (Минтруд) | primary | primary | 949 | 519 service candidates | official CSV download | yes | Official open data portal, primary source layer |
+| НПД ограничения (ФНС) | primary (legal filters) | primary | 8 (8 rules) | 8 legal hard-filter rules | manually encoded from official source | yes | Legal hard filters attached to all bridge candidates |
+| ОКПД 2 (classifikators.ru mirror) | enrichment | enrichment | 20387 | 7173 service/work candidates | mirror xlsx from classifikators.ru | yes (enrichment) | Semantic validation v4.1 passed; mirror_unofficial |
+| ОКЗ-2014 (classifikators.ru mirror) | enrichment | enrichment | 608 | 188 occupation candidates | mirror xlsx from classifikators.ru | yes (enrichment) | Semantic validation v4.1 passed; mirror_unofficial |
 | ОКВЭД 2 (ФНС) | validation | validation | 0 | 0 | official HTML only | no | Web interface only, no machine-readable data |
 | ОКПД 2 (official) | blocked | blocked | 0 | 0 | official source has no download | no | No machine-readable download available |
 | ОКЗ-2014 (official) | blocked | blocked | 0 | 0 | official source has no download | no | No machine-readable download available |
@@ -32,10 +37,15 @@ Both OKPD2 and OKZ have been semantically validated before bridge rebuild:
 
 ## Source Bridge Status
 
-The existing source bridge has 13 candidates but was **not rebuilt** with OKPD2/OKZ v4 data. The bridge is not the final catalog.
+Source bridge has been **rebuilt** with validated OKPD2 and OKZ enrichment layers.
 
-## Next Technical Step
+- **Bridge candidates**: 13
+- **All rows**: `human_review_required: true`
+- **Bridge is NOT final business catalog**
+- **All rows are `bridge_candidate_not_final` status**
 
-`rebuild_source_bridge_with_okpd2_and_okz`
+## Next Step
 
-Semantic validation v4.1 completed. OKPD2 and OKZ are validated and allowed for next bridge rebuild. The bridge should be rebuilt including OKPD2 enrichment and OKZ occupation data.
+`human_review_of_bridge_candidates`
+
+Review each of 13 bridge candidate keys. Mark source matches as accept/reject/needs_more_source.
