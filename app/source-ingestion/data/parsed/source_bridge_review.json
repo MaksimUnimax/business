@@ -1,0 +1,4152 @@
+{
+  "run_mode": "human_review_of_bridge_candidates_push",
+  "source_bridge_input_commit": "59c176d22f694881137531afbe0caf654ca69d98",
+  "candidate_count": 13,
+  "reviewed_at": "2026-06-17T12:08:11.090487+00:00",
+  "candidates": [
+    {
+      "candidate_key": "furniture_assembly",
+      "label_ru": "Сборка и ремонт мебели",
+      "human_review_required": true,
+      "review_overall_status": "accepted_for_catalog_schema",
+      "accepted_match_count": 11,
+      "rejected_match_count": 9,
+      "needs_more_source_match_count": 34,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 3,
+          "reject": 9,
+          "needs_more_source": 1
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 13
+        },
+        "okpd2": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 20
+        },
+        "okz": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        }
+      },
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "matches_review": {
+        "okved_matches": [
+          {
+            "source_id": "okved2_rosstat",
+            "code": "31.09.2",
+            "title": "Изготовление прочей мебели и отдельных мебельных деталей, не включенных в другие группировки по инди",
+            "review_status": "accept",
+            "review_reason": "Direct match: furniture manufacturing"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.15",
+            "title": "Деятельность агентов по оптовой торговле мебелью, бытовыми товарами, скобяными, ножевыми и прочими м",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: wholesale trade - not assembly"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.15.1",
+            "title": "Деятельность агентов по оптовой торговле мебелью",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: wholesale trade - not assembly"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.47",
+            "title": "Торговля оптовая мебелью, коврами и осветительным оборудованием",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: wholesale trade - not assembly"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.47.1",
+            "title": "Торговля оптовая бытовой мебелью",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: wholesale trade - not assembly"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.47.4",
+            "title": "Торговля оптовая мебелью детской для учебных заведений",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: wholesale trade - not assembly"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.65",
+            "title": "Торговля оптовая офисной мебелью",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: wholesale trade - not assembly"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.59",
+            "title": "Торговля розничная мебелью, осветительными приборами и прочими бытовыми изделиями в специализированн",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: retail trade - not assembly"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.59.1",
+            "title": "Торговля розничная мебелью в специализированных магазинах",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: retail trade - not assembly"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.59.8",
+            "title": "Торговля розничная мебелью детской для учебных заведений",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: retail trade - not assembly"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.78.22",
+            "title": "Сборка и ремонт очков в специализированных магазинах",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "95.24",
+            "title": "Ремонт мебели и предметов домашнего обихода",
+            "review_status": "accept",
+            "review_reason": "Direct match: furniture repair"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "95.24.1",
+            "title": "Ремонт мебели",
+            "review_status": "accept",
+            "review_reason": "Direct match: furniture repair"
+          }
+        ],
+        "profstandard_matches": [
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.013",
+            "title": "Оператор линий облицовывания и механической обработки заготовок и деталей из древесных материалов в ",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.014",
+            "title": "Оператор линий по отделке деталей и изделий мебели и деревообработки",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.033",
+            "title": "Заточник по подготовке станочного дереворежущего инструмента длядеревообрабатывающих, мебельных и ле",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.034",
+            "title": "Станочник для работы на оборудовании универсального назначения вдеревообработке и производстве мебел",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.035",
+            "title": "Станочник для работы на специализированных, специальных станках и другом специализированном оборудов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.036",
+            "title": "Сборщик изделий мебели из древесных материалов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.038",
+            "title": "Специалист по механической обработке заготовок и деталей из древесных материалов в производстве мебе",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.040",
+            "title": "Инженер по контролю качества производства мебели",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.043",
+            "title": "Специалист-технолог деревообрабатывающих и мебельных производств",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.044",
+            "title": "Обойщик-набивщик мебельного производства",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.039",
+            "title": "Специалист по отделке деталей и изделий мебели из древесных материалов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.045",
+            "title": "Специалист по системам автоматизированного проектирования вдеревообрабатывающих и мебельных производ",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.037",
+            "title": "Контролер качества изделий в производстве мебели",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okpd2_matches": [
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.92.16",
+            "title": "Изделия мебельно-декоративные, не включенные в другие группировки; комплекты тканей и пряжи для изго",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.92.16.110",
+            "title": "Изделия мебельно-декоративные, не включенные в другие группировки",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.92.16.112",
+            "title": "Ткани мебельно-декоративные рисунчатые ручной работы типа гобеленов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.92.16.119",
+            "title": "Изделия мебельно-декоративные прочие, не включенные в другие группировки",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.96.12.120",
+            "title": "Ткани мебельно-декоративные из металлической нити и ткани из металлизированной пряжи",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.99.19.113",
+            "title": "Вата хлопчатобумажная мебельная",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "16",
+            "title": "Древесина и изделия из дерева и пробки, кроме мебели; изделия из соломки и материалов для плетения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "16.29.9",
+            "title": "Услуги по производству древесины и пробки, кроме мебели, соломки и материалов для плетения; отдельны",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "16.29.91",
+            "title": "Услуги по производству древесины и пробки, кроме мебели, соломки и материалов для плетения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "16.29.91.000",
+            "title": "Услуги по производству древесины и пробки, кроме мебели, соломки и материалов для плетения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.41.43",
+            "title": "Средства, кремы, мастики для обуви, мебели, полов, транспортных средств, стекла или металла полирующ",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.41.43.120",
+            "title": "Средства, кремы, мастики для мебели и полов полирующие",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "22.29.26",
+            "title": "Фурнитура для мебели, транспортных средств и аналогичные пластмассовые изделия; статуэтки и прочие д",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "22.29.26.110",
+            "title": "Фурнитура для мебели, транспортных средств и аналогичные изделия пластмассовые",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "22.29.26.111",
+            "title": "Фурнитура для мебели пластмассовая",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "25.72.11",
+            "title": "Замки висячие, замки для автотранспортных средств, замки для мебели из недрагоценных металлов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "25.72.11.130",
+            "title": "Замки для мебели из недрагоценных металлов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "25.72.14",
+            "title": "Петли, арматура крепежная, фурнитура и аналогичные изделия для автотранспортных средств, дверей, око",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "25.72.14.130",
+            "title": "Петли, арматура крепежная, фурнитура и аналогичные изделия для мебели из недрагоценных металлов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "25.93.14.118",
+            "title": "Гвозди мебельные",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okz_matches": [],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_key": "cleaning_services",
+      "label_ru": "Клининговые и уборочные услуги",
+      "human_review_required": true,
+      "review_overall_status": "accepted_for_catalog_schema",
+      "accepted_match_count": 11,
+      "rejected_match_count": 0,
+      "needs_more_source_match_count": 14,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 2,
+          "reject": 0,
+          "needs_more_source": 7
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 5
+        },
+        "okpd2": {
+          "accept": 1,
+          "reject": 0,
+          "needs_more_source": 2
+        },
+        "okz": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        }
+      },
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "matches_review": {
+        "okved_matches": [
+          {
+            "source_id": "okved2_rosstat",
+            "code": "11.01",
+            "title": "Перегонка, очистка и смешивание спиртов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "36",
+            "title": "Забор, очистка и распределение воды",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "36.0",
+            "title": "Забор, очистка и распределение воды",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "36.00",
+            "title": "Забор, очистка и распределение воды",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "36.00.1",
+            "title": "Забор и очистка воды для питьевых и промышленных нужд",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "43.12.1",
+            "title": "Расчистка территории строительной площадки",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "77.29.4",
+            "title": "Прокат одежды, даже если чистка таких изделий является составной частью этого вида деятельности",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "81.29.2",
+            "title": "Подметание улиц и уборка снега",
+            "review_status": "accept",
+            "review_reason": "Direct match: cleaning services"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "96.01",
+            "title": "Стирка и химическая чистка текстильных и меховых изделий",
+            "review_status": "accept",
+            "review_reason": "Direct match: laundry/dry cleaning"
+          }
+        ],
+        "profstandard_matches": [
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "16.125",
+            "title": "Монтажник оборудования насосных станций и сооружений очистки стоков в системах водоотведения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "16.067",
+            "title": "Инженер-проектировщик сооружений очистки сточных вод",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "16.074",
+            "title": "Оператор по доочистке и обеззараживанию очищенных стоков",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "16.077",
+            "title": "Рабочий по комплексной уборке территории, относящейся к общему имуществу в многоквартирном доме",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "24.019",
+            "title": "Оператор спецводоочистки в атомной энергетике",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okpd2_matches": [
+          {
+            "source_id": "okpd2_mirror",
+            "code": "43.99.90.150",
+            "title": "Работы строительные специализированные для наружных стен зданий (очистка паром, пескоструйная обрабо",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "96.01.12.142",
+            "title": "Срочная химчистка одежды и выведение пятен",
+            "review_status": "accept",
+            "review_reason": "Direct match: laundry"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "96.02.13.117",
+            "title": "Гигиеническая чистка лица",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okz_matches": [],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_key": "clothing_repair_sewing",
+      "label_ru": "Ремонт и пошив одежды",
+      "human_review_required": true,
+      "review_overall_status": "accepted_for_catalog_schema",
+      "accepted_match_count": 27,
+      "rejected_match_count": 13,
+      "needs_more_source_match_count": 10,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 6,
+          "reject": 13,
+          "needs_more_source": 1
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 2
+        },
+        "okpd2": {
+          "accept": 13,
+          "reject": 0,
+          "needs_more_source": 7
+        },
+        "okz": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        }
+      },
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "matches_review": {
+        "okved_matches": [
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.1",
+            "title": "Подготовка и прядение текстильных волокон",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: textile preparation - too upstream"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.10",
+            "title": "Подготовка и прядение текстильных волокон",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: textile preparation - too upstream"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.10.9",
+            "title": "Подготовка и прядение прочих текстильных волокон",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: textile preparation - too upstream"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.3",
+            "title": "Отделка тканей и текстильных изделий",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: textile finishing - too upstream"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.30",
+            "title": "Отделка тканей и текстильных изделий",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: textile finishing - too upstream"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.30.1",
+            "title": "Отбеливание и окрашивание текстиля, волокон, тканей и текстильных изделий, включая готовую одежду",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: textile finishing - too upstream"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.30.2",
+            "title": "Аппретирование, сушка, обработка паром, декатировка, противоусадочная отделка, смягчение тканей и те",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: textile finishing - too upstream"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.30.4",
+            "title": "Нанесение водозащитного слоя, специальных покрытий, прорезинивание, пропитка приобретенной одежды",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: textile finishing - too upstream"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.30.5",
+            "title": "Нанесение рисунка на текстильные изделия и готовую одежду",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: textile finishing - too upstream"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.92",
+            "title": "Производство готовых текстильных изделий, кроме одежды",
+            "review_status": "accept",
+            "review_reason": "Direct match: textile articles"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.92.1",
+            "title": "Производство готовых текстильных изделий, кроме одежды",
+            "review_status": "accept",
+            "review_reason": "Direct match: textile articles"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.92.2",
+            "title": "Пошив готовых текстильных изделий по индивидуальному заказу населения, кроме одежды",
+            "review_status": "accept",
+            "review_reason": "Direct match: textile articles"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.95",
+            "title": "Производство нетканых текстильных материалов и изделий из них, кроме одежды",
+            "review_status": "accept",
+            "review_reason": "Direct match: nonwoven fabrics"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.95.9",
+            "title": "Производство прочих нетканых текстильных материалов и изделий из них, кроме одежды",
+            "review_status": "accept",
+            "review_reason": "Direct match: nonwoven fabrics"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.99.4",
+            "title": "Изготовление прочих текстильных изделий по индивидуальному заказу населения, не включенных в другие ",
+            "review_status": "accept",
+            "review_reason": "Direct match: other textile"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "14",
+            "title": "Производство одежды",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "14.1",
+            "title": "Производство одежды, кроме одежды из меха",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: broad clothing group"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "14.11",
+            "title": "Производство одежды из кожи",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: broad clothing group"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "14.11.2",
+            "title": "Пошив одежды из кожи по индивидуальному заказу населения",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: broad clothing group"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "14.11.1",
+            "title": "Производство одежды из кожи, кроме изготовленных по индивидуальному заказу",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: broad clothing group"
+          }
+        ],
+        "profstandard_matches": [
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "21.002",
+            "title": "Дизайнер детской одежды и обуви",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "33.015",
+            "title": "Специалист по ремонту и индивидуальному пошиву швейных, трикотажных, меховых, кожаных изделий, голов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okpd2_matches": [
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.92.99.200",
+            "title": "Услуги по пошиву готовых текстильных изделий по индивидуальному заказу населения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.92.99.210",
+            "title": "Услуги по пошиву столового и постельного белья по индивидуальному заказу населения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.92.99.220",
+            "title": "Услуги по пошиву стеганых покрывал, накидок по индивидуальному заказу населения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.92.99.230",
+            "title": "Услуги по пошиву чехлов всех видов по индивидуальному заказу населения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.92.99.240",
+            "title": "Услуги по пошиву штор, драпировок по индивидуальному заказу населения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.92.99.250",
+            "title": "Услуги по пошиву сопутствующих изделий (салфетки, фартуки и др.) по индивидуальному заказу населения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "13.99.99.200",
+            "title": "Услуги по пошиву прочих текстильных изделий, не включенных в другие группировки по индивидуальному з",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.11.99.200",
+            "title": "Услуги по пошиву одежды из натуральной и искусственной кожи, замши по индивидуальному заказу населен",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.12.99.200",
+            "title": "Услуги по пошиву производственной одежды по индивидуальному заказу населения",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.12.99.220",
+            "title": "Услуги по пошиву костюмов для охотников и рыболовов по индивидуальному заказу населения",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.13.99.200",
+            "title": "Услуги по пошиву верхней одежды по индивидуальному заказу населения",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.13.99.210",
+            "title": "Услуги по пошиву стеганых пальто, курток и жилетов по индивидуальному заказу населения",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.13.99.220",
+            "title": "Услуги по пошиву форменной одежды по индивидуальному заказу населения",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.13.99.230",
+            "title": "Услуги по пошиву плащей, курток, накидок и других изделий из тканей с водоотталкивающей пропиткой, п",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.13.99.240",
+            "title": "Услуги по пошиву мужских, женских, детских верхних трикотажных изделий по индивидуальному заказу нас",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.14.99.200",
+            "title": "Услуги по пошиву нательного белья по индивидуальному заказу населения",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.14.99.210",
+            "title": "Услуги по пошиву легкой одежды по индивидуальному заказу населения",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.14.99.220",
+            "title": "Услуги по пошиву мужского, женского белья по индивидуальному заказу населения",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.14.99.230",
+            "title": "Услуги по пошиву корсетных изделий по индивидуальному заказу населения",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "14.19.99.200",
+            "title": "Услуги по пошиву прочей одежды и аксессуаров по индивидуальному заказу населения",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing"
+          }
+        ],
+        "okz_matches": [],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_key": "shoe_repair",
+      "label_ru": "Ремонт обуви",
+      "human_review_required": true,
+      "review_overall_status": "accepted_for_catalog_schema",
+      "accepted_match_count": 29,
+      "rejected_match_count": 0,
+      "needs_more_source_match_count": 10,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 1,
+          "reject": 0,
+          "needs_more_source": 9
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 1
+        },
+        "okpd2": {
+          "accept": 20,
+          "reject": 0,
+          "needs_more_source": 0
+        },
+        "okz": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        }
+      },
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "matches_review": {
+        "okved_matches": [
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.16",
+            "title": "Деятельность агентов по оптовой торговле текстильными изделиями, одеждой, обувью, изделиями из кожи ",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.16.2",
+            "title": "Деятельность агентов по оптовой торговле одеждой, изделиями из меха и обувью",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.42",
+            "title": "Торговля оптовая одеждой и обувью",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.42.2",
+            "title": "Торговля оптовая обувью",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.72",
+            "title": "Торговля розничная обувью и изделиями из кожи в специализированных магазинах",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.72.1",
+            "title": "Торговля розничная обувью в специализированных магазинах",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.82",
+            "title": "Торговля розничная в нестационарных торговых объектах и на рынках текстилем, одеждой и обувью",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.82.1",
+            "title": "Торговля розничная в нестационарных торговых объектах текстилем, одеждой и обувью",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.82.2",
+            "title": "Торговля розничная на рынках текстилем, одеждой и обувью",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "95.23",
+            "title": "Ремонт обуви и прочих изделий из кожи",
+            "review_status": "accept",
+            "review_reason": "Direct match: clothing/footwear repair"
+          }
+        ],
+        "profstandard_matches": [
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "21.002",
+            "title": "Дизайнер детской одежды и обуви",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okpd2_matches": [
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.2",
+            "title": "Обувь",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20",
+            "title": "Обувь",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.1",
+            "title": "Обувь, кроме спортивной, защитной и ортопедической",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.11",
+            "title": "Обувь водонепроницаемая на подошве и с верхом из резины или пластмассы, кроме обуви с защитным метал",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.11.110",
+            "title": "Обувь водонепроницаемая на подошве и с верхом из резины, кроме обуви с защитным металлическим поднос",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.11.119",
+            "title": "Обувь резиновая прочая, не включенная в другие группировки",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.11.120",
+            "title": "Обувь водонепроницаемая на подошве и с верхом из пластмассы, кроме обуви с защитным металлическим по",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.11.129",
+            "title": "Обувь из полимерных материалов прочая, не включенная в другие группировки",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.11.130",
+            "title": "Обувь водонепроницаемая детская",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.11.131",
+            "title": "Ботики детские резинотекстильные для ношения на обувь",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.11.133",
+            "title": "Ботики детские цельнорезиновые на обувь",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.11.136",
+            "title": "Галоши детские для ношения на кожаную обувь",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.11.137",
+            "title": "Галоши детские для ношения на валяную обувь",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.11.139",
+            "title": "Обувь водонепроницаемая детская прочая, не включенная в другие группировки",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.12",
+            "title": "Обувь на подошве и с верхом из резины или пластмассы, кроме водонепроницаемой или спортивной обуви",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.12.110",
+            "title": "Обувь мужская и для мальчиков на подошве и с верхом из резины, кроме обуви водонепроницаемой или спо",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.12.113",
+            "title": "Туфли комнатные и прочая домашняя обувь мужская или для мальчиков на подошве и с верхом из резины ил",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.12.119",
+            "title": "Обувь мужская и для мальчиков на подошве и с верхом из резины или пластмассы, кроме обуви водонепрон",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.12.120",
+            "title": "Обувь женская и для девочек на подошве и с верхом из пластмассы, кроме обуви водонепроницаемой или с",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.20.12.129",
+            "title": "Обувь женская и для девочек на подошве и с верхом из резины или пластмассы кроме обуви водонепроница",
+            "review_status": "accept",
+            "review_reason": "Direct match: footwear"
+          }
+        ],
+        "okz_matches": [],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_key": "bicycle_repair",
+      "label_ru": "Ремонт велосипедов",
+      "human_review_required": true,
+      "review_overall_status": "needs_more_source_before_catalog",
+      "accepted_match_count": 9,
+      "rejected_match_count": 0,
+      "needs_more_source_match_count": 29,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 1,
+          "reject": 0,
+          "needs_more_source": 2
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        },
+        "okpd2": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 20
+        },
+        "okz": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 7
+        }
+      },
+      "review_notes": [
+        "Needs more source: too many broad/ambiguous matches"
+      ],
+      "matches_review": {
+        "okved_matches": [
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.18.2",
+            "title": "Деятельность агентов, специализирующихся на оптовой торговле играми и игрушками, спортивными товарам",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.69.1",
+            "title": "Торговля оптовая транспортными средствами, кроме автомобилей, мотоциклов и велосипедов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "95.29.6",
+            "title": "Ремонт велосипедов",
+            "review_status": "accept",
+            "review_reason": "Direct match: other repair"
+          }
+        ],
+        "profstandard_matches": [],
+        "okpd2_matches": [
+          {
+            "source_id": "okpd2_mirror",
+            "code": "22.11.12",
+            "title": "Шины и покрышки пневматические для мотоциклов или велосипедов новые",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "22.11.12.120",
+            "title": "Шины пневматические для велосипедов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.91.11",
+            "title": "Мотоциклы и велосипеды с поршневым двигателем внутреннего сгорания с рабочим объемом цилиндров не бо",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.91.11.120",
+            "title": "Велосипеды с поршневым двигателем внутреннего сгорания с рабочим объемом цилиндров не более 50 см3",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92",
+            "title": "Велосипеды и коляски инвалидные",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.1",
+            "title": "Велосипеды двухколесные и прочие, без двигателя",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.10",
+            "title": "Велосипеды двухколесные и прочие, без двигателя",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.10.110",
+            "title": "Велосипеды транспортные",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.10.111",
+            "title": "Велосипеды транспортные для взрослых",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.10.112",
+            "title": "Велосипеды транспортные для подростков",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.10.113",
+            "title": "Велосипеды транспортные для младших школьников",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.10.120",
+            "title": "Велосипеды спортивные",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.10.130",
+            "title": "Велосипеды двухколесные для детей",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.10.190",
+            "title": "Велосипеды прочие без двигателя",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.3",
+            "title": "Части и принадлежности двухколесных велосипедов и прочих видов велосипедов, без двигателя, и инвалид",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.30",
+            "title": "Части и принадлежности двухколесных велосипедов и прочих видов велосипедов, без двигателя, и инвалид",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.30.110",
+            "title": "Комплектующие (запасные части) двухколесных и прочих велосипедов без двигателя, не имеющие самостоят",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.9",
+            "title": "Услуги по производству велосипедов и инвалидных колясок отдельные, выполняемые субподрядчиком",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.99",
+            "title": "Услуги по производству велосипедов и инвалидных колясок отдельные, выполняемые субподрядчиком",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "30.92.99.000",
+            "title": "Услуги по производству велосипедов и инвалидных колясок отдельные, выполняемые субподрядчиком",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okz_matches": [
+          {
+            "source_id": "okz_mirror",
+            "code": "3115",
+            "title": "Техники-механики",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "72",
+            "title": "Рабочие, занятые в металлообрабатывающем и машиностроительном производстве, механики и ремонтники",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "723",
+            "title": "Механики и ремонтники транспортных средств, сельскохозяйственного и производственного оборудования и",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "7231",
+            "title": "Механики и ремонтники автотранспортных средств",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "7232",
+            "title": "Механики и ремонтники летательных аппаратов, судов и железнодорожного подвижного состава",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "7233",
+            "title": "Механики и ремонтники сельскохозяйственного и производственного оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "7421",
+            "title": "Механики по ремонту и обслуживанию электронного оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_key": "appliance_repair",
+      "label_ru": "Ремонт бытовой техники и электроники",
+      "human_review_required": true,
+      "review_overall_status": "accepted_for_catalog_schema",
+      "accepted_match_count": 16,
+      "rejected_match_count": 0,
+      "needs_more_source_match_count": 29,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 20
+        },
+        "okpd2": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 3
+        },
+        "okz": {
+          "accept": 8,
+          "reject": 0,
+          "needs_more_source": 6
+        }
+      },
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "matches_review": {
+        "okved_matches": [],
+        "profstandard_matches": [
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "24.037",
+            "title": "Специалист по обслуживанию и ремонту механического оборудования атомных станций",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.006",
+            "title": "Слесарь по ремонту лесозаготовительного оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "19.003",
+            "title": "Специалист по обслуживанию и ремонту нефтезаводского оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "19.017",
+            "title": "Бурильщик капитального ремонта скважин",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "19.028",
+            "title": "Оператор по подземному ремонту скважин",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "13.015",
+            "title": "Слесарь по ремонту сельскохозяйственных машин и оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "33.015",
+            "title": "Специалист по ремонту и индивидуальному пошиву швейных, трикотажных, меховых, кожаных изделий, голов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "33.018",
+            "title": "Работник по ремонту и сервисному обслуживанию часов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "16.050",
+            "title": "Электромеханик по эксплуатации, техническому обслуживанию и ремонту эскалаторов и пассажирских конве",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "16.082",
+            "title": "Работник по ремонту трансформаторов в инженерной инфраструктуре электроснабжения населения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "16.087",
+            "title": "Слесарь по ремонту оборудования котельных",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "30.014",
+            "title": "Судокорпусник-ремонтник",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "30.024",
+            "title": "Инженер-исследователь в области судостроения и судоремонта",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "17.017",
+            "title": "Работник по обслуживанию и ремонту устройств железнодорожной автоматики и телемеханики",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "17.019",
+            "title": "Оператор по обслуживанию и ремонту вагонов и контейнеров",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "17.022",
+            "title": "Работник по техническому обслуживанию и ремонту контактной сети железнодорожного транспорта",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "17.024",
+            "title": "Работник по техническому обслуживанию и ремонту железнодорожных тяговых и трансформаторных подстанци",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "17.028",
+            "title": "Бригадир (освобожденный) по текущему содержанию и ремонту пути и искусственных сооружений железнодор",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "17.029",
+            "title": "Работник по эксплуатации, ремонту и техническому обслуживанию канатных дорог",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "05.009",
+            "title": "Специалист по обслуживанию и ремонту спортивного инвентаря и оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okpd2_matches": [
+          {
+            "source_id": "okpd2_mirror",
+            "code": "43.29.19.110",
+            "title": "Работы по монтажу лифтов, эскалаторов и движущихся тротуаров, требующие специальной квалификации, вк",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "45.4",
+            "title": "Услуги по торговле мотоциклами, их деталями, узлами и принадлежностями; техническое обслуживание и р",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "45.40",
+            "title": "Услуги по торговле мотоциклами, их деталями, узлами и принадлежностями; техническое обслуживание и р",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okz_matches": [
+          {
+            "source_id": "okz_mirror",
+            "code": "2151",
+            "title": "Инженеры-электрики",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "3113",
+            "title": "Техники-электрики",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "71",
+            "title": "Рабочие, занятые в строительстве, и рабочие родственных занятий (за исключением электриков)",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "72",
+            "title": "Рабочие, занятые в металлообрабатывающем и машиностроительном производстве, механики и ремонтники",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "723",
+            "title": "Механики и ремонтники транспортных средств, сельскохозяйственного и производственного оборудования и",
+            "review_status": "accept",
+            "review_reason": "Direct match: mechanics and repairmen"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "7231",
+            "title": "Механики и ремонтники автотранспортных средств",
+            "review_status": "accept",
+            "review_reason": "Direct match: vehicle mechanic"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "7232",
+            "title": "Механики и ремонтники летательных аппаратов, судов и железнодорожного подвижного состава",
+            "review_status": "accept",
+            "review_reason": "Direct match: mechanics and repairmen"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "7233",
+            "title": "Механики и ремонтники сельскохозяйственного и производственного оборудования",
+            "review_status": "accept",
+            "review_reason": "Direct match: agricultural equipment mechanic"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "7234",
+            "title": "Ремонтники велосипедов и рабочие родственных занятий",
+            "review_status": "accept",
+            "review_reason": "Direct match: mechanics and repairmen"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "741",
+            "title": "Электромонтажники и ремонтники электрического оборудования",
+            "review_status": "accept",
+            "review_reason": "Direct match: electrical workers"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "7411",
+            "title": "Электрики в строительстве и рабочие родственных занятий",
+            "review_status": "accept",
+            "review_reason": "Direct match: electrical workers"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "7413",
+            "title": "Монтажники и ремонтники линий электропередач",
+            "review_status": "accept",
+            "review_reason": "Direct match: electrical workers"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "742",
+            "title": "Монтажники и ремонтники электронного и телекоммуникационного оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "7422",
+            "title": "Монтажники и ремонтники по обслуживанию ИКТ и устройств связи",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_key": "hair_beauty_services",
+      "label_ru": "Парикмахерские и косметические услуги",
+      "human_review_required": true,
+      "review_overall_status": "accepted_for_catalog_schema",
+      "accepted_match_count": 17,
+      "rejected_match_count": 0,
+      "needs_more_source_match_count": 8,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 3,
+          "reject": 0,
+          "needs_more_source": 1
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 1
+        },
+        "okpd2": {
+          "accept": 6,
+          "reject": 0,
+          "needs_more_source": 6
+        },
+        "okz": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        }
+      },
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "matches_review": {
+        "okved_matches": [
+          {
+            "source_id": "okved2_rosstat",
+            "code": "86.22.1",
+            "title": "Деятельность в области косметологии",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "96.02",
+            "title": "Предоставление услуг парикмахерскими и салонами красоты",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "96.02.1",
+            "title": "Предоставление парикмахерских услуг",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "96.02.2",
+            "title": "Предоставление косметических услуг парикмахерскими и салонами красоты",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          }
+        ],
+        "profstandard_matches": [
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "33.004",
+            "title": "Специалист по предоставлению парикмахерских услуг",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okpd2_matches": [
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.12.12.192",
+            "title": "Сумки дорожные, сумочки для косметики, рюкзаки и сумки спортивные из натуральной кожи, сочетаний кож",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.42.15.120",
+            "title": "Средства для очистки кожи лица (в том числе для удаления косметики и грима)",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "32.50.3",
+            "title": "Мебель медицинская, включая хирургическую, стоматологическую или ветеринарную; парикмахерские кресла",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "32.50.30",
+            "title": "Мебель медицинская, включая хирургическую, стоматологическую или ветеринарную; парикмахерские кресла",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "32.50.30.120",
+            "title": "Кресла парикмахерские и аналогичные кресла с устройствами для поворота, подъема, наклона и их детали",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "86.22.19.100",
+            "title": "Услуги в области косметологии",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "96.02",
+            "title": "Услуги парикмахерских и услуги салонов красоты прочие",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "96.02.1",
+            "title": "Услуги парикмахерские и прочие услуги, связанные с уходом за внешностью",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "96.02.11",
+            "title": "Услуги парикмахерские для женщин и девочек",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "96.02.11.000",
+            "title": "Услуги парикмахерские для женщин и девочек",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "96.02.12",
+            "title": "Услуги парикмахерские для мужчин и мальчиков",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "96.02.12.000",
+            "title": "Услуги парикмахерские для мужчин и мальчиков",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          }
+        ],
+        "okz_matches": [],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_key": "manicure_pedicure",
+      "label_ru": "Маникюр и педикюр",
+      "human_review_required": true,
+      "review_overall_status": "accepted_for_catalog_schema",
+      "accepted_match_count": 12,
+      "rejected_match_count": 0,
+      "needs_more_source_match_count": 14,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 1,
+          "reject": 0,
+          "needs_more_source": 8
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 1
+        },
+        "okpd2": {
+          "accept": 3,
+          "reject": 0,
+          "needs_more_source": 5
+        },
+        "okz": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        }
+      },
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "matches_review": {
+        "okved_matches": [
+          {
+            "source_id": "okved2_rosstat",
+            "code": "20.4",
+            "title": "Производство мыла и моющих, чистящих и полирующих средств; парфюмерных и косметических средств",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "20.42",
+            "title": "Производство парфюмерных и косметических средств",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.18.1",
+            "title": "Деятельность агентов, специализирующихся на оптовой торговле фармацевтической продукцией, изделиями,",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.18.13",
+            "title": "Деятельность агентов, специализирующихся на оптовой торговле парфюмерными и косметическими товарами,",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.45",
+            "title": "Торговля оптовая парфюмерными и косметическими товарами",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.45.1",
+            "title": "Торговля оптовая парфюмерными и косметическими товарами, кроме мыла",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.75",
+            "title": "Торговля розничная косметическими и товарами личной гигиены в специализированных магазинах",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.75.1",
+            "title": "Торговля розничная косметическими и парфюмерными товарами, кроме мыла в специализированных магазинах",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "96.02.2",
+            "title": "Предоставление косметических услуг парикмахерскими и салонами красоты",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          }
+        ],
+        "profstandard_matches": [
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "33.003",
+            "title": "Специалист по предоставлению маникюрных и педикюрных услуг",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okpd2_matches": [
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.42.13",
+            "title": "Средства для маникюра или педикюра",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.42.13.000",
+            "title": "Средства для маникюра или педикюра",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "25.71.13",
+            "title": "Изделия ножевые прочие; наборы и инструменты маникюрные или педикюрные",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "25.71.13.120",
+            "title": "Наборы и инструменты маникюрные",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "25.71.13.130",
+            "title": "Наборы и инструменты педикюрные",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "96.02.13",
+            "title": "Услуги косметические, услуги по маникюру и педикюру",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "96.02.13.120",
+            "title": "Услуги по маникюру",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "96.02.13.130",
+            "title": "Услуги по педикюру",
+            "review_status": "accept",
+            "review_reason": "Direct match: hairdressing/beauty"
+          }
+        ],
+        "okz_matches": [],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_key": "photography_video",
+      "label_ru": "Фото- и видеосъёмка",
+      "human_review_required": true,
+      "review_overall_status": "needs_more_source_before_catalog",
+      "accepted_match_count": 9,
+      "rejected_match_count": 0,
+      "needs_more_source_match_count": 58,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 1,
+          "reject": 0,
+          "needs_more_source": 15
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 20
+        },
+        "okpd2": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 20
+        },
+        "okz": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 3
+        }
+      },
+      "review_notes": [
+        "Needs more source: too many broad/ambiguous matches"
+      ],
+      "matches_review": {
+        "okved_matches": [
+          {
+            "source_id": "okved2_rosstat",
+            "code": "16.29.14",
+            "title": "Производство деревянных рам для картин, фотографий, зеркал или аналогичных предметов и прочих издели",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "20.59.1",
+            "title": "Производство фотопластинок и фотопленок; фотопленок для моментальных фотоснимков; химических составо",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "25.99.24",
+            "title": "Производство статуэток, рам для фотографий, картин, зеркал и прочих декоративных изделий из недрагоц",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "26.7",
+            "title": "Производство оптических приборов, фото- и кинооборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "26.70",
+            "title": "Производство оптических приборов, фото- и кинооборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "26.70.1",
+            "title": "Производство фото- и кинооборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "26.70.7",
+            "title": "Производство пленочных и цифровых фото- и кинокамер",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "28.23.2",
+            "title": "Производство фотокопировальных машин, офисных машин для офсетной печати и прочих офисных машин и обо",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "28.99.1",
+            "title": "Производство переплетного, наборного, включая фотонаборные машины, печатного оборудования и его сост",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.18.2",
+            "title": "Деятельность агентов, специализирующихся на оптовой торговле играми и игрушками, спортивными товарам",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.43.4",
+            "title": "Торговля оптовая фототоварами и оптическими товарами",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.78.1",
+            "title": "Торговля розничная фотоаппаратурой, оптическими приборами и средствами измерений, кроме очков, в спе",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "74.2",
+            "title": "Деятельность в области фотографии",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "74.20",
+            "title": "Деятельность в области фотографии",
+            "review_status": "accept",
+            "review_reason": "Direct match: photography"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "74.90.8",
+            "title": "Деятельность агентств и агентов, действующих от имени физических лиц, и обычно связанную с заключени",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "82.19",
+            "title": "Деятельность по фотокопированию и подготовке документов и прочая специализированная вспомогательная ",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "profstandard_matches": [
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "24.008",
+            "title": "Оператор реакторного отделения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "24.060",
+            "title": "Оператор спецоборудования по переработке твердых радиоактивных отходов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "24.068",
+            "title": "Оператор систем дистанционного контроля работ в высоких радиационных полях",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "24.070",
+            "title": "Оператор демонтажных роботов для работ в высоких радиационных полях",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.007",
+            "title": "Оператор по обслуживанию меловальной установки, станции",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.010",
+            "title": "Оператор лесопильных линий",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.011",
+            "title": "Оператор сушильных камер для древесины",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.013",
+            "title": "Оператор линий облицовывания и механической обработки заготовок и деталей из древесных материалов в ",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.014",
+            "title": "Оператор линий по отделке деталей и изделий мебели и деревообработки",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.015",
+            "title": "Оператор линий по производству шлифованных и облицованных древесныхплит",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.029",
+            "title": "Оператор производства древесной массы из щепы",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.032",
+            "title": "Оператор линий деревообрабатывающих производств (клееныйщит,клееныйбрус, профильный погонаж)",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.046",
+            "title": "Оператор по производству обоев",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.050",
+            "title": "Оператор регенерации сернистой кислоты и выпаривания сульфитных щелоков",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.051",
+            "title": "Оператор установок промывки и отбелки целлюлозы",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.052",
+            "title": "Оператор установок массоподготовки в производстве бумаги и картона",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.053",
+            "title": "Оператор размольного оборудования целлюлозно-бумажного производства",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.054",
+            "title": "Оператор бумагоделательных, картоноделательных машин",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.056",
+            "title": "Оператор поточных линий и установок по производству бумажных мешков и упаковочной продукции",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.057",
+            "title": "Оператор производства бумажных изделий хозяйственно-бытового и санитарно-гигиенического назначения",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okpd2_matches": [
+          {
+            "source_id": "okpd2_mirror",
+            "code": "15.12.12.193",
+            "title": "Футляры для музыкальных инструментов, футляры для очков, биноклей, фотоаппаратов, ружей, кобура и ан",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "16.29.14",
+            "title": "Рамы деревянные для картин, фотографий, зеркал или аналогичных предметов и прочие изделия из дерева",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "16.29.14.110",
+            "title": "Рамы деревянные для картин, фотографий, зеркал или аналогичных предметов из дерева",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "17.12.13",
+            "title": "Бумага и картон, используемые как основа для фоточувствительной, теплочувствительной и электрочувств",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "17.12.13.110",
+            "title": "Бумага, используемая как основа для фоточувствительной, теплочувствительной и электрочувствительной ",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "17.12.13.120",
+            "title": "Картон, используемый как основа для фоточувствительной, теплочувствительной и электрочувствительной ",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "18.12.14",
+            "title": "Услуги по печатанию книг, географических карт, гидрографических или аналогичных карт всех видов, реп",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "18.12.14.000",
+            "title": "Услуги по печатанию книг, географических карт, гидрографических или аналогичных карт всех видов, реп",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.59.1",
+            "title": "Фотопластинки и фотопленки; фотопленки для моментальных фотоснимков; составы химические и продукты н",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.59.11",
+            "title": "Фотопластинки и фотопленки, фотопленки для моментальных фотоснимков, светочувствительные, неэкспонир",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.59.11.110",
+            "title": "Фотопластинки и фотопленки светочувствительные, неэкспонированные",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.59.11.120",
+            "title": "Фотопленки для моментальных фотоснимков светочувствительные, неэкспонированные",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.59.11.130",
+            "title": "Фотобумаги",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.59.12",
+            "title": "Эмульсии фотографические; составы химические, используемые в фотографии, не включенные в другие груп",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.59.12.110",
+            "title": "Эмульсии фотографические",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "20.59.12.120",
+            "title": "Составы химические, используемые в фотографии, не включенные в другие группировки",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "25.99.24",
+            "title": "Статуэтки и прочие украшения и рамки для фотографий, картин или аналогичных изделий и зеркала из нед",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "25.99.24.120",
+            "title": "Рамки для фотографий, картин или аналогичных изделий из недрагоценных металлов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "26.11.1",
+            "title": "Лампы и трубки электронные вакуумные или газонаполненные с термокатодом, холодным катодом, фотокатод",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "26.11.22.110",
+            "title": "Приемники излучения полупроводниковые. Фотоэлектрические и фотоприемные устройства",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okz_matches": [
+          {
+            "source_id": "okz_mirror",
+            "code": "313",
+            "title": "Техники (операторы) по управлению технологическими процессами",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "3139",
+            "title": "Техники (операторы) по управлению технологическими процессами, не входящие в другие группы",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "83",
+            "title": "Водители и операторы подвижного оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_key": "tutoring_education",
+      "label_ru": "Репетиторство и обучение",
+      "human_review_required": true,
+      "review_overall_status": "accepted_for_catalog_schema",
+      "accepted_match_count": 27,
+      "rejected_match_count": 0,
+      "needs_more_source_match_count": 5,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 19,
+          "reject": 0,
+          "needs_more_source": 1
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 4
+        },
+        "okpd2": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        },
+        "okz": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        }
+      },
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "matches_review": {
+        "okved_matches": [
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85",
+            "title": "Образование",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.1",
+            "title": "Образование общее",
+            "review_status": "accept",
+            "review_reason": "Direct match: education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.11",
+            "title": "Образование дошкольное",
+            "review_status": "accept",
+            "review_reason": "Direct match: education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.12",
+            "title": "Образование начальное общее",
+            "review_status": "accept",
+            "review_reason": "Direct match: education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.13",
+            "title": "Образование основное общее",
+            "review_status": "accept",
+            "review_reason": "Direct match: education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.14",
+            "title": "Образование среднее общее",
+            "review_status": "accept",
+            "review_reason": "Direct match: education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.2",
+            "title": "Образование профессиональное",
+            "review_status": "accept",
+            "review_reason": "Direct match: higher education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.21",
+            "title": "Образование профессиональное среднее",
+            "review_status": "accept",
+            "review_reason": "Direct match: higher education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.22",
+            "title": "Образование высшее",
+            "review_status": "accept",
+            "review_reason": "Direct match: higher education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.22.1",
+            "title": "Образование высшее - бакалавриат",
+            "review_status": "accept",
+            "review_reason": "Direct match: higher education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.22.2",
+            "title": "Образование высшее - специалитет",
+            "review_status": "accept",
+            "review_reason": "Direct match: higher education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.22.3",
+            "title": "Образование высшее - магистратура",
+            "review_status": "accept",
+            "review_reason": "Direct match: higher education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.3",
+            "title": "Обучение профессиональное",
+            "review_status": "accept",
+            "review_reason": "Direct match: additional education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.30",
+            "title": "Обучение профессиональное",
+            "review_status": "accept",
+            "review_reason": "Direct match: additional education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.4",
+            "title": "Образование дополнительное",
+            "review_status": "accept",
+            "review_reason": "Direct match: other education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.41",
+            "title": "Образование дополнительное детей и взрослых",
+            "review_status": "accept",
+            "review_reason": "Direct match: other education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.41.1",
+            "title": "Образование в области спорта и отдыха",
+            "review_status": "accept",
+            "review_reason": "Direct match: other education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.41.2",
+            "title": "Образование в области культуры",
+            "review_status": "accept",
+            "review_reason": "Direct match: other education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.41.9",
+            "title": "Образование дополнительное детей и взрослых, не включенное в другие группировки",
+            "review_status": "accept",
+            "review_reason": "Direct match: other education"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "85.41.99",
+            "title": "Образование дополнительное детей и взрослых прочее, не включенное в другие группировки, кроме деятел",
+            "review_status": "accept",
+            "review_reason": "Direct match: other education"
+          }
+        ],
+        "profstandard_matches": [
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "01.003",
+            "title": "Педагог дополнительного образования детей и взрослых",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "01.004",
+            "title": "Педагог профессионального обучения, профессионального образования идополнительного профессионального",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "01.001",
+            "title": "Педагог (педагогическая деятельность в дошкольном, начальном общем, основном общем, среднем общем об",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "01.002",
+            "title": "Педагог-психолог (психолог в сфере образования)",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okpd2_matches": [],
+        "okz_matches": [],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_key": "animal_care",
+      "label_ru": "Уход за животными",
+      "human_review_required": true,
+      "review_overall_status": "accepted_for_catalog_schema",
+      "accepted_match_count": 25,
+      "rejected_match_count": 0,
+      "needs_more_source_match_count": 24,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 8,
+          "reject": 0,
+          "needs_more_source": 12
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 5
+        },
+        "okpd2": {
+          "accept": 9,
+          "reject": 0,
+          "needs_more_source": 7
+        },
+        "okz": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        }
+      },
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "matches_review": {
+        "okved_matches": [
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01",
+            "title": "Растениеводство и животноводство, охота и предоставление соответствующих услуг в этих областях",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.4",
+            "title": "Животноводство",
+            "review_status": "accept",
+            "review_reason": "Direct match: livestock"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.43",
+            "title": "Разведение лошадей и прочих животных семейства лошадиных отряда непарнокопытных",
+            "review_status": "accept",
+            "review_reason": "Direct match: livestock"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.44",
+            "title": "Разведение верблюдов и прочих животных семейства верблюжьих",
+            "review_status": "accept",
+            "review_reason": "Direct match: livestock"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.49",
+            "title": "Разведение прочих животных",
+            "review_status": "accept",
+            "review_reason": "Direct match: livestock"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.49.5",
+            "title": "Разведение домашних животных",
+            "review_status": "accept",
+            "review_reason": "Direct match: livestock"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.49.6",
+            "title": "Разведение лабораторных животных",
+            "review_status": "accept",
+            "review_reason": "Direct match: livestock"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.49.9",
+            "title": "Разведение прочих животных, не включенных в другие группировки",
+            "review_status": "accept",
+            "review_reason": "Direct match: livestock"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.62",
+            "title": "Предоставление услуг в области животноводства",
+            "review_status": "accept",
+            "review_reason": "Direct match: agricultural services"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.7",
+            "title": "Охота, отлов и отстрел диких животных, включая предоставление услуг в этих областях",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.70",
+            "title": "Охота, отлов и отстрел диких животных, включая предоставление услуг в этих областях",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "10.11.4",
+            "title": "Производство щипаной шерсти, сырых шкур и кож крупного рогатого скота, животных семейств лошадиных и",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "10.11.5",
+            "title": "Производство животных жиров",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "10.13",
+            "title": "Производство продукции из мяса убойных животных и мяса птицы",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "10.20.3",
+            "title": "Производство пищевой рыбной муки или муки для корма животных",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "10.20.4",
+            "title": "Производство муки грубого помола и растворимых компонентов из рыбы и прочих водных животных, неприго",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "10.4",
+            "title": "Производство растительных и животных масел и жиров",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "10.41.1",
+            "title": "Производство нерафинированных животных масел и жиров, их фракций",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "10.41.6",
+            "title": "Производство гидрогенизированных и переэтерифицированных животных и растительных жиров и масел и их ",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "10.9",
+            "title": "Производство готовых кормов для животных",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "profstandard_matches": [
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "13.012",
+            "title": "Ветеринарный врач",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "13.003",
+            "title": "Животновод",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "13.019",
+            "title": "Ветеринарный фельдшер",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "13.020",
+            "title": "Селекционер по племенному животноводству",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "13.010",
+            "title": "Оператор животноводческих комплексов и механизированных ферм",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okpd2_matches": [
+          {
+            "source_id": "okpd2_mirror",
+            "code": "01.6",
+            "title": "Услуги в области растениеводства и животноводства, кроме ветеринарных услуг",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "32.50.3",
+            "title": "Мебель медицинская, включая хирургическую, стоматологическую или ветеринарную; парикмахерские кресла",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "32.50.30",
+            "title": "Мебель медицинская, включая хирургическую, стоматологическую или ветеринарную; парикмахерские кресла",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "32.50.30.110",
+            "title": "Мебель медицинская, включая хирургическую, стоматологическую или ветеринарную, и ее части",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "32.50.30.119",
+            "title": "Мебель медицинская прочая, включая хирургическую, стоматологическую или ветеринарную, и ее части",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "71.20.11.110",
+            "title": "Услуги в области гигиены питания, включая ветеринарный контроль и контроль за производством продукто",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "75",
+            "title": "Услуги ветеринарные",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "75.0",
+            "title": "Услуги ветеринарные",
+            "review_status": "accept",
+            "review_reason": "Direct match: veterinary"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "75.00",
+            "title": "Услуги ветеринарные",
+            "review_status": "accept",
+            "review_reason": "Direct match: veterinary"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "75.00.1",
+            "title": "Услуги ветеринарные",
+            "review_status": "accept",
+            "review_reason": "Direct match: veterinary"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "75.00.11",
+            "title": "Услуги ветеринарные для домашних животных",
+            "review_status": "accept",
+            "review_reason": "Direct match: veterinary"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "75.00.11.000",
+            "title": "Услуги ветеринарные для домашних животных",
+            "review_status": "accept",
+            "review_reason": "Direct match: veterinary"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "75.00.12",
+            "title": "Услуги ветеринарные для сельскохозяйственных животных",
+            "review_status": "accept",
+            "review_reason": "Direct match: veterinary"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "75.00.12.000",
+            "title": "Услуги ветеринарные для сельскохозяйственных животных",
+            "review_status": "accept",
+            "review_reason": "Direct match: veterinary"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "75.00.19",
+            "title": "Услуги ветеринарные прочие",
+            "review_status": "accept",
+            "review_reason": "Direct match: veterinary"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "75.00.19.000",
+            "title": "Услуги ветеринарные прочие",
+            "review_status": "accept",
+            "review_reason": "Direct match: veterinary"
+          }
+        ],
+        "okz_matches": [],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_key": "gardening_plants",
+      "label_ru": "Садоводство и озеленение",
+      "human_review_required": true,
+      "review_overall_status": "accepted_for_catalog_schema",
+      "accepted_match_count": 15,
+      "rejected_match_count": 1,
+      "needs_more_source_match_count": 23,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 2,
+          "reject": 1,
+          "needs_more_source": 15
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 1
+        },
+        "okpd2": {
+          "accept": 5,
+          "reject": 0,
+          "needs_more_source": 7
+        },
+        "okz": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        }
+      },
+      "review_notes": [
+        "Accepted: sufficient source matches across multiple layers"
+      ],
+      "matches_review": {
+        "okved_matches": [
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01",
+            "title": "Растениеводство и животноводство, охота и предоставление соответствующих услуг в этих областях",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.28.3",
+            "title": "Выращивание растений, используемых в основном в парфюмерии, фармации или в качестве инсектицидов, фу",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.61",
+            "title": "Предоставление услуг в области растениеводства",
+            "review_status": "accept",
+            "review_reason": "Direct match: crop services"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "01.64",
+            "title": "Обработка семян для посадки",
+            "review_status": "reject",
+            "review_reason": "Overbroad/unrelated: seed processing"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "02.10.11",
+            "title": "Выращивание посадочного материала лесных растений (саженцев, сеянцев)",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "02.3",
+            "title": "Сбор и заготовка пищевых лесных ресурсов, недревесных лесных ресурсов и лекарственных растений",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "02.30",
+            "title": "Сбор и заготовка пищевых лесных ресурсов, недревесных лесных ресурсов и лекарственных растений",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "02.30.14",
+            "title": "Сбор лекарственных растений",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "10.82.5",
+            "title": "Производство засахаренных фруктов, орехов, цукатов из кожуры и прочих частей растений",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "13.30.2",
+            "title": "Аппретирование, сушка, обработка паром, декатировка, противоусадочная отделка, смягчение тканей и те",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.11.2",
+            "title": "Деятельность агентов по оптовой торговле цветами и растениями",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.22",
+            "title": "Торговля оптовая цветами и растениями",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.76",
+            "title": "Торговля розничная цветами и другими растениями, семенами, удобрениями, домашними животными и кормам",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "47.76.1",
+            "title": "Торговля розничная цветами и другими растениями, семенами и удобрениями в специализированных магазин",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "71.11.3",
+            "title": "Деятельность в области ландшафтной архитектуры и консультативные услуги в области архитектуры",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "81.3",
+            "title": "Предоставление услуг по благоустройству ландшафта",
+            "review_status": "accept",
+            "review_reason": "Direct match: landscape services"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "95.22",
+            "title": "Ремонт бытовых приборов, домашнего и садового инвентаря",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "95.22.2",
+            "title": "Ремонт домашнего и садового оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "profstandard_matches": [
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "13.017",
+            "title": "Агроном",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okpd2_matches": [
+          {
+            "source_id": "okpd2_mirror",
+            "code": "42.99.22.220",
+            "title": "Работы по сохранению и воссозданию объектов ландшафтной архитектуры и садово-паркового искусства, яв",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "71.11.4",
+            "title": "Услуги в области ландшафтной архитектуры и консультативные услуги в области архитектуры",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "71.11.41",
+            "title": "Услуги в области ландшафтной архитектуры",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "71.11.41.100",
+            "title": "Услуги в области ландшафтной архитектуры, кроме услуг, связанных с сохранением и воссозданием объект",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "71.11.41.200",
+            "title": "Услуги в области ландшафтной архитектуры, связанные с разработкой проектной документации (как архите",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "71.11.42",
+            "title": "Услуги консультативные в области ландшафтной архитектуры",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "71.11.42.000",
+            "title": "Услуги консультативные в области ландшафтной архитектуры",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "81.3",
+            "title": "Услуги по планировке ландшафта",
+            "review_status": "accept",
+            "review_reason": "Direct match: landscape services"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "81.30",
+            "title": "Услуги по планировке ландшафта",
+            "review_status": "accept",
+            "review_reason": "Direct match: landscape services"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "81.30.1",
+            "title": "Услуги по планировке ландшафта",
+            "review_status": "accept",
+            "review_reason": "Direct match: landscape services"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "81.30.10",
+            "title": "Услуги по планировке ландшафта",
+            "review_status": "accept",
+            "review_reason": "Direct match: landscape services"
+          },
+          {
+            "source_id": "okpd2_mirror",
+            "code": "81.30.10.000",
+            "title": "Услуги по планировке ландшафта",
+            "review_status": "accept",
+            "review_reason": "Direct match: landscape services"
+          }
+        ],
+        "okz_matches": [],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_key": "sharpening_tools",
+      "label_ru": "Заточка инструментов",
+      "human_review_required": true,
+      "review_overall_status": "needs_more_source_before_catalog",
+      "accepted_match_count": 10,
+      "rejected_match_count": 0,
+      "needs_more_source_match_count": 23,
+      "source_layer_summary": {
+        "okved": {
+          "accept": 1,
+          "reject": 0,
+          "needs_more_source": 2
+        },
+        "profstandard": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 20
+        },
+        "okpd2": {
+          "accept": 0,
+          "reject": 0,
+          "needs_more_source": 0
+        },
+        "okz": {
+          "accept": 1,
+          "reject": 0,
+          "needs_more_source": 1
+        }
+      },
+      "review_notes": [
+        "Needs more source: too many broad/ambiguous matches"
+      ],
+      "matches_review": {
+        "okved_matches": [
+          {
+            "source_id": "okved2_rosstat",
+            "code": "16.29.11",
+            "title": "Производство деревянных инструментов, корпусов и рукояток инструментов, рукояток щеток и метелок, об",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "46.18.2",
+            "title": "Деятельность агентов, специализирующихся на оптовой торговле играми и игрушками, спортивными товарам",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okved2_rosstat",
+            "code": "95.29.7",
+            "title": "Ремонт и настройка музыкальных инструментов (кроме органов и исторических музыкальных инструментов)",
+            "review_status": "accept",
+            "review_reason": "Direct match: other repair"
+          }
+        ],
+        "profstandard_matches": [
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "24.026",
+            "title": "Слесарь по контрольно-измерительным приборам и автоматике в атомной энергетике",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.006",
+            "title": "Слесарь по ремонту лесозаготовительного оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "23.033",
+            "title": "Заточник по подготовке станочного дереворежущего инструмента длядеревообрабатывающих, мебельных и ле",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "19.001",
+            "title": "Слесарь технологических установок",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "25.025",
+            "title": "Слесарь-сборщик ракетно-космической техники",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "13.015",
+            "title": "Слесарь по ремонту сельскохозяйственных машин и оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "16.045",
+            "title": "Слесарь строительный",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "16.086",
+            "title": "Слесарь домовых санитарно-технических систем и оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "16.087",
+            "title": "Слесарь по ремонту оборудования котельных",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "40.009",
+            "title": "Слесарь-сборщик",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "25.031",
+            "title": "Слесарь-сборщик автоматических космических аппаратов",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "30.008",
+            "title": "Слесарь-судоремонтник",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "30.013",
+            "title": "Слесарь-монтажник судовой",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "24.004",
+            "title": "Слесарь по ремонту реакторно-турбинного оборудования",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "17.025",
+            "title": "Слесарь по осмотру и ремонту подвижного состава железнодорожного транспорта",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "24.002",
+            "title": "Слесарь по обслуживанию оборудования атомных электростанций",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "25.002",
+            "title": "Слесарь-сборщик изделий точной механики (гироскопы, акселерометры) в ракетно-космической промышленно",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "40.028",
+            "title": "Слесарь-инструментальщик",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "40.029",
+            "title": "Слесарь по сборке металлоконструкций",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "profstandarts_mintrud",
+            "code": "40.048",
+            "title": "Слесарь-электрик",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          }
+        ],
+        "okpd2_matches": [],
+        "okz_matches": [
+          {
+            "source_id": "okz_mirror",
+            "code": "722",
+            "title": "Кузнецы, слесари-инструментальщики, станочники, наладчики и рабочие родственных занятий",
+            "review_status": "needs_more_source",
+            "review_reason": "Ambiguous keyword match, needs manual verification"
+          },
+          {
+            "source_id": "okz_mirror",
+            "code": "7222",
+            "title": "Слесари-инструментальщики и рабочие родственных занятий",
+            "review_status": "accept",
+            "review_reason": "Direct match: toolmaker"
+          }
+        ],
+        "npd_rules": [
+          {
+            "rule_id": "npd_01",
+            "title": "Запрет на торговлю подакцизными товарами",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_02",
+            "title": "Запрет на добычу полезных ископаемых",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_03",
+            "title": "Запрет на игорный бизнес",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_04",
+            "title": "Ограничения по видам деятельности",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_05",
+            "title": "Запрет на производство алкоголя",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_06",
+            "title": "Запрет на производство табачных изделий",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_07",
+            "title": "Ограничения по численности работников",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          },
+          {
+            "rule_id": "npd_08",
+            "title": "Ограничения по доходу",
+            "review_status": "accept",
+            "review_reason": "Legal hard-filter, always applicable"
+          }
+        ]
+      }
+    }
+  ],
+  "blocked_sources_not_used": [
+    "okpd2_official",
+    "okz_official",
+    "okpdtr_all",
+    "trudvsem_api",
+    "social_contract",
+    "etks_mintrud"
+  ],
+  "next_step": "business_direction_catalog_schema_v0"
+}
