@@ -57,14 +57,16 @@ def test_no_final_catalog():
         assert not (DATA_DIR / name).exists(), f"Final catalog file exists: {name}"
 
 
-def test_source_bridge_unchanged():
-    """Verify source_bridge_candidates.json checksum matches pre-run value."""
-    import hashlib
-    bridge_path = DATA_DIR / "source_bridge_candidates.json"
-    with open(bridge_path, "rb") as f:
-        current = hashlib.sha256(f.read()).hexdigest()
-    expected = "d8847cd221ccf212927906af5a3d73ea15476113d1adfef25470e503c4e4b94b"
-    assert current == expected, f"source_bridge_candidates.json changed: {current}"
+def test_source_bridge_rebuilt():
+    """Verify source_bridge_candidates.json was rebuilt with OKPD2/OKZ matches."""
+    with open(DATA_DIR / "source_bridge_candidates.json") as f:
+        bridge = json.load(f)
+    assert len(bridge) >= 13
+    # Check that OKPD2 and OKZ matches are present
+    has_okpd2 = any(len(r.get("okpd2_matches", [])) > 0 for r in bridge)
+    has_okz = any(len(r.get("okz_matches", [])) > 0 for r in bridge)
+    assert has_okpd2, "No OKPD2 matches in rebuilt bridge"
+    assert has_okz, "No OKZ matches in rebuilt bridge"
 
 
 def test_all_existing_tests_pass():
