@@ -1,17 +1,14 @@
-# Source Ingestion Probe
+> **Current source status is documented in [`../../docs/source_ingestion/source_state.md`](../../docs/source_ingestion/source_state.md).**
 
-Proof-of-concept for sourcing machine-readable data for a business direction catalog.
+# Source Ingestion
+
+Scripts, data, and tests for ingesting machine-readable classifier and source data for a business direction catalog.
 
 ## Purpose
 
-Find and verify specific machine-readable sources for building a catalog of:
-- Business activities (виды деятельности)
-- Services/works (услуги/работы)
-- Professions/occupations (профессии/занятия)
-- Professional standards (профстандарты)
-- Real job names (реальные названия работ)
-- NPD restrictions (ограничения НПД)
-- Social contract rules (правила соцконтракта)
+- Download and parse classifier data (ОКВЭД 2, ОКПД 2, ОКЗ, ОКПДТР, Профстандарты)
+- Build source quality matrix
+- Generate source bridge candidates
 
 ## What This Does NOT Do
 
@@ -20,20 +17,14 @@ Find and verify specific machine-readable sources for building a catalog of:
 - Does NOT scrape Avito/Ozon
 - Does NOT use browser automation
 
-## Sources Probed
+## Structure
 
-| Source | Status | Machine Readable | Use |
-|--------|--------|------------------|-----|
-| ОКВЭД 2 (Росстат) | partial | partial | primary |
-| ОКВЭД 2 (ФНС) | partial | no | validation |
-| ОКПД 2 | needs_investigation | partial | enrichment |
-| ОКПДТР | probe_needed | partial | enrichment |
-| ОКЗ-2014 | probe_needed | partial | enrichment |
-| Профстандарты | probe_needed | yes | primary |
-| ЕТКС | probe_needed | partial | enrichment |
-| Трудвсем API | probe_needed | yes | primary |
-| НПД ограничения | encoded | no | primary |
-| Соцконтракт | probe_needed | no | enrichment |
+- `source_registry.yaml` — all sources with metadata
+- `scripts/` — download, parse, and build scripts
+- `data/raw/` — downloaded source files
+- `data/parsed/` — parsed JSON/CSV outputs
+- `data/reports/` — ingestion reports and source map
+- `tests/` — pytest test suite
 
 ## Usage
 
@@ -46,12 +37,3 @@ python scripts/fetch_sources.py
 python scripts/build_source_quality_matrix.py
 pytest -q
 ```
-
-## Output
-
-- `source_registry.yaml` - All sources with metadata
-- `data/ingestion_result.json` - Probe results
-- `data/parsed/source_quality_matrix.json` - Quality scores
-- `data/parsed/npd_rules_v0.json` - Encoded NPD rules
-- `data/reports/source_map.md` - Source summary
-- `data/reports/future_catalog_schema.md` - Catalog schema
