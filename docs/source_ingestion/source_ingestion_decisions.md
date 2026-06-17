@@ -26,11 +26,15 @@ This document records key decisions made during source ingestion work and explai
 
 **Rationale**: The official ОКПД 2 source (pravo.gov.ru, consultant.ru) has no machine-readable download. The mirror provides data, but its unofficial provenance limits its role to enrichment.
 
-### D4: OKZ mirror is blocked from bridge until semantic validation
+### D4: OKZ mirror validated for bridge use (v4.1 update)
 
-**Decision**: ОКЗ data must not be included in the source bridge until semantic validation is completed.
+**Decision**: ОКЗ data is validated and allowed for inclusion in the source bridge.
 
-**Rationale**: OKZ sample data contained suspicious service-like rows (e.g., "9602 Парикмахерские и аналогичные услуги", "9603 Услуги по уходу за животными") that appear to be service classifications rather than proper occupation entries. This suggests data contamination that must be resolved before use.
+**Rationale (v4.1 update)**: Semantic validation v4.1 confirmed:
+- OKZ has correct occupation code 5141 (Парикмахеры)
+- 269 occupation rows found matching expected OKZ patterns
+- The original concern about 9602/9603 contamination was **refuted** — these codes only exist in OKPD2, not in OKZ
+- No cross-contamination with OKPD2 detected
 
 ### D5: OKPDTR remains manual download
 
@@ -42,16 +46,23 @@ This document records key decisions made during source ingestion work and explai
 
 **Decision**: The current source bridge (13 candidates) is not the final business catalog.
 
-**Rationale**: The bridge was built before OKPD2/OKZ v4 data became available. It has not been rebuilt with new classifier data. Treating it as final would exclude valuable enrichment sources and potentially include contaminated OKZ data.
+**Rationale**: The bridge was built before OKPD2/OKZ v4 data became available. It has not been rebuilt with new classifier data. Treating it as final would exclude valuable enrichment sources.
+
+### D7: Semantic validation completed (v4.1)
+
+**Decision**: OKPD2 and OKZ semantic validation completed. Both classifiers are valid and allowed for next bridge rebuild.
+
+**Rationale**: 
+- OKPD2: 373 expected service/product patterns found. Service-like names (услуги, ремонт) are expected for OKPD2.
+- OKZ: 269 occupation rows found. Code 5141 (Парикмахеры) confirmed. Original 9602/9603 concern was a false positive — these codes exist only in OKPD2.
+- No cross-contamination between OKPD2 and OKZ.
 
 ## Forbidden Conclusions
 
 The following conclusions must NOT be drawn from current data:
 
-1. **Do NOT create final business catalog yet.** The source ingestion is still in progress. OKPD2 enrichment needs integration, OKZ needs validation, and OKPDTR needs manual download.
+1. **Do NOT create final business catalog yet.** The source ingestion is still in progress. Bridge rebuild is the next step.
 
-2. **Do NOT use OKZ for occupations until validated.** Suspicious service-like rows indicate contamination that must be resolved.
+2. **Do NOT treat classifikators.ru mirror as official source.** All mirror data is enrichment-only.
 
-3. **Do NOT treat classifikators.ru mirror as official source.** All mirror data is enrichment-only.
-
-4. **Do NOT treat Avito/procurement/ad checks as done from source-ingestion.** These are separate research tasks not covered by the source ingestion pipeline.
+3. **Do NOT treat Avito/procurement/ad checks as done from source-ingestion.** These are separate research tasks not covered by the source ingestion pipeline.

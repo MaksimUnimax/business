@@ -1,25 +1,34 @@
 # Next Steps
 
+## Completed: Semantic Validation v4.1
+
+Semantic validation of OKPD2 and OKZ classifiers has been completed:
+
+- **OKPD2**: `valid_mirror_enrichment` — safe for enrichment use
+- **OKZ**: `valid_mirror_enrichment` — safe for enrichment use; original 9602/9603 concern refuted
+- **Cross-contamination**: None detected
+- **Bridge decision**: Both OKPD2 and OKZ allowed in next bridge
+
 ## Current Next Step
 
-`classifier_semantic_validation_v4_1`
+`rebuild_source_bridge_with_okpd2_and_okz`
 
 ### What This Step Does
 
-Validate the semantic quality of OKPD2 and OKZ mirror data before integrating into the source bridge.
+Rebuild `source_bridge_candidates.json` to include OKPD2 enrichment data and OKZ occupation data.
 
 ### Acceptance Criteria
 
-- Validate OKPD2 semantics: confirm service/work candidates are correctly classified
-- Validate OKZ semantics: confirm occupation candidates are proper occupations, not service descriptions
-- Detect OKPD2/OKZ contamination: identify any rows that belong to a different classification domain
-- Decide whether next bridge should include or exclude OKZ based on validation results
-- **Do NOT rebuild bridge in semantic validation run** — this step is analysis only
+- OKPD2 service/work candidates integrated into bridge
+- OKZ occupation candidates integrated into bridge
+- Existing OKVED2 and Profstandards data preserved
+- All bridge candidates reviewed with human_review_required flag
+- No final catalog created
 
 ### Blocked Items
 
-- OKZ: 188 occupation candidates require semantic validation before any bridge use
 - OKPDTR: 0 rows, manual download required from profstandart.rosmintrud.ru or vniot.ru
+- ЕТКС: not yet probed
 
 ## After Executor Push
 

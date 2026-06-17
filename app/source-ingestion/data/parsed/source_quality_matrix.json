@@ -34,7 +34,9 @@
     "source_url": "https://classifikators.ru/okpd",
     "source_file": "okpd_classifikators.xlsx",
     "service_work_candidates": 7173,
-    "correction_note": "Previous v3 said OKPD2 parsed=0. v4 found mirror xlsx with 20387 rows. Source is mirror_unofficial, not official."
+    "correction_note": "Previous v3 said OKPD2 parsed=0. v4 found mirror xlsx with 20387 rows. Source is mirror_unofficial, not official.",
+    "semantic_validation": "valid_mirror_enrichment",
+    "semantic_validation_date": "2026-06-17"
   },
   {
     "source_id": "okpd2_official",
@@ -81,7 +83,10 @@
     "source_url": "https://classifikators.ru/okz",
     "source_file": "okz_classifikators.xlsx",
     "occupation_candidates": 188,
-    "correction_note": "Previous v3 said OKZ parsed=0. v4 found mirror xlsx with 608 rows. Source is mirror_unofficial, not official."
+    "correction_note": "Previous v3 said OKZ parsed=0. v4 found mirror xlsx with 608 rows. Source is mirror_unofficial, not official.",
+    "semantic_validation": "valid_mirror_enrichment",
+    "semantic_validation_date": "2026-06-17",
+    "semantic_validation_note": "Original concern about 9602/9603 contamination refuted. OKZ has correct occupation code 5141 for hairdressers."
   },
   {
     "source_id": "okz_official",

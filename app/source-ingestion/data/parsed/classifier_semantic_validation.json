@@ -1,0 +1,136 @@
+{
+  "run_mode": "classifier_semantic_validation_v4_1",
+  "okpd2": {
+    "parsed_rows": 20387,
+    "semantic_status": "valid_mirror_enrichment",
+    "expected_patterns_found": [
+      "95.11",
+      "95.11.1",
+      "95.11.10",
+      "95.11.10.110",
+      "95.11.10.120",
+      "95.11.10.130",
+      "95.11.10.190",
+      "95.2",
+      "95.21",
+      "95.21.1",
+      "95.21.10",
+      "95.21.10.100",
+      "95.21.10.110",
+      "95.21.10.120",
+      "95.21.10.130",
+      "95.21.10.140",
+      "95.21.10.150",
+      "95.21.10.160",
+      "95.21.10.190",
+      "95.21.10.200"
+    ],
+    "suspicious_patterns_found": [],
+    "sample_valid_rows": [
+      {
+        "code": "95.11",
+        "name": "Услуги по ремонту компьютеров и периферийного оборудования"
+      },
+      {
+        "code": "95.11.1",
+        "name": "Услуги по ремонту компьютеров и периферийного оборудования"
+      },
+      {
+        "code": "95.11.10",
+        "name": "Услуги по ремонту компьютеров и периферийного оборудования"
+      },
+      {
+        "code": "95.11.10.110",
+        "name": "Услуги по ремонту электрокалькуляторов, персональных машин ЭВМ, компьютерной техники, включая ноутбуки, принтеры, сканеры, процессоры, мониторы, компьютерную клавиатуру"
+      },
+      {
+        "code": "95.11.10.120",
+        "name": "Услуги по ремонту ксерокопировальных аппаратов"
+      }
+    ],
+    "issues": []
+  },
+  "okz": {
+    "parsed_rows": 608,
+    "semantic_status": "valid_mirror_enrichment",
+    "expected_occupation_rows_found": [
+      "132",
+      "1323",
+      "21",
+      "211",
+      "213",
+      "2131",
+      "2132",
+      "2133",
+      "214",
+      "2141",
+      "2142",
+      "2143",
+      "2144",
+      "2145",
+      "2146",
+      "2149",
+      "215",
+      "2151",
+      "2152",
+      "2153"
+    ],
+    "suspicious_service_rows_found": [],
+    "contamination_score": 0.0,
+    "candidate_contamination_score": 0.0,
+    "sample_valid_rows": [
+      {
+        "code": "132",
+        "title": "Руководители подразделений (управляющие) в промышленности, строительстве, на тра"
+      },
+      {
+        "code": "1323",
+        "title": "Руководители подразделений (управляющие) в строительстве"
+      },
+      {
+        "code": "21",
+        "title": "Специалисты в области науки и техники"
+      },
+      {
+        "code": "211",
+        "title": "Физики, химики и специалисты родственных занятий"
+      },
+      {
+        "code": "213",
+        "title": "Специалисты в области наук о жизни"
+      }
+    ],
+    "sample_suspicious_rows": [],
+    "issues": []
+  },
+  "cross_contamination": {
+    "okpd2_okz_overlap_score": 0.0,
+    "likely_wrong_source": "no",
+    "notes": [
+      "No code pattern overlap between OKPD2 and OKZ",
+      "No name pattern overlap between OKPD2 and OKZ",
+      "OKZ 9602/9603 codes confirmed absent from OKZ data (only in OKPD2)",
+      "OKZ has correct occupation code 5141 for hairdressers"
+    ]
+  },
+  "bridge_decision": {
+    "use_okpd2_in_next_bridge": true,
+    "use_okz_in_next_bridge": true,
+    "blocked_sources": [
+      "okpd2_official",
+      "okz_official",
+      "okpdtr_all",
+      "trudvsem_api",
+      "social_contract",
+      "etks_mintrud"
+    ],
+    "allowed_sources": [
+      "okved2_rosstat",
+      "profstandarts_mintrud",
+      "npd_nalog",
+      "okpd2_mirror",
+      "okz_mirror"
+    ]
+  },
+  "next_step": "rebuild_source_bridge_with_okpd2_and_okz"
+}
